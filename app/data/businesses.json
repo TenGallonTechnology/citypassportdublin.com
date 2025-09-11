@@ -1,0 +1,1656 @@
+[
+  {
+    "slug": "mission-bake-shoppe",
+    "name": "Mission Bake Shoppe",
+    "category": "eat",
+    "isPremium": false,
+    "logo": null,
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-278-6832",
+      "email": "missionbakeshoppe@proton.me",
+      "contactName": "Dorcas Yoder",
+      "website": null,
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "orderQRCode": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "company-supply",
+    "name": "Company Supply",
+    "category": "eat",
+    "isPremium": false,
+    "logo": "/images/businesses/company-supply/logo.png",
+    "photos": [],
+    "description": null,
+    "contacts": {
+      "phone": "478-595-1215",
+      "email": "richardm@companysupplyga.com",
+      "contactName": "Rich Mascaro",
+      "website": "companysupplyga.com",
+      "orderUrl": "companysupplyga.com/order",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "crooked-finger-brewing",
+    "name": "Crooked Finger Brewing",
+    "category": "eat",
+    "isPremium": false,
+    "logo": "/images/businesses/crooked-finger-brewing/logo.png",
+    "photos": [],
+    "description": null,
+    "contacts": {
+      "phone": "478-595-1215",
+      "email": "richardm@companysupplyga.com",
+      "contactName": "Rich Mascaro",
+      "website": "companysupplyga.com/crooked-finger",
+      "orderUrl": "companysupplyga.com/crooked-finger/order",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "brians-subs",
+    "name": "Brian's Subs",
+    "category": "eat",
+    "isPremium": false,
+    "logo": "/images/businesses/brians-subs/logo.png",
+    "photos": [],
+    "description": null,
+    "contacts": {
+      "phone": "478-595-7103",
+      "email": "briansgiantsubs@yahoo.com",
+      "contactName": "Brad Meeks",
+      "website": "briansgiantsubs.com",
+      "orderUrl": "briansgiantsubs.com/order",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "deanos",
+    "name": "Deanos",
+    "category": "eat",
+    "isPremium": false,
+    "logo": "/images/businesses/deanos/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "561-379-8510",
+      "email": "deanosdublin@gmail.com",
+      "contactName": "Jennifer Shaffer",
+      "website": "deanosdublin.com",
+      "orderUrl": "deanosdublin.com/order",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "williamsons-bakery",
+    "name": "Williamson's Bakery",
+    "category": "eat",
+    "isPremium": false,
+    "logo": "/images/businesses/williamsons-bakery/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-463-5173",
+      "email": "hperryw@gmail.com",
+      "contactName": "Perry Williamson",
+      "website": "williamsonsbakery.com",
+      "orderUrl": "williamsonsbakery.com/order",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "holy-smokes",
+    "name": "Holy Smokes",
+    "category": "eat",
+    "isPremium": false,
+    "logo": "/images/businesses/holy-smokes/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "706-833-2222",
+      "email": "glanton@charter.net",
+      "contactName": "Gary Lanton",
+      "website": "holysmokesbbq.com",
+      "orderUrl": "holysmokesbbq.com/order",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "lou-anns",
+    "name": "Lou Ann's Biscuits & Burgers",
+    "category": "eat",
+    "isPremium": false,
+    "logo": "/images/businesses/lou-anns/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "706-833-2222",
+      "email": "dionnlanton@yahoo.com",
+      "contactName": "Gary Lanton",
+      "website": "louannsbb.com",
+      "orderUrl": "louannsbb.com/order",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "eden-nutrition",
+    "name": "Eden Nutrition",
+    "category": "eat",
+    "isPremium": false,
+    "logo": "/images/businesses/eden-nutrition/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-697-6887",
+      "email": "jclem6952@gmail.com",
+      "contactName": "John Clem",
+      "website": "edennutrition.com",
+      "orderUrl": "edennutrition.com/order",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "rosies",
+    "name": "Rosie's",
+    "category": "eat",
+    "isPremium": false,
+    "logo": "/images/businesses/rosies/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "513-504-7586",
+      "email": "rosiesofdublin@gmail.com",
+      "contactName": "Bob Dunn",
+      "additionalContact": "Hampton Dunn",
+      "website": "rosiesofdublin.com",
+      "orderUrl": "rosiesofdublin.com/order",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "la-joya",
+    "name": "La Joya Mexican Restaurant",
+    "category": "eat",
+    "isPremium": false,
+    "logo": "/images/businesses/la-joya/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-213-1130",
+      "email": "yadirabenita@outlook.com",
+      "contactName": "Yadira Castro",
+      "website": "lajoyamexican.com",
+      "orderUrl": "lajoyamexican.com/order",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "maxines-treats",
+    "name": "Maxine's Treats",
+    "category": "eat",
+    "isPremium": false,
+    "logo": "/images/businesses/maxines-treats/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-984-8224",
+      "email": "maxine.treats@gmail.com",
+      "contactName": "Maxine Garnto",
+      "website": "maxinestreats.com",
+      "orderUrl": "maxinestreats.com/order",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "candace-jamaican",
+    "name": "Candace Jamaican Bar N Grill",
+    "category": "eat",
+    "isPremium": true,
+    "logo": "/images/businesses/candace-jamaican/logo.png",
+    "photos": [
+      "/images/businesses/candace-jamaican/drinks.jpg",
+      "/images/businesses/candace-jamaican/food.jpg",
+      "/images/businesses/candace-jamaican/entertainment.jpg"
+    ],
+    "description": "Candace Jamaican Bar and Grill brings vibrant Jamaican flavors and a lively nightlife vibe to Dublin. Built from grassroots hustle, the laid-back eatery represents resilience, passion, and a deep love of community. Patrons rave about standout dishes like oxtail, curry goat, and jerk lamb chops, paired with a welcoming atmosphere and friendly service. Full portions, beautiful food presentation, imported soft drinks, weekly specials, and vibrant events characterize the space. The bar features a full liquor menu and all-day happy-hour specials that keep the energy alive until late. More than just a restaurant - it's a cultural and social hub that honors Jamaican culinary tradition, while nurturing community connection and opportunity.",
+    "contacts": {
+      "phone": "478.304.0100",
+      "email": "forbes.pryce@gmail.com",
+      "contactName": "Pryce-Gary Forbes",
+      "additionalContact": "Candace Forbes",
+      "website": "www.candacejamaican.com",
+      "orderUrl": "www.candacejamaican.com/order",
+      "social": {
+        "facebook": "Candace Jamaican Bar N' Grill",
+        "instagram": "@candacejamaicanbng"
+      }
+    },
+    "address": "1214 N Jefferson Street, Dublin, GA",
+    "features": [
+      "Full Bar",
+      "Happy Hour",
+      "Live Entertainment",
+      "Authentic Jamaican Cuisine",
+      "Event Space"
+    ],
+    "hours": {
+      "monday": "11:00 AM - 10:00 PM",
+      "tuesday": "11:00 AM - 10:00 PM",
+      "wednesday": "11:00 AM - 10:00 PM",
+      "thursday": "11:00 AM - 10:00 PM",
+      "friday": "11:00 AM - 11:00 PM",
+      "saturday": "11:00 AM - 11:00 PM",
+      "sunday": "Closed"
+    }
+  },
+  {
+    "slug": "downtown-dublin",
+    "name": "Downtown Dublin",
+    "category": "experience",
+    "isPremium": false,
+    "logo": "/images/businesses/downtown-dublin/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-272-2560",
+      "email": "glenda@dtdublin.com",
+      "contactName": "Glenda Berry",
+      "additionalContact": "Nichole Padgett",
+      "website": "dtdublin.com",
+      "orderUrl": "dtdublin.com/events",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "barn-at-acorn-ridge",
+    "name": "The Barn at Acorn Ridge",
+    "category": "experience",
+    "isPremium": false,
+    "logo": "/images/businesses/barn-at-acorn-ridge/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-272-4555",
+      "email": "thebarnatacornridge@gmail.com",
+      "contactName": "Tanya Mixon",
+      "website": "barnatacornridge.com",
+      "orderUrl": "barnatacornridge.com/book",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "visit-dublin",
+    "name": "Visit Dublin",
+    "category": "experience",
+    "isPremium": false,
+    "logo": "/images/businesses/visit-dublin/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-278-4074",
+      "email": "miriam@visitdublinga.org",
+      "contactName": "Miriam Lewis",
+      "additionalContact": "Bill Brown",
+      "website": "visitdublinga.org",
+      "orderUrl": "visitdublinga.org/events",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "laurens-county-library",
+    "name": "Laurens County Library",
+    "category": "experience",
+    "isPremium": false,
+    "logo": "/images/businesses/laurens-county-library/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-290-5927",
+      "email": "bbrown@ocrl.org",
+      "contactName": "Beverly Brown",
+      "website": "laurenslibrary.org",
+      "orderUrl": "laurenslibrary.org/events",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "curate",
+    "name": "Curate",
+    "category": "experience",
+    "isPremium": false,
+    "logo": "/images/businesses/curate/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-268-2245",
+      "email": "buffy.walker@yahoo.com",
+      "contactName": "Buffy Walker",
+      "website": "curatedublin.com",
+      "orderUrl": "curatedublin.com/tickets",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "laurens-county-rec",
+    "name": "Laurens County Rec Dept",
+    "category": "experience",
+    "isPremium": false,
+    "logo": "/images/businesses/laurens-county-rec/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "email": "malletteb@dlcra.org",
+      "contactName": "Jack Walker",
+      "additionalContact": "Brian Mallette",
+      "website": "dlcra.org",
+      "orderUrl": "dlcra.org/programs",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "warriors-ranch",
+    "name": "Warriors Ranch",
+    "category": "experience",
+    "isPremium": false,
+    "logo": "/images/businesses/warriors-ranch/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-697-8651",
+      "email": "marlaroche@warriorsranch.com",
+      "contactName": "Marla Roche",
+      "additionalContact": "Jenna Rutledge / Joe Moran",
+      "website": "warriorsranch.com",
+      "orderUrl": "warriorsranch.com/visit",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "skn-bar",
+    "name": "Skn Bar Aesthetics & Wellness",
+    "category": "services",
+    "isPremium": false,
+    "logo": "/images/businesses/skn-bar/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-697-6815",
+      "email": "sknbaraaw@yahoo.com",
+      "contactName": "Tabitha Mullis",
+      "additionalContact": "Zach Mullis",
+      "website": "sknbar.com",
+      "orderUrl": "sknbar.com/book",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "mail-and-more",
+    "name": "Mail & More",
+    "category": "services",
+    "isPremium": false,
+    "logo": "/images/businesses/mail-and-more/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-272-7676",
+      "email": "audrey@mailandmoreofdublin.com",
+      "contactName": "Audrey Hogan",
+      "additionalContact": "Ashley Young",
+      "website": "mailandmoreofdublin.com",
+      "orderUrl": "mailandmoreofdublin.com/services",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "georgia-first",
+    "name": "Georgia First",
+    "category": "services",
+    "isPremium": false,
+    "logo": "/images/businesses/georgia-first/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "912-346-1230",
+      "email": "lcaswell@georgiafirst.bank",
+      "contactName": "Jeremy Ragan",
+      "additionalContact": "Maury Beasley/Laura Leigh Caswell",
+      "website": "georgiafirst.bank",
+      "orderUrl": "georgiafirst.bank/schedule",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "tlake-landscaping",
+    "name": "TLake Landscaping",
+    "category": "services",
+    "isPremium": false,
+    "logo": "/images/businesses/tlake-landscaping/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-214-6061",
+      "email": "tim@tlake.com",
+      "contactName": "Tim Lake",
+      "website": "tlake.com",
+      "orderUrl": "tlake.com/quote",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "lawn-squad",
+    "name": "Lawn Squad Lawncare",
+    "category": "services",
+    "isPremium": false,
+    "logo": "/images/businesses/lawn-squad/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "email": "kenya@tlake.com",
+      "contactName": "Tim Lake",
+      "website": "lawnsquad.com",
+      "orderUrl": "lawnsquad.com/quote",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "darley-law-firm",
+    "name": "Darley Law Firm",
+    "category": "services",
+    "isPremium": false,
+    "logo": "/images/businesses/darley-law-firm/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-219-7329",
+      "email": "Jacob@darleyfirm.com, cbrown@darleyfirm.com",
+      "contactName": "Jacob Darley",
+      "additionalContact": "Chassity Brown",
+      "website": "darleyfirm.com",
+      "orderUrl": "darleyfirm.com/consult",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "minute-man-press",
+    "name": "Minute Man Press",
+    "category": "services",
+    "isPremium": false,
+    "logo": "/images/businesses/minute-man-press/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "email": "minuteman.richie@gmail.com, mmpmaconart@gmail.com",
+      "contactName": "Richie Moore",
+      "website": "minutemandublin.com",
+      "orderUrl": "minutemandublin.com/quote",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "emerald-city-treasures",
+    "name": "Emerald City Treasures (Too)",
+    "category": "shop",
+    "isPremium": false,
+    "logo": "/images/businesses/emerald-city-treasures/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "904-635-9460",
+      "email": "larockc@bellsouth.net",
+      "contactName": "Jeana LaRock",
+      "additionalContact": "Nicole Yanken",
+      "website": "emeraldcitytreasures.com",
+      "orderUrl": "emeraldcitytreasures.com/shop",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "bar-bridal",
+    "name": "Bar Bridal",
+    "category": "shop",
+    "isPremium": false,
+    "logo": "/images/businesses/bar-bridal/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-697-6815",
+      "email": "barbridal@yahoo.com",
+      "contactName": "Tabitha Mullis",
+      "additionalContact": "Taylor Sapp",
+      "website": "barbridal.com",
+      "orderUrl": "barbridal.com/shop",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "colleens-china",
+    "name": "Colleen's China",
+    "category": "shop",
+    "isPremium": false,
+    "logo": "/images/businesses/colleens-china/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-279-0063",
+      "email": "colleenschina@bellsouth.net",
+      "contactName": "Sally Daniels",
+      "website": "colleenschina.com",
+      "orderUrl": "colleenschina.com/shop",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "plum-alley",
+    "name": "Plum Alley",
+    "category": "shop",
+    "isPremium": false,
+    "logo": "/images/businesses/plum-alley/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-275-1972",
+      "email": "plumalley@hotmail.com",
+      "contactName": "Kim Hatchett",
+      "additionalContact": "Matt Hatchett",
+      "website": "plumalley.com",
+      "orderUrl": "plumalley.com/shop",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "sir-shop",
+    "name": "Sir Shop",
+    "category": "shop",
+    "isPremium": false,
+    "logo": "/images/businesses/sir-shop/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-272-7600",
+      "email": "bill@sirshop.com",
+      "contactName": "Bill Hoyt",
+      "website": "sirshop.com",
+      "orderUrl": "sirshop.com/shop",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "olive-branch",
+    "name": "The Olive Branch",
+    "category": "shop",
+    "isPremium": false,
+    "logo": "/images/businesses/olive-branch/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-272-3203",
+      "email": "obbooks2036@gmail.com",
+      "contactName": "Vickie Achord",
+      "website": "olivebranch.com",
+      "orderUrl": "olivebranch.com/shop",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "smiths-jewelry",
+    "name": "Smith's Jewelry",
+    "category": "shop",
+    "isPremium": false,
+    "logo": "/images/businesses/smiths-jewelry/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "770-335-6643",
+      "email": "natalie@smithsofdublin.com",
+      "contactName": "Natalie Curry",
+      "website": "smithsofdublin.com",
+      "orderUrl": "smithsofdublin.com/shop",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "emma-laura",
+    "name": "Emma Laura",
+    "category": "shop",
+    "isPremium": false,
+    "logo": "/images/businesses/emma-laura/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-410-2324",
+      "email": "78rachelgay@gmail.com",
+      "contactName": "Rachel Gay",
+      "website": "emmalaura.com",
+      "orderUrl": "emmalaura.com/shop",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "roche-farm-garden",
+    "name": "Roche Farm & Garden",
+    "category": "shop",
+    "isPremium": false,
+    "logo": "/images/businesses/roche-farm-garden/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-278-1704",
+      "email": "croche@gotoroche.com",
+      "contactName": "Chip Roche",
+      "website": "rochefarmgarden.com",
+      "orderUrl": "rochefarmgarden.com/shop",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "fairfield-inn",
+    "name": "Fairfield Inn & Suites",
+    "category": "stay",
+    "isPremium": false,
+    "logo": "/images/businesses/fairfield-inn/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-277-0333",
+      "email": "christine.pate@marriott.com",
+      "contactName": "Christine Pate",
+      "additionalContact": "Raj Saxena",
+      "website": "marriott.com/fairfield-dublin",
+      "orderUrl": "marriott.com/fairfield-dublin/book",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "hampton-inn",
+    "name": "Hampton Inn & Suites",
+    "category": "stay",
+    "isPremium": false,
+    "logo": "/images/businesses/hampton-inn/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-205-5740",
+      "email": "philpatel1962@gmail.com",
+      "contactName": "Phil and Melanie Patel",
+      "website": "hilton.com/hampton-dublin",
+      "orderUrl": "hilton.com/hampton-dublin/book",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "laquinta",
+    "name": "LaQuinta",
+    "category": "stay",
+    "isPremium": false,
+    "logo": "/images/businesses/laquinta/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-272-3110",
+      "email": "dana.laquinta@yahoo.com",
+      "contactName": "Dana Kinzler",
+      "additionalContact": "Navdeep Patel; Tressi Usry Hanson",
+      "website": "laquinta.com/dublin",
+      "orderUrl": "laquinta.com/dublin/book",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "home-2-suites",
+    "name": "Home 2 Suites",
+    "category": "stay",
+    "isPremium": false,
+    "logo": "/images/businesses/home-2-suites/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-205-5464",
+      "email": "marybeth.turner@hilton.com",
+      "contactName": "MaryBeth Turner",
+      "website": "hilton.com/home2suites-dublin",
+      "orderUrl": "hilton.com/home2suites-dublin/book",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "curry-companies",
+    "name": "Curry Companies",
+    "category": "stay",
+    "isPremium": false,
+    "logo": "/images/businesses/curry-companies/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-278-3691",
+      "email": "will@currycompanies.com",
+      "contactName": "Will Curry",
+      "additionalContact": "Dayna James; Cameron Curry",
+      "website": "currycompanies.com",
+      "orderUrl": "currycompanies.com/book",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "chelle-realty",
+    "name": "Chelle Realty",
+    "category": "stay",
+    "isPremium": false,
+    "logo": "/images/businesses/chelle-realty/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-595-2501",
+      "email": "buyandsellwithchelle@gmail.com",
+      "contactName": "Michelle Baird",
+      "additionalContact": "Lily Baird",
+      "website": "chellerealty.com",
+      "orderUrl": "chellerealty.com/book",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "medical-center",
+    "name": "The Medical Center",
+    "category": "wellness",
+    "isPremium": false,
+    "logo": "/images/businesses/medical-center/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-279-4885",
+      "email": "nmayo@dublinmedicalcenter.com",
+      "contactName": "Tracie McDaniel",
+      "website": "dublinmedicalcenter.com",
+      "orderUrl": "dublinmedicalcenter.com/schedule",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "med-spa",
+    "name": "Med Spa",
+    "category": "wellness",
+    "isPremium": false,
+    "logo": "/images/businesses/med-spa/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-290-0488",
+      "email": "ginajmoses@gmail.com",
+      "contactName": "Gina Moses",
+      "additionalContact": "Halee Owens/Sailor Pittman",
+      "website": "dublinmedspa.com",
+      "orderUrl": "dublinmedspa.com/schedule",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "hughston-clinic",
+    "name": "Hughston Clinic Orthopedics",
+    "category": "wellness",
+    "isPremium": false,
+    "logo": "/images/businesses/hughston-clinic/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "706-575-0977",
+      "email": "ewilliams@hughston.com",
+      "contactName": "Erin Williams",
+      "additionalContact": "Mandi Singletary",
+      "website": "hughston.com",
+      "orderUrl": "hughston.com/schedule",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "fairview-fitness",
+    "name": "Fairview Fitness",
+    "category": "wellness",
+    "isPremium": false,
+    "logo": "/images/businesses/fairview-fitness/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-595-9804",
+      "email": "jaybailey@hotmail.com",
+      "contactName": "Jay Bailey",
+      "website": "fairviewfitness.com",
+      "orderUrl": "fairviewfitness.com/schedule",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "bass-rehab",
+    "name": "Bass Rehab",
+    "category": "wellness",
+    "isPremium": false,
+    "logo": "/images/businesses/bass-rehab/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-272-7494",
+      "email": "dbass1223@gmail.com",
+      "contactName": "Denise Bass",
+      "additionalContact": "Chuck Bass, Whitney Hobbs",
+      "website": "bassrehab.com",
+      "orderUrl": "bassrehab.com/schedule",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "dublin-yoga",
+    "name": "Dublin Yoga & Pilates",
+    "category": "wellness",
+    "isPremium": false,
+    "logo": "/images/businesses/dublin-yoga/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "843-789-0330",
+      "email": "jordangwillis16@gmail.com",
+      "contactName": "Jordan Willis",
+      "website": "dublinyoga.com",
+      "orderUrl": "dublinyoga.com/schedule",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "eyesight-associates",
+    "name": "Eyesight Associates",
+    "category": "wellness",
+    "isPremium": false,
+    "logo": "/images/businesses/eyesight-associates/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "478-484-3292",
+      "email": "jgw@dublineyeassociates.com; clark@dublineyeassociate.com",
+      "contactName": "John Williams / Clark Dailey",
+      "website": "dublineyeassociates.com",
+      "orderUrl": "dublineyeassociates.com/schedule",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "georgia-hospice",
+    "name": "Georgia Hospice Care",
+    "category": "wellness",
+    "isPremium": false,
+    "logo": "/images/businesses/georgia-hospice/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "email": "Ashlee.vickers@georgiahospicecare.com",
+      "contactName": "Ashlee Vickers/Liz Dixon",
+      "website": "georgiahospicecare.com",
+      "orderUrl": "georgiahospicecare.com/schedule",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  },
+  {
+    "slug": "medicine-cabinet",
+    "name": "The Medicine Cabinet",
+    "category": "wellness",
+    "isPremium": false,
+    "logo": "/images/businesses/medicine-cabinet/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "contacts": {
+      "phone": "912-381-3968",
+      "email": "geoffmeeks@medcab.com",
+      "contactName": "Geoffrey Meeks",
+      "website": "medcab.com",
+      "orderUrl": "medcab.com/schedule",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": null,
+    "features": [],
+    "hours": {
+      "monday": null,
+      "tuesday": null,
+      "wednesday": null,
+      "thursday": null,
+      "friday": null,
+      "saturday": null,
+      "sunday": null
+    }
+  }
+]
