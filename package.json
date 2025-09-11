@@ -4,9 +4,11 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+    "build:static": "nuxt generate",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "preview:static": "npx serve .output/public",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "typecheck": "nuxt typecheck"
