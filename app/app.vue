@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Analytics } from "@vercel/analytics/nuxt";
 import businesses from "~/data/businesses.json";
 import { useRoute } from "vue-router";
 
@@ -45,6 +46,7 @@ const navItems = categories.map((cat) => ({
 </script>
 
 <template>
+  <Analytics />
   <UApp>
     <UHeader mode="drawer">
       <template #title>

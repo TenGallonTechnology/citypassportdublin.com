@@ -21,6 +21,7 @@
     "@nuxt/ui": "3.3.2",
     "@nuxt/ui-pro": "^3.3.2",
     "@unhead/vue": "^2.0.14",
+    "@vercel/analytics": "^1.5.0",
     "nuxt": "^4.0.3"
   },
   "devDependencies": {
