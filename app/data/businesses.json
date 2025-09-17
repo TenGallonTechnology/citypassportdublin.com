@@ -22,98 +22,116 @@
       "state": "",
       "zip": "",
       "googleMapsUrl": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
     }
   },
   {
     "slug": "company-supply",
     "name": "Company Supply",
     "category": "eat",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/company-supply/logo.png",
-    "photos": [],
+    "bannerImage": "/images/businesses/company-supply/banner.jpg",
+    "photos": [
+      "/images/businesses/company-supply/bar.jpg",
+      "/images/businesses/company-supply/food1.jpg",
+      "/images/businesses/company-supply/food2.jpg"
+    ],
     "description": null,
+    "paragraphs": [
+      "Founded in 2015 by Rich Mascaro, Company Supply has become a culinary staple in historic downtown Dublin. Set in a 120-year-old dry-goods store, the space blends rustic charm and industrial style, complete with reclaimed barn wood and thoughtfully preserved original fixtures. Specializing in Cajun and Creole-inspired cuisine with a Southern twist, the menu features favorites like Catfish Perdu, Crawfish Boudin, and Pork & Crawfish Grillades. Committed to quality, dishes are crafted with farm-to-table ingredients. Guests can sip Georgia Grown microbrews, enjoy a full bar, stop in for morning brunch, or catch live music on select evenings. Whether it's lunch, dinner, brunch, or a private event, Company Supply delivers unforgettable flavors and warm hospitality in a one-of-a-kind, history-rich setting."
+    ],
     "contacts": {
-      "phone": "478-595-1215",
+      "phone": "4783531655",
       "website": "companysupplyga.com",
-      "email": "richardm@companysupplyga.com",
+      "orderUrl": "https://www.companysupplyga.com/popmenu-order/company-supply/menus/menu-ordering",
+      "email": "maresag@companysupplyga.com",
       "social": {
-        "facebook": "",
-        "instagram": ""
+        "facebook": "https://www.facebook.com/CompanySupply/",
+        "instagram": "@companysupply_ga"
       }
     },
     "address": {
-      "street": "",
-      "city": "",
-      "state": "",
-      "zip": "",
-      "googleMapsUrl": ""
-    },
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
+      "street": "107 West Jackson Street",
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "googleMapsUrl": null
     }
   },
   {
     "slug": "crooked-finger-brewing",
     "name": "Crooked Finger Brewing",
     "category": "eat",
-    "isPremium": false,
-    "logo": "/images/businesses/crooked-finger-brewing/logo.png",
-    "photos": [],
+    "isPremium": true,
+    "logo": "/images/businesses/crooked-finger-brewing/logo.jpg",
+    "bannerImage": "/images/businesses/crooked-finger-brewing/banner.jpg",
+    "photos": [
+      "/images/businesses/crooked-finger-brewing/food1.jpg",
+      "/images/businesses/crooked-finger-brewing/taps.jpg",
+      "/images/businesses/crooked-finger-brewing/main-room.jpg",
+      "/images/businesses/crooked-finger-brewing/service.jpg",
+      "/images/businesses/crooked-finger-brewing/brewing.jpg"
+    ],
     "description": null,
+    "paragraphs": [
+      "In the heart of historic downtown Dublin, Crooked Finger Brewing is the community's new favorite gathering place. The restored former grocery warehouse on the railroad tracks pours a thoughtfully crafted, ever-changing lineup of beers - including bold IPAs, smooth wheats, and rich porters.",
+      "There is plenty for you, even if beer isn't your thing. Live music, events, and games are served with delicious food from their on-site food truck, like their famous smashburger or nachos. Guests linger in the warm, welcoming atmosphere that's perfect for families, four-legged friends, and laid-back evenings alike. Catering and space reservations are available for your special event. Whether you're planning a business social, hosting a special celebration, or simply unwinding after a long day, Crooked Finger Brewing blends history, hospitality, and handcrafted beer into one unforgettable experience."
+    ],
     "contacts": {
-      "phone": "478-595-1215",
+      "phone": "4783047796",
       "email": "richardm@companysupplyga.com",
       "contactName": "Rich Mascaro",
-      "website": "companysupplyga.com/crooked-finger",
-      "orderUrl": "companysupplyga.com/crooked-finger/order",
+      "website": "https://www.crookedfingerbrewing.com",
+      "orderUrl": "https://www.crookedfingerbrewing.com/order#menu?location=dublin",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/p/Crooked-Finger-Brewing-61556023693192/",
+        "instagram": "@crooked_finger_brewing"
       }
     },
-    "address": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
+    "address": {
+      "street": "226 S Jefferson St",
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "googleMapsUrl": null
+    }
   },
   {
     "slug": "brians-subs",
     "name": "Brian's Subs",
     "category": "eat",
-    "isPremium": false,
-    "logo": "/images/businesses/brians-subs/logo.png",
-    "photos": [],
+    "isPremium": true,
+    "logo": "/images/businesses/brians-subs/logo.jpg",
+    "bannerImage": "/images/businesses/brians-subs/banner.jpg",
+    "photos": [
+      "/images/businesses/brians-subs/making.jpg",
+      "/images/businesses/brians-subs/storefront.jpg",
+      "/images/businesses/brians-subs/ordering.jpg"
+    ],
     "description": null,
+    "paragraphs": [
+      "Brian's Subs has been serving the Dublin community since 1989, offering more than just sandwiches—it's a local tradition.Founded by Jersey native Brian Keith, the shop quickly earned a reputation for crafting the best subs around, paired with exceptional customer service that keeps folks coming back.",
+      "Today, new owners Brad and Robyn Meeks continue that legacy with fresh ingredients, friendly faces, and a passion for building relationships with every customer who walks through the door. Regulars aren't just customers—they're part of the family.",
+      "Thanks to the unwavering support of the community, Brian's Subs is proud to remain a cornerstone in Dublin. Whether it's your first visit or your fiftieth, expect a warm welcome, top-notch service, and a sub made just the way you like it."
+    ],
     "contacts": {
-      "phone": "478-595-7103",
+      "phone": "4782726880",
       "email": "briansgiantsubs@yahoo.com",
       "contactName": "Brad Meeks",
-      "website": "briansgiantsubs.com",
-      "orderUrl": "briansgiantsubs.com/order",
+      "website": null,
+      "orderUrl": null,
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/briansgiantsubs/",
+        "instagram": "@BriansGiantSubs"
       }
     },
-    "address": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "1632 Veterans Boulevard, Suite A",
+      "googleMapsUrl": null
+    }
   },
   {
     "slug": "deanos",
@@ -135,10 +153,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
+    "address": null
   },
   {
     "slug": "williamsons-bakery",
@@ -160,19 +175,20 @@
         "instagram": null
       }
     },
-    "address": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
+    "address": null
   },
   {
     "slug": "holy-smokes",
     "name": "Holy Smokes",
     "category": "eat",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/holy-smokes/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "photos": [
+      "/images/businesses/holy-smokes/dining-area.jpg",
+      "/images/businesses/holy-smokes/grill.jpg",
+      "/images/businesses/holy-smokes/staff.jpg"
+    ],
+    "bannerImage": "/images/businesses/holy-smokes/banner.jpg",
     "description": null,
     "paragraphs": [
       "After years of winning on the BBQ competition circuit, Gary Lanton turned his passion into a full-time career, and in 2015, Holy Smokes BBQ was born. What began as a dream to bring championship-level flavor to the public quickly became a community staple and a source of pride for Dublin, Georgia.",
@@ -184,41 +200,54 @@
       "email": "glanton@charter.net",
       "contactName": "Gary Lanton",
       "website": "www.DublinBBQ.com",
-      "orderUrl": "www.DublinBBQ.com/order",
+      "orderUrl": "https://dublinbbq.com/menu",
       "social": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/holysmokesbbqfoodtruck/",
         "instagram": "@Holy_Smokes_BBQ_Dublin"
       }
     },
-    "address": "1100 Hillcrest Pkwy Suite B9",
-    "friday": null,
-    "saturday": null,
-    "sunday": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "googleMapsUrl": null,
+      "street": "1100 Hillcrest Pkwy Suite B9"
+    }
   },
   {
     "slug": "lou-anns",
     "name": "Lou Ann's Biscuits & Burgers",
     "category": "eat",
-    "isPremium": false,
-    "logo": "/images/businesses/lou-anns/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "isPremium": true,
+    "logo": "/images/businesses/lou-anns/logo.jpeg",
+    "photos": [
+      "/images/businesses/lou-anns/rolling.jpg",
+      "/images/businesses/lou-anns/mixing.jpg",
+      "/images/businesses/lou-anns/staff.jpg"
+    ],
+    "bannerImage": "/images/businesses/lou-anns/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "For 58 years, Lou Ann’s Biscuits & Burgers has been a beloved part of the community known for its scratch-made biscuits, juicy burgers, and heartfelt Southern hospitality. Originally founded by Lou Ann herself, this cozy spot has always been more than a place to eat—it's where memories are made, stories are shared, and community is built.",
+      "When Gary and Dionn Lanton were given the opportunity to take over this beloved hometown favorite, they didn’t just buy a business—they inherited a legacy. Today, they continue to serve the same comfort food and warmth that generations have come to love. Lou Ann’s is about more than food. It’s about familiar faces, hometown pride, and that first bite that feels like home."
+    ],
     "contacts": {
-      "phone": "706-833-2222",
-      "email": "dionnlanton@yahoo.com",
-      "contactName": "Gary Lanton",
-      "website": "louannsbb.com",
-      "orderUrl": "louannsbb.com/order",
+      "phone": "4782726478",
+      "email": null,
+      "contactName": null,
+      "website": "www.louannsbiscuits.com",
+      "orderUrl": null,
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/p/Lou-Anns-100063536624786/",
+        "instagram": "@louannsbiscuitsandburgers"
       }
     },
-    "address": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "1010 Telfair Street"
+    }
   },
   {
     "slug": "eden-nutrition",
@@ -240,10 +269,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
+    "address": null
   },
   {
     "slug": "rosies",
@@ -266,10 +292,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
+    "address": null
   },
   {
     "slug": "la-joya",
@@ -291,10 +314,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
+    "address": null
   },
   {
     "slug": "maxines-treats",
@@ -316,10 +336,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "friday": null,
-    "saturday": null,
-    "sunday": null
+    "address": null
   },
   {
     "slug": "candace-jamaican",
@@ -345,16 +362,7 @@
         "instagram": "@candacejamaicanbng"
       }
     },
-    "address": "1214 N Jefferson Street, Dublin, GA",
-    "hours": {
-      "monday": "11:00 AM - 10:00 PM",
-      "tuesday": "11:00 AM - 10:00 PM",
-      "wednesday": "11:00 AM - 10:00 PM",
-      "thursday": "11:00 AM - 10:00 PM",
-      "friday": "11:00 AM - 11:00 PM",
-      "saturday": "11:00 AM - 11:00 PM",
-      "sunday": "Closed"
-    }
+    "address": "1214 N Jefferson Street, Dublin, GA"
   },
   {
     "slug": "downtown-dublin",
@@ -377,16 +385,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "barn-at-acorn-ridge",
@@ -408,16 +407,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "visit-dublin",
@@ -440,16 +430,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "laurens-county-library",
@@ -471,16 +452,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "curate",
@@ -502,16 +474,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "laurens-county-rec",
@@ -533,16 +496,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "warriors-ranch",
@@ -565,16 +519,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "skn-bar",
@@ -597,16 +542,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "mail-and-more",
@@ -629,16 +565,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "georgia-first",
@@ -661,16 +588,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "tlake-landscaping",
@@ -692,16 +610,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "lawn-squad",
@@ -722,16 +631,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "darley-law-firm",
@@ -754,16 +654,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "minute-man-press",
@@ -784,16 +675,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "emerald-city-treasures",
@@ -816,16 +698,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "bar-bridal",
@@ -848,16 +721,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "colleens-china",
@@ -879,16 +743,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "plum-alley",
@@ -911,16 +766,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "sir-shop",
@@ -942,16 +788,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "olive-branch",
@@ -973,16 +810,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "smiths-jewelry",
@@ -1004,16 +832,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "emma-laura",
@@ -1035,16 +854,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "roche-farm-garden",
@@ -1066,16 +876,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "fairfield-inn",
@@ -1098,16 +899,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "hampton-inn",
@@ -1129,16 +921,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "laquinta",
@@ -1161,16 +944,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "home-2-suites",
@@ -1192,16 +966,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "curry-companies",
@@ -1224,16 +989,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "chelle-realty",
@@ -1256,16 +1012,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "medical-center",
@@ -1287,16 +1034,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "med-spa",
@@ -1319,16 +1057,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "hughston-clinic",
@@ -1351,16 +1080,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "fairview-fitness",
@@ -1382,16 +1102,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "bass-rehab",
@@ -1414,16 +1125,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "dublin-yoga",
@@ -1445,16 +1147,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "eyesight-associates",
@@ -1476,16 +1169,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "georgia-hospice",
@@ -1506,16 +1190,7 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   },
   {
     "slug": "medicine-cabinet",
@@ -1537,15 +1212,6 @@
         "instagram": null
       }
     },
-    "address": null,
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": null
   }
 ]
