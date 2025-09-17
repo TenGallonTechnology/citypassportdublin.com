@@ -473,13 +473,17 @@
       "email": "glenda@dtdublin.com",
       "contactName": "Glenda Berry",
       "website": "dtdublin.com",
-      "orderUrl": "dtdublin.com/events",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "barn-at-acorn-ridge",
@@ -495,13 +499,17 @@
       "email": "thebarnatacornridge@gmail.com",
       "contactName": "Tanya Mixon",
       "website": "barnatacornridge.com",
-      "orderUrl": "barnatacornridge.com/book",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "visit-dublin",
@@ -516,15 +524,18 @@
       "phone": "478-278-4074",
       "email": "miriam@visitdublinga.org",
       "contactName": "Miriam Lewis",
-      "additionalContact": "Bill Brown",
       "website": "visitdublinga.org",
-      "orderUrl": "visitdublinga.org/events",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "laurens-county-library",
@@ -540,13 +551,17 @@
       "email": "bbrown@ocrl.org",
       "contactName": "Beverly Brown",
       "website": "laurenslibrary.org",
-      "orderUrl": "laurenslibrary.org/events",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "curate",
@@ -562,13 +577,17 @@
       "email": "buffy.walker@yahoo.com",
       "contactName": "Buffy Walker",
       "website": "curatedublin.com",
-      "orderUrl": "curatedublin.com/tickets",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "laurens-county-rec",
@@ -582,15 +601,18 @@
     "contacts": {
       "email": "malletteb@dlcra.org",
       "contactName": "Jack Walker",
-      "additionalContact": "Brian Mallette",
       "website": "dlcra.org",
-      "orderUrl": "dlcra.org/programs",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "warriors-ranch",
@@ -605,15 +627,18 @@
       "phone": "478-697-8651",
       "email": "marlaroche@warriorsranch.com",
       "contactName": "Marla Roche",
-      "additionalContact": "Jenna Rutledge / Joe Moran",
       "website": "warriorsranch.com",
-      "orderUrl": "warriorsranch.com/visit",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "skn-bar",
@@ -628,15 +653,18 @@
       "phone": "478-697-6815",
       "email": "sknbaraaw@yahoo.com",
       "contactName": "Tabitha Mullis",
-      "additionalContact": "Zach Mullis",
       "website": "sknbar.com",
-      "orderUrl": "sknbar.com/book",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "mail-and-more",
@@ -651,15 +679,18 @@
       "phone": "478-272-7676",
       "email": "audrey@mailandmoreofdublin.com",
       "contactName": "Audrey Hogan",
-      "additionalContact": "Ashley Young",
       "website": "mailandmoreofdublin.com",
-      "orderUrl": "mailandmoreofdublin.com/services",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "georgia-first",
@@ -674,15 +705,18 @@
       "phone": "912-346-1230",
       "email": "lcaswell@georgiafirst.bank",
       "contactName": "Jeremy Ragan",
-      "additionalContact": "Maury Beasley/Laura Leigh Caswell",
       "website": "georgiafirst.bank",
-      "orderUrl": "georgiafirst.bank/schedule",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "tlake-landscaping",
@@ -698,13 +732,17 @@
       "email": "tim@tlake.com",
       "contactName": "Tim Lake",
       "website": "tlake.com",
-      "orderUrl": "tlake.com/quote",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "lawn-squad",
@@ -719,13 +757,17 @@
       "email": "kenya@tlake.com",
       "contactName": "Tim Lake",
       "website": "lawnsquad.com",
-      "orderUrl": "lawnsquad.com/quote",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "darley-law-firm",
@@ -740,15 +782,18 @@
       "phone": "478-219-7329",
       "email": "Jacob@darleyfirm.com, cbrown@darleyfirm.com",
       "contactName": "Jacob Darley",
-      "additionalContact": "Chassity Brown",
       "website": "darleyfirm.com",
-      "orderUrl": "darleyfirm.com/consult",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "minute-man-press",
@@ -760,20 +805,24 @@
     "bannerImage": null,
     "description": null,
     "contacts": {
-      "email": "minuteman.richie@gmail.com, mmpmaconart@gmail.com",
+      "email": "mmpmaconart@gmail.com",
       "contactName": "Richie Moore",
-      "website": "minutemandublin.com",
-      "orderUrl": "minutemandublin.com/quote",
+      "website": "",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "emerald-city-treasures",
-    "name": "Emerald City Treasures (Too)",
+    "name": "Emerald City Treasures",
     "category": "shop",
     "isPremium": false,
     "logo": "/images/businesses/emerald-city-treasures/logo.png",
@@ -784,15 +833,18 @@
       "phone": "904-635-9460",
       "email": "larockc@bellsouth.net",
       "contactName": "Jeana LaRock",
-      "additionalContact": "Nicole Yanken",
       "website": "emeraldcitytreasures.com",
-      "orderUrl": "emeraldcitytreasures.com/shop",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "bar-bridal",
@@ -807,15 +859,18 @@
       "phone": "478-697-6815",
       "email": "barbridal@yahoo.com",
       "contactName": "Tabitha Mullis",
-      "additionalContact": "Taylor Sapp",
       "website": "barbridal.com",
-      "orderUrl": "barbridal.com/shop",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "colleens-china",
@@ -831,13 +886,17 @@
       "email": "colleenschina@bellsouth.net",
       "contactName": "Sally Daniels",
       "website": "colleenschina.com",
-      "orderUrl": "colleenschina.com/shop",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "plum-alley",
@@ -852,15 +911,18 @@
       "phone": "478-275-1972",
       "email": "plumalley@hotmail.com",
       "contactName": "Kim Hatchett",
-      "additionalContact": "Matt Hatchett",
       "website": "plumalley.com",
-      "orderUrl": "plumalley.com/shop",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "sir-shop",
@@ -876,13 +938,17 @@
       "email": "bill@sirshop.com",
       "contactName": "Bill Hoyt",
       "website": "sirshop.com",
-      "orderUrl": "sirshop.com/shop",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "olive-branch",
@@ -898,13 +964,17 @@
       "email": "obbooks2036@gmail.com",
       "contactName": "Vickie Achord",
       "website": "olivebranch.com",
-      "orderUrl": "olivebranch.com/shop",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "smiths-jewelry",
@@ -920,13 +990,17 @@
       "email": "natalie@smithsofdublin.com",
       "contactName": "Natalie Curry",
       "website": "smithsofdublin.com",
-      "orderUrl": "smithsofdublin.com/shop",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "emma-laura",
@@ -942,13 +1016,17 @@
       "email": "78rachelgay@gmail.com",
       "contactName": "Rachel Gay",
       "website": "emmalaura.com",
-      "orderUrl": "emmalaura.com/shop",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "roche-farm-garden",
@@ -964,13 +1042,17 @@
       "email": "croche@gotoroche.com",
       "contactName": "Chip Roche",
       "website": "rochefarmgarden.com",
-      "orderUrl": "rochefarmgarden.com/shop",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "fairfield-inn",
@@ -985,15 +1067,18 @@
       "phone": "478-277-0333",
       "email": "christine.pate@marriott.com",
       "contactName": "Christine Pate",
-      "additionalContact": "Raj Saxena",
       "website": "marriott.com/fairfield-dublin",
-      "orderUrl": "marriott.com/fairfield-dublin/book",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "hampton-inn",
@@ -1009,13 +1094,17 @@
       "email": "philpatel1962@gmail.com",
       "contactName": "Phil and Melanie Patel",
       "website": "hilton.com/hampton-dublin",
-      "orderUrl": "hilton.com/hampton-dublin/book",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "laquinta",
@@ -1030,15 +1119,18 @@
       "phone": "478-272-3110",
       "email": "dana.laquinta@yahoo.com",
       "contactName": "Dana Kinzler",
-      "additionalContact": "Navdeep Patel; Tressi Usry Hanson",
       "website": "laquinta.com/dublin",
-      "orderUrl": "laquinta.com/dublin/book",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "home-2-suites",
@@ -1054,13 +1146,17 @@
       "email": "marybeth.turner@hilton.com",
       "contactName": "MaryBeth Turner",
       "website": "hilton.com/home2suites-dublin",
-      "orderUrl": "hilton.com/home2suites-dublin/book",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "curry-companies",
@@ -1075,15 +1171,18 @@
       "phone": "478-278-3691",
       "email": "will@currycompanies.com",
       "contactName": "Will Curry",
-      "additionalContact": "Dayna James; Cameron Curry",
       "website": "currycompanies.com",
-      "orderUrl": "currycompanies.com/book",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "chelle-realty",
@@ -1098,15 +1197,18 @@
       "phone": "478-595-2501",
       "email": "buyandsellwithchelle@gmail.com",
       "contactName": "Michelle Baird",
-      "additionalContact": "Lily Baird",
       "website": "chellerealty.com",
-      "orderUrl": "chellerealty.com/book",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "medical-center",
@@ -1122,13 +1224,17 @@
       "email": "nmayo@dublinmedicalcenter.com",
       "contactName": "Tracie McDaniel",
       "website": "dublinmedicalcenter.com",
-      "orderUrl": "dublinmedicalcenter.com/schedule",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "med-spa",
@@ -1143,15 +1249,18 @@
       "phone": "478-290-0488",
       "email": "ginajmoses@gmail.com",
       "contactName": "Gina Moses",
-      "additionalContact": "Halee Owens/Sailor Pittman",
       "website": "dublinmedspa.com",
-      "orderUrl": "dublinmedspa.com/schedule",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "hughston-clinic",
@@ -1166,15 +1275,18 @@
       "phone": "706-575-0977",
       "email": "ewilliams@hughston.com",
       "contactName": "Erin Williams",
-      "additionalContact": "Mandi Singletary",
       "website": "hughston.com",
-      "orderUrl": "hughston.com/schedule",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "fairview-fitness",
@@ -1190,13 +1302,17 @@
       "email": "jaybailey@hotmail.com",
       "contactName": "Jay Bailey",
       "website": "fairviewfitness.com",
-      "orderUrl": "fairviewfitness.com/schedule",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "bass-rehab",
@@ -1211,15 +1327,18 @@
       "phone": "478-272-7494",
       "email": "dbass1223@gmail.com",
       "contactName": "Denise Bass",
-      "additionalContact": "Chuck Bass, Whitney Hobbs",
       "website": "bassrehab.com",
-      "orderUrl": "bassrehab.com/schedule",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "dublin-yoga",
@@ -1235,13 +1354,17 @@
       "email": "jordangwillis16@gmail.com",
       "contactName": "Jordan Willis",
       "website": "dublinyoga.com",
-      "orderUrl": "dublinyoga.com/schedule",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "eyesight-associates",
@@ -1257,13 +1380,17 @@
       "email": "jgw@dublineyeassociates.com; clark@dublineyeassociate.com",
       "contactName": "John Williams / Clark Dailey",
       "website": "dublineyeassociates.com",
-      "orderUrl": "dublineyeassociates.com/schedule",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "georgia-hospice",
@@ -1276,15 +1403,19 @@
     "description": null,
     "contacts": {
       "email": "Ashlee.vickers@georgiahospicecare.com",
-      "contactName": "Ashlee Vickers/Liz Dixon",
+      "contactName": "Ashlee Vickers",
       "website": "georgiahospicecare.com",
-      "orderUrl": "georgiahospicecare.com/schedule",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   },
   {
     "slug": "medicine-cabinet",
@@ -1300,12 +1431,16 @@
       "email": "geoffmeeks@medcab.com",
       "contactName": "Geoffrey Meeks",
       "website": "medcab.com",
-      "orderUrl": "medcab.com/schedule",
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": ""
+    }
   }
 ]
