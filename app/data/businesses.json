@@ -1,34 +1,111 @@
 [
   {
-    "slug": "mission-bake-shoppe",
-    "name": "Mission Bake Shoppe",
+    "slug": "holy-smokes",
+    "name": "Holy Smokes",
     "category": "eat",
-    "logo": "/images/businesses/mission-bake-shoppe/logo.jpg",
+    "isPremium": true,
+    "logo": "/images/businesses/holy-smokes/logo.png",
     "photos": [
-      "/images/businesses/mission-bake-shoppe/drinks.jpg",
-      "/images/businesses/mission-bake-shoppe/cakes.jpg",
-      "/images/businesses/mission-bake-shoppe/hours.jpg"
+      "/images/businesses/holy-smokes/dining-area.jpg",
+      "/images/businesses/holy-smokes/grill.jpg",
+      "/images/businesses/holy-smokes/staff.jpg"
     ],
-    "bannerImage": null,
-    "description": "",
+    "bannerImage": "/images/businesses/holy-smokes/banner.jpg",
+    "description": null,
     "paragraphs": [
-      "Nestled inside CURATE in the heart of downtown Dublin, Mission Bake Shoppe is a welcoming coffeehouse and bakery where Southern hospitality meets artisan quality. In its first year, the shop has earned praise for its scratch-made delights and custom espresso and matcha drinks. Signature items like the white chocolate raspberry cake, cinnamon rolls, sourdough, and homemade pretzels showcase wholesome ingredients and family-rooted baking traditions. The inviting aroma of fresh espresso fills the air, while friendly staff welcome each guest. Customers consistently rave about the warm service and melt-in-your-mouth treats served with care. Mission Bake Shoppe isn't just a place to grab a latte—it's a community gathering spot designed to inspire, refresh, and delight, one handcrafted pastry and espresso at a time."
+      "After years of winning on the BBQ competition circuit, Gary Lanton turned his passion into a full-time career, and in 2015, Holy Smokes BBQ was born. What began as a dream to bring championship-level flavor to the public quickly became a community staple and a source of pride for Dublin, Georgia.",
+      "With a win on BBQ Pitmasters and the title of Best Ribs in Georgia from the Food Network, Gary's world-class BBQ has put his hometown on the map.",
+      "More than just smoked meat, Holy Smokes delivers decades of experience, expert technique, and deep Southern soul. Every bite tells a story of passion, pride, and the pursuit of BBQ perfection."
     ],
     "contacts": {
-      "phone": "4782786832",
-      "website": null,
-      "email": null,
+      "phone": "478-272-7427",
+      "email": "glanton@charter.net",
+      "contactName": "Gary Lanton",
+      "website": "www.DublinBBQ.com",
+      "orderUrl": "https://dublinbbq.com/menu",
       "social": {
-        "facebook": "https://www.facebook.com/p/Mission-Bake-Shoppe-61559544471354/",
-        "instagram": "@missionbakeshoppe"
+        "facebook": "https://www.facebook.com/holysmokesbbqfoodtruck/",
+        "instagram": "@Holy_Smokes_BBQ_Dublin"
       }
     },
     "address": {
-      "street": "213 Five Points Way",
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "googleMapsUrl": ""
+      "googleMapsUrl": null,
+      "street": "1100 Hillcrest Pkwy Suite B9"
+    }
+  },
+  {
+    "slug": "lou-anns",
+    "name": "Lou Ann's Biscuits & Burgers",
+    "category": "eat",
+    "isPremium": true,
+    "logo": "/images/businesses/lou-anns/logo.jpeg",
+    "photos": [
+      "/images/businesses/lou-anns/rolling.jpg",
+      "/images/businesses/lou-anns/mixing.jpg",
+      "/images/businesses/lou-anns/staff.jpg"
+    ],
+    "bannerImage": "/images/businesses/lou-anns/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "For 58 years, Lou Ann's Biscuits & Burgers has been a beloved part of the community known for its scratch-made biscuits, juicy burgers, and heartfelt Southern hospitality. Originally founded by Lou Ann herself, this cozy spot has always been more than a place to eat—it's where memories are made, stories are shared, and community is built.",
+      "When Gary and Dionn Lanton were given the opportunity to take over this beloved hometown favorite, they didn't just buy a business—they inherited a legacy. Today, they continue to serve the same comfort food and warmth that generations have come to love. Lou Ann's is about more than food. It's about familiar faces, hometown pride, and that first bite that feels like home."
+    ],
+    "contacts": {
+      "phone": "4782726478",
+      "email": null,
+      "contactName": null,
+      "website": "www.louannsbiscuits.com",
+      "orderUrl": null,
+      "social": {
+        "facebook": "https://www.facebook.com/p/Lou-Anns-100063536624786/",
+        "instagram": "@louannsbiscuitsandburgers"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "1010 Telfair Street"
+    }
+  },
+  {
+    "slug": "brians-subs",
+    "name": "Brian's Subs",
+    "category": "eat",
+    "isPremium": true,
+    "logo": "/images/businesses/brians-subs/logo.jpg",
+    "bannerImage": "/images/businesses/brians-subs/banner.jpg",
+    "photos": [
+      "/images/businesses/brians-subs/making.jpg",
+      "/images/businesses/brians-subs/storefront.jpg",
+      "/images/businesses/brians-subs/ordering.jpg"
+    ],
+    "description": null,
+    "paragraphs": [
+      "Brian's Subs has been serving the Dublin community since 1989, offering more than just sandwiches—it's a local tradition.Founded by Jersey native Brian Keith, the shop quickly earned a reputation for crafting the best subs around, paired with exceptional customer service that keeps folks coming back.",
+      "Today, new owners Brad and Robyn Meeks continue that legacy with fresh ingredients, friendly faces, and a passion for building relationships with every customer who walks through the door. Regulars aren't just customers—they're part of the family.",
+      "Thanks to the unwavering support of the community, Brian's Subs is proud to remain a cornerstone in Dublin. Whether it's your first visit or your fiftieth, expect a warm welcome, top-notch service, and a sub made just the way you like it."
+    ],
+    "contacts": {
+      "phone": "4782726880",
+      "email": "briansgiantsubs@yahoo.com",
+      "contactName": "Brad Meeks",
+      "website": null,
+      "orderUrl": null,
+      "social": {
+        "facebook": "https://www.facebook.com/briansgiantsubs/",
+        "instagram": "@BriansGiantSubs"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "1632 Veterans Boulevard, Suite A",
+      "googleMapsUrl": null
     }
   },
   {
@@ -104,39 +181,38 @@
     }
   },
   {
-    "slug": "brians-subs",
-    "name": "Brian's Subs",
+    "slug": "maxs-treats",
+    "name": "Max's Treats",
     "category": "eat",
     "isPremium": true,
-    "logo": "/images/businesses/brians-subs/logo.jpg",
-    "bannerImage": "/images/businesses/brians-subs/banner.jpg",
+    "logo": "/images/businesses/maxs-treats/logo.png",
+    "bannerImage": "/images/businesses/maxs-treats/banner.jpg",
     "photos": [
-      "/images/businesses/brians-subs/making.jpg",
-      "/images/businesses/brians-subs/storefront.jpg",
-      "/images/businesses/brians-subs/ordering.jpg"
+      "/images/businesses/maxs-treats/food1.jpg",
+      "/images/businesses/maxs-treats/maxine.jpg",
+      "/images/businesses/maxs-treats/staff.png",
+      "/images/businesses/maxs-treats/food2.jpg"
     ],
     "description": null,
     "paragraphs": [
-      "Brian's Subs has been serving the Dublin community since 1989, offering more than just sandwiches—it's a local tradition.Founded by Jersey native Brian Keith, the shop quickly earned a reputation for crafting the best subs around, paired with exceptional customer service that keeps folks coming back.",
-      "Today, new owners Brad and Robyn Meeks continue that legacy with fresh ingredients, friendly faces, and a passion for building relationships with every customer who walks through the door. Regulars aren't just customers—they're part of the family.",
-      "Thanks to the unwavering support of the community, Brian's Subs is proud to remain a cornerstone in Dublin. Whether it's your first visit or your fiftieth, expect a warm welcome, top-notch service, and a sub made just the way you like it."
+      "Max's Treats has earned a reputation for delivering more than just delicious desserts—it's a full-service catering company specializing in creating unforgettable experiences for any occasion. Founded and led by Maxine Garnto, who brings more than 30 years of culinary expertise, Max's Treats combines Southern charm with exceptional service. From weddings and corporate events to intimate family gatherings, their team provides complete catering solutions, complemented by beautifully crafted specialty cakes and desserts that have become a local favorite. Guests can also enjoy events at Max's Cottage, a charming on-site venue perfect for small parties, rehearsals, and celebrations. With a passion for food and hospitality, Max's Treats continues to be Dublin's trusted partner in making every event seamless, flavorful, and memorable."
     ],
     "contacts": {
-      "phone": "4782726880",
-      "email": "briansgiantsubs@yahoo.com",
-      "contactName": "Brad Meeks",
+      "phone": "4789848224",
+      "email": null,
+      "contactName": "Maxine Garnto",
       "website": null,
       "orderUrl": null,
       "social": {
-        "facebook": "https://www.facebook.com/briansgiantsubs/",
-        "instagram": "@BriansGiantSubs"
+        "facebook": null,
+        "instagram": null
       }
     },
     "address": {
-      "city": "Dublin",
+      "street": "1330 Lakeway Road",
+      "city": "East Dublin",
       "state": "GA",
-      "zip": "31021",
-      "street": "1632 Veterans Boulevard, Suite A",
+      "zip": "31027",
       "googleMapsUrl": null
     }
   },
@@ -211,75 +287,73 @@
     }
   },
   {
-    "slug": "holy-smokes",
-    "name": "Holy Smokes",
+    "slug": "rosies",
+    "name": "Rosie's",
     "category": "eat",
-    "isPremium": true,
-    "logo": "/images/businesses/holy-smokes/logo.png",
+    "isPremium": false,
+    "logo": "/images/businesses/rosies/logo.jpg",
     "photos": [
-      "/images/businesses/holy-smokes/dining-area.jpg",
-      "/images/businesses/holy-smokes/grill.jpg",
-      "/images/businesses/holy-smokes/staff.jpg"
+      "/images/businesses/rosies/front.jpg",
+      "/images/businesses/rosies/scoop.jpg",
+      "/images/businesses/rosies/float.jpg"
     ],
-    "bannerImage": "/images/businesses/holy-smokes/banner.jpg",
-    "description": null,
     "paragraphs": [
-      "After years of winning on the BBQ competition circuit, Gary Lanton turned his passion into a full-time career, and in 2015, Holy Smokes BBQ was born. What began as a dream to bring championship-level flavor to the public quickly became a community staple and a source of pride for Dublin, Georgia.",
-      "With a win on BBQ Pitmasters and the title of Best Ribs in Georgia from the Food Network, Gary's world-class BBQ has put his hometown on the map.",
-      "More than just smoked meat, Holy Smokes delivers decades of experience, expert technique, and deep Southern soul. Every bite tells a story of passion, pride, and the pursuit of BBQ perfection."
+      "Rosie's Handmade Ice Cream is a hidden gem tucked behind the historic Dublin Theatre, with a welcoming pink glow that signals something special. This small-but-mighty downtown shop serves handmade ice cream crafted with premium ingredients and bold creativity. From the cult-favorite Butter Pecan to unique flavors like Blackberry Cheesecake and Caramel Macchiato, Rosie's regularly offers something new —making each visit a sweet surprise. Customer service is as exceptional as the ice cream, delivered with warmth and personality through their signature pink window. Beyond cones, Rosie's features sundaes, floats, and inventive treats that are as delightful as they are delicious. Whether you're just discovering Rosie's or making a return trip, each dip is a taste of joy in the heart of Dublin, GA."
     ],
+    "bannerImage": null,
+    "description": null,
     "contacts": {
-      "phone": "478-272-7427",
-      "email": "glanton@charter.net",
-      "contactName": "Gary Lanton",
-      "website": "www.DublinBBQ.com",
-      "orderUrl": "https://dublinbbq.com/menu",
+      "phone": null,
+      "email": null,
+      "contactName": "Bob Dunn",
+      "website": null,
+      "orderUrl": null,
       "social": {
-        "facebook": "https://www.facebook.com/holysmokesbbqfoodtruck/",
-        "instagram": "@Holy_Smokes_BBQ_Dublin"
+        "facebook": "https://www.facebook.com/p/Rosies-Ice-Cream-100092355130976/",
+        "instagram": "@rosies.icecream.ga"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "googleMapsUrl": null,
-      "street": "1100 Hillcrest Pkwy Suite B9"
+      "street": "108 South Monroe Street",
+      "googleMapsUrl": null
     }
   },
   {
-    "slug": "lou-anns",
-    "name": "Lou Ann's Biscuits & Burgers",
+    "slug": "candace-jamaican",
+    "name": "Candace Jamaican Bar N Grill",
     "category": "eat",
-    "isPremium": true,
-    "logo": "/images/businesses/lou-anns/logo.jpeg",
+    "isPremium": false,
+    "logo": "/images/businesses/candace-jamaican/logo.jpg",
     "photos": [
-      "/images/businesses/lou-anns/rolling.jpg",
-      "/images/businesses/lou-anns/mixing.jpg",
-      "/images/businesses/lou-anns/staff.jpg"
+      "/images/businesses/candace-jamaican/drinks.jpg",
+      "/images/businesses/candace-jamaican/food.jpg",
+      "/images/businesses/candace-jamaican/staff.jpg"
     ],
-    "bannerImage": "/images/businesses/lou-anns/banner.jpg",
-    "description": null,
+    "bannerImage": null,
+    "description": "",
     "paragraphs": [
-      "For 58 years, Lou Ann's Biscuits & Burgers has been a beloved part of the community known for its scratch-made biscuits, juicy burgers, and heartfelt Southern hospitality. Originally founded by Lou Ann herself, this cozy spot has always been more than a place to eat—it's where memories are made, stories are shared, and community is built.",
-      "When Gary and Dionn Lanton were given the opportunity to take over this beloved hometown favorite, they didn't just buy a business—they inherited a legacy. Today, they continue to serve the same comfort food and warmth that generations have come to love. Lou Ann's is about more than food. It's about familiar faces, hometown pride, and that first bite that feels like home."
+      "Candace Jamaican Bar and Grill brings vibrant Jamaican flavors and a lively nightlife vibe to Dublin. Built from grassroots hustle, the laid-back eatery represents resilience, passion, and a deep love of community. Patrons rave about standout dishes like oxtail, curry goat, and jerk lamb chops, paired with a welcoming atmosphere and friendly service. Full portions, beautiful food presentation, imported soft drinks, weekly specials, and unique events characterize the space. The bar features a full liquor menu and all-day happy-hour specials that keep the energy alive until late. More than just a restaurant—it's a cultural and social hub that honors Jamaican culinary tradition, while nurturing community connection and opportunity."
     ],
     "contacts": {
-      "phone": "4782726478",
+      "phone": "4783040100",
       "email": null,
-      "contactName": null,
-      "website": "www.louannsbiscuits.com",
-      "orderUrl": null,
+      "contactName": "Pryce-Gary Forbes",
+      "website": "www.candacejamaican.com",
+      "orderUrl": "https://www.candacejamaican.com/popmenu-order/candace-jamaican-bar-and-grill/menus/main-menu",
       "social": {
-        "facebook": "https://www.facebook.com/p/Lou-Anns-100063536624786/",
-        "instagram": "@louannsbiscuitsandburgers"
+        "facebook": "https://www.facebook.com/p/Candace-Jamaican-Bar-N-Grill-61574929242002/",
+        "instagram": "@candacejamaicanbng"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": "1010 Telfair Street"
+      "street": "1214 N Jefferson Street, Dublin, GA",
+      "googleMapsUrl": null
     }
   },
   {
@@ -314,41 +388,6 @@
       "state": "GA",
       "zip": "31021",
       "street": "2036 Veterans Blvd",
-      "googleMapsUrl": null
-    }
-  },
-  {
-    "slug": "rosies",
-    "name": "Rosie's",
-    "category": "eat",
-    "isPremium": false,
-    "logo": "/images/businesses/rosies/logo.jpg",
-    "photos": [
-      "/images/businesses/rosies/front.jpg",
-      "/images/businesses/rosies/scoop.jpg",
-      "/images/businesses/rosies/float.jpg"
-    ],
-    "paragraphs": [
-      "Rosie's Handmade Ice Cream is a hidden gem tucked behind the historic Dublin Theatre, with a welcoming pink glow that signals something special. This small-but-mighty downtown shop serves handmade ice cream crafted with premium ingredients and bold creativity. From the cult-favorite Butter Pecan to unique flavors like Blackberry Cheesecake and Caramel Macchiato, Rosie's regularly offers something new —making each visit a sweet surprise. Customer service is as exceptional as the ice cream, delivered with warmth and personality through their signature pink window. Beyond cones, Rosie's features sundaes, floats, and inventive treats that are as delightful as they are delicious. Whether you're just discovering Rosie's or making a return trip, each dip is a taste of joy in the heart of Dublin, GA."
-    ],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "phone": null,
-      "email": null,
-      "contactName": "Bob Dunn",
-      "website": null,
-      "orderUrl": null,
-      "social": {
-        "facebook": "https://www.facebook.com/p/Rosies-Ice-Cream-100092355130976/",
-        "instagram": "@rosies.icecream.ga"
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": "108 South Monroe Street",
       "googleMapsUrl": null
     }
   },
@@ -388,76 +427,38 @@
     }
   },
   {
-    "slug": "maxs-treats",
-    "name": "Max's Treats",
+    "slug": "mission-bake-shoppe",
+    "name": "Mission Bake Shoppe",
     "category": "eat",
-    "isPremium": true,
-    "logo": "/images/businesses/maxs-treats/logo.png",
-    "bannerImage": "/images/businesses/maxs-treats/banner.jpg",
+    "logo": "/images/businesses/mission-bake-shoppe/logo.jpg",
     "photos": [
-      "/images/businesses/maxs-treats/food1.jpg",
-      "/images/businesses/maxs-treats/maxine.jpg",
-      "/images/businesses/maxs-treats/staff.png",
-      "/images/businesses/maxs-treats/food2.jpg"
-    ],
-    "description": null,
-    "paragraphs": [
-      "Max's Treats has earned a reputation for delivering more than just delicious desserts—it's a full-service catering company specializing in creating unforgettable experiences for any occasion. Founded and led by Maxine Garnto, who brings more than 30 years of culinary expertise, Max's Treats combines Southern charm with exceptional service. From weddings and corporate events to intimate family gatherings, their team provides complete catering solutions, complemented by beautifully crafted specialty cakes and desserts that have become a local favorite. Guests can also enjoy events at Max's Cottage, a charming on-site venue perfect for small parties, rehearsals, and celebrations. With a passion for food and hospitality, Max's Treats continues to be Dublin's trusted partner in making every event seamless, flavorful, and memorable."
-    ],
-    "contacts": {
-      "phone": "4789848224",
-      "email": null,
-      "contactName": "Maxine Garnto",
-      "website": null,
-      "orderUrl": null,
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "street": "1330 Lakeway Road",
-      "city": "East Dublin",
-      "state": "GA",
-      "zip": "31027",
-      "googleMapsUrl": null
-    }
-  },
-  {
-    "slug": "candace-jamaican",
-    "name": "Candace Jamaican Bar N Grill",
-    "category": "eat",
-    "isPremium": false,
-    "logo": "/images/businesses/candace-jamaican/logo.jpg",
-    "photos": [
-      "/images/businesses/candace-jamaican/drinks.jpg",
-      "/images/businesses/candace-jamaican/food.jpg",
-      "/images/businesses/candace-jamaican/staff.jpg"
+      "/images/businesses/mission-bake-shoppe/drinks.jpg",
+      "/images/businesses/mission-bake-shoppe/cakes.jpg",
+      "/images/businesses/mission-bake-shoppe/hours.jpg"
     ],
     "bannerImage": null,
     "description": "",
     "paragraphs": [
-      "Candace Jamaican Bar and Grill brings vibrant Jamaican flavors and a lively nightlife vibe to Dublin. Built from grassroots hustle, the laid-back eatery represents resilience, passion, and a deep love of community. Patrons rave about standout dishes like oxtail, curry goat, and jerk lamb chops, paired with a welcoming atmosphere and friendly service. Full portions, beautiful food presentation, imported soft drinks, weekly specials, and unique events characterize the space. The bar features a full liquor menu and all-day happy-hour specials that keep the energy alive until late. More than just a restaurant—it's a cultural and social hub that honors Jamaican culinary tradition, while nurturing community connection and opportunity."
+      "Nestled inside CURATE in the heart of downtown Dublin, Mission Bake Shoppe is a welcoming coffeehouse and bakery where Southern hospitality meets artisan quality. In its first year, the shop has earned praise for its scratch-made delights and custom espresso and matcha drinks. Signature items like the white chocolate raspberry cake, cinnamon rolls, sourdough, and homemade pretzels showcase wholesome ingredients and family-rooted baking traditions. The inviting aroma of fresh espresso fills the air, while friendly staff welcome each guest. Customers consistently rave about the warm service and melt-in-your-mouth treats served with care. Mission Bake Shoppe isn't just a place to grab a latte—it's a community gathering spot designed to inspire, refresh, and delight, one handcrafted pastry and espresso at a time."
     ],
     "contacts": {
-      "phone": "4783040100",
+      "phone": "4782786832",
+      "website": null,
       "email": null,
-      "contactName": "Pryce-Gary Forbes",
-      "website": "www.candacejamaican.com",
-      "orderUrl": "https://www.candacejamaican.com/popmenu-order/candace-jamaican-bar-and-grill/menus/main-menu",
       "social": {
-        "facebook": "https://www.facebook.com/p/Candace-Jamaican-Bar-N-Grill-61574929242002/",
-        "instagram": "@candacejamaicanbng"
+        "facebook": "https://www.facebook.com/p/Mission-Bake-Shoppe-61559544471354/",
+        "instagram": "@missionbakeshoppe"
       }
     },
     "address": {
+      "street": "213 Five Points Way",
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": "1214 N Jefferson Street, Dublin, GA",
-      "googleMapsUrl": null
+      "googleMapsUrl": ""
     }
   },
+
   {
     "slug": "downtown-dublin",
     "name": "Downtown Dublin",
