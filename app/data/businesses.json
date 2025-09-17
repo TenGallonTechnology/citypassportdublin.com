@@ -3,24 +3,31 @@
     "slug": "mission-bake-shoppe",
     "name": "Mission Bake Shoppe",
     "category": "eat",
-    "logo": "",
-    "photos": [],
+    "logo": "/images/businesses/mission-bake-shoppe/logo.jpg",
+    "photos": [
+      "/images/businesses/mission-bake-shoppe/drinks.jpg",
+      "/images/businesses/mission-bake-shoppe/cakes.jpg",
+      "/images/businesses/mission-bake-shoppe/hours.jpg"
+    ],
     "bannerImage": null,
     "description": "",
+    "paragraphs": [
+      "Nestled inside CURATE in the heart of downtown Dublin, Mission Bake Shoppe is a welcoming coffeehouse and bakery where Southern hospitality meets artisan quality. In its first year, the shop has earned praise for its scratch-made delights and custom espresso and matcha drinks. Signature items like the white chocolate raspberry cake, cinnamon rolls, sourdough, and homemade pretzels showcase wholesome ingredients and family-rooted baking traditions. The inviting aroma of fresh espresso fills the air, while friendly staff welcome each guest. Customers consistently rave about the warm service and melt-in-your-mouth treats served with care. Mission Bake Shoppe isn't just a place to grab a latte—it's a community gathering spot designed to inspire, refresh, and delight, one handcrafted pastry and espresso at a time."
+    ],
     "contacts": {
-      "phone": "478-278-6832",
-      "website": "",
-      "email": "missionbakeshoppe@proton.me",
+      "phone": "4782786832",
+      "website": null,
+      "email": null,
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/p/Mission-Bake-Shoppe-61559544471354/",
+        "instagram": "@missionbakeshoppe"
       }
     },
     "address": {
-      "street": "1100 Hillcrest Pkwy Suite B9",
-      "city": "",
-      "state": "",
-      "zip": "",
+      "street": "213 Five Points Way",
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
       "googleMapsUrl": ""
     }
   },
