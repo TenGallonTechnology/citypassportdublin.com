@@ -99,6 +99,8 @@ export interface Business {
   name: string;
   logo: string;
   bannerImage?: string | null;
+  /** Premium businesses get hero banner layout */
+  isPremium: boolean;
   category: "wellness" | "stay" | "shop" | "services" | "experience" | "eat";
   description: string;
   paragraphs: string[];

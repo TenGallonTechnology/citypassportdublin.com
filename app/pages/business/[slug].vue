@@ -3,53 +3,84 @@
     <USeparator :icon="categoryIcon" :color="categoryColor" class="mt-3 mb-0" />
 
     <div v-if="business" class="p-2 rounded-lg">
-      <!-- Hero banner with background image and overlay gradient -->
-      <div
-        class="relative mb-6 rounded-xl overflow-hidden aspect-[16/7] flex items-center justify-center"
-      >
-        <NuxtImg
-          v-if="business.bannerImage"
-          :src="business.bannerImage"
-          :alt="business.name"
-          class="absolute inset-0 w-full h-full object-cover"
-          placeholder
-          draggable="false"
-        />
+      <!-- Premium hero layout -->
+      <template v-if="isPremium && business.bannerImage">
         <div
-          class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-background/95"
-        />
-        <div class="relative z-10 max-w-md w-full px-4">
-          <UCard variant="soft" class="backdrop-blur-xl/50 bg-background/80">
-            <div class="flex flex-col items-center gap-3">
-              <UTooltip :text="business.name">
+          class="relative mb-6 rounded-xl overflow-hidden aspect-[16/7] flex items-center justify-center"
+        >
+          <NuxtImg
+            :src="business.bannerImage"
+            class="absolute inset-0 w-full h-full object-cover"
+            placeholder
+            draggable="false"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-background/95"
+          />
+          <div class="relative z-10 max-w-md w-full px-4">
+            <UCard variant="soft" class="backdrop-blur-xl/50 bg-background/80">
+              <div class="flex flex-col items-center gap-3">
                 <NuxtImg
                   :src="business.logo"
                   :alt="business.name"
-                  class="h-48 md:h-64 w-auto rounded-xl border border-white/10 object-contain shadow"
+                  class="h-48 md:h-64 w-auto rounded-xl object-contain shadow"
                   draggable="false"
                   placeholder
                 />
-              </UTooltip>
-              <p
-                v-if="business.description"
-                class="text-center text-sm opacity-80"
-              >
+                <p
+                  v-if="business.description"
+                  class="text-center text-sm opacity-80"
+                >
+                  {{ business.description }}
+                </p>
+              </div>
+            </UCard>
+          </div>
+        </div>
+
+        <section class="mb-4" v-if="business.paragraphs?.length">
+          <p
+            v-for="(para, idx) in (business as Business).paragraphs"
+            :key="idx"
+            class="mb-2 indent-4 text-justify"
+          >
+            {{ para }}
+          </p>
+        </section>
+      </template>
+
+      <!-- Non-premium compact layout -->
+      <template v-else>
+        <UCard variant="soft" class="mb-6">
+          <div class="flex flex-col md:flex-row gap-6 items-start">
+            <div
+              class="flex justify-center md:justify-start md:w-60 shrink-0 mx-auto md:mx-0"
+            >
+              <NuxtImg
+                :src="business.logo"
+                :alt="business.name"
+                class="h-40 md:h-48 w-auto rounded-xl object-contain shadow"
+                draggable="false"
+                placeholder
+              />
+            </div>
+            <div class="flex-1 w-full">
+              <p v-if="business.description" class="mb-3 text-sm opacity-80">
                 {{ business.description }}
               </p>
+              <div v-if="business.paragraphs?.length">
+                <p
+                  v-for="(para, idx) in (business as Business).paragraphs"
+                  :key="idx"
+                  class="mb-2 indent-4 text-justify"
+                >
+                  {{ para }}
+                </p>
+              </div>
             </div>
-          </UCard>
-        </div>
-      </div>
-
-      <section class="mb-4">
-        <p
-          v-for="(para, idx) in (business as Business).paragraphs"
-          :key="idx"
-          class="mb-2 indent-4 text-justify"
-        >
-          {{ para }}
-        </p>
-      </section>
+          </div>
+        </UCard>
+      </template>
 
       <UCarousel
         v-if="business.photos.length"
@@ -61,7 +92,7 @@
         class="mb-8"
         :ui="{
           // only extend item; keep default container
-          item: 'min-w-0 shrink-0 snap-start basis-[85%] sm:basis-1/2 md:basis-1/3 lg:basis-1/3 xl:basis-1/4',
+          item: 'min-w-0 shrink-0 snap-start basis-[85%] sm:basis-1/2 md:basis-1/3 ',
         }"
       >
         <div class="w-full">
@@ -280,6 +311,9 @@ const categoryColor = computed(() => {
   };
   return colors[business.value?.category ?? ""] || "neutral";
 });
+
+// Determine if business is premium (hero eligible)
+const isPremium = computed(() => !!business.value?.isPremium);
 
 watch(
   () => route.params.slug,

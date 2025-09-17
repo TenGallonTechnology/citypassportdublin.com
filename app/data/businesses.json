@@ -137,45 +137,71 @@
     "slug": "deanos",
     "name": "Deanos",
     "category": "eat",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/deanos/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "photos": [
+      "/images/businesses/deanos/tap.jpg",
+      "/images/businesses/deanos/service.jpg"
+    ],
+    "bannerImage": "/images/businesses/deanos/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "Deano's Italian, proudly owned and operated by the Shaffer family since 2009, is a downtown Dublin gem where tradition, flavor, and community come together. From the glow of the neon lights outside to the aroma of the imported Italian wood-burning oven inside, every visit feels like a warm welcome home. Known for homestyle Italian favorites, award-winning dishes, and rotating dessert specials like tiramisu, Deano's offers something for every appetite—from fresh salads and grilled fish to classic pizzas and pastas. Family-run and rooted in heart, every decision is made with care for customers, staff, and community. Whether you're celebrating a special moment or just grabbing a comforting meal, Deano's is the perfect spot for dinner, catering, or reconnecting with friends and family over unforgettable food."
+    ],
     "contacts": {
       "phone": "561-379-8510",
       "email": "deanosdublin@gmail.com",
       "contactName": "Jennifer Shaffer",
-      "website": "deanosdublin.com",
-      "orderUrl": "deanosdublin.com/order",
+      "website": "https://deanositalian.com/",
+      "orderUrl": null,
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/deanositaliandublin/",
+        "instagram": "@deanos_italian"
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "112 West Jackson Street",
+      "googleMapsUrl": null
+    }
   },
   {
     "slug": "williamsons-bakery",
     "name": "Williamson's Bakery",
     "category": "eat",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/williamsons-bakery/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "photos": [
+      "/images/businesses/williamsons-bakery/doughnuts.jpg",
+      "/images/businesses/williamsons-bakery/owner.jpg",
+      "/images/businesses/williamsons-bakery/case.jpg",
+      "/images/businesses/williamsons-bakery/assorted.jpg"
+    ],
+    "bannerImage": "/images/businesses/williamsons-bakery/banner.jpg",
+    "paragraphs": [
+      "Williamson's Bakery, centrally located in The Oaks Shopping Center, has delighted locals with its fresh, homemade baked goods for decades. A true Dublin institution for over 50 years, they start each day baking from scratch—famous for their old-fashioned doughnuts, doughnut holes, cookies, cupcakes, and savory treats like cheese straws. Founded as Blue Bird Bakery around 1927, it became Williamson's in 1965. It is now owned by Perry Williamson, who continues the legacy of heartfelt baking. Loyal customers praise the light, fluffy doughnuts and standout blueberry fritters. Whether you're craving a classic sugar-dusted doughnut or need a decorated cake for a celebration, Williamson's offers consistently delicious treats that keep happy tummies returning."
+    ],
     "description": null,
     "contacts": {
-      "phone": "478-463-5173",
-      "email": "hperryw@gmail.com",
+      "phone": "478-2723344",
+      "email": null,
       "contactName": "Perry Williamson",
-      "website": "williamsonsbakery.com",
-      "orderUrl": "williamsonsbakery.com/order",
+      "website": null,
+      "orderUrl": null,
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/williamsonsbakerydublinga/",
+        "instagram": "@williamsonbakery"
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "1634 Veterans Blvd",
+      "googleMapsUrl": null
+    }
   },
   {
     "slug": "holy-smokes",
@@ -192,7 +218,7 @@
     "description": null,
     "paragraphs": [
       "After years of winning on the BBQ competition circuit, Gary Lanton turned his passion into a full-time career, and in 2015, Holy Smokes BBQ was born. What began as a dream to bring championship-level flavor to the public quickly became a community staple and a source of pride for Dublin, Georgia.",
-      "With a win on BBQ Pitmasters and the title of Best Ribs in Georgia from the Food Network, Gary’s world-class BBQ has put his hometown on the map.",
+      "With a win on BBQ Pitmasters and the title of Best Ribs in Georgia from the Food Network, Gary's world-class BBQ has put his hometown on the map.",
       "More than just smoked meat, Holy Smokes delivers decades of experience, expert technique, and deep Southern soul. Every bite tells a story of passion, pride, and the pursuit of BBQ perfection."
     ],
     "contacts": {
@@ -228,8 +254,8 @@
     "bannerImage": "/images/businesses/lou-anns/banner.jpg",
     "description": null,
     "paragraphs": [
-      "For 58 years, Lou Ann’s Biscuits & Burgers has been a beloved part of the community known for its scratch-made biscuits, juicy burgers, and heartfelt Southern hospitality. Originally founded by Lou Ann herself, this cozy spot has always been more than a place to eat—it's where memories are made, stories are shared, and community is built.",
-      "When Gary and Dionn Lanton were given the opportunity to take over this beloved hometown favorite, they didn’t just buy a business—they inherited a legacy. Today, they continue to serve the same comfort food and warmth that generations have come to love. Lou Ann’s is about more than food. It’s about familiar faces, hometown pride, and that first bite that feels like home."
+      "For 58 years, Lou Ann's Biscuits & Burgers has been a beloved part of the community known for its scratch-made biscuits, juicy burgers, and heartfelt Southern hospitality. Originally founded by Lou Ann herself, this cozy spot has always been more than a place to eat—it's where memories are made, stories are shared, and community is built.",
+      "When Gary and Dionn Lanton were given the opportunity to take over this beloved hometown favorite, they didn't just buy a business—they inherited a legacy. Today, they continue to serve the same comfort food and warmth that generations have come to love. Lou Ann's is about more than food. It's about familiar faces, hometown pride, and that first bite that feels like home."
     ],
     "contacts": {
       "phone": "4782726478",
@@ -255,44 +281,69 @@
     "category": "eat",
     "isPremium": false,
     "logo": "/images/businesses/eden-nutrition/logo.png",
-    "photos": [],
+    "photos": [
+      "/images/businesses/eden-nutrition/smoothie.jpg",
+      "/images/businesses/eden-nutrition/service.jpg",
+      "/images/businesses/eden-nutrition/goods.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "Eden Nutrition, established in 2020, is the local go-to destination for healthy, all- natural smoothies and smoothie bowls in Dublin, GA. Located inside the Olive Branch bookstore, Eden Nutrition offers delicious meal replacements and brain-boosting fuel made with high-quality ingredients and served with a smile. Whether you need a post-workout boost or a nutritious meal substitute, their customizable menu features powerful add-ons like protein, collagen, energy enhancers, and gluten-free options. Customers can call ahead for easy pickup or enjoy the convenience of workplace delivery on Mondays. You can also shop their healthy food options like locally made granola and gluten free baking mixes. With a passion for health and community, Eden Nutrition is more than just a smoothie shop—it's a place where wellness and fellowship thrive. Stop by and discover how healthy can also be refreshing, tasty, and energizing!"
+    ],
     "contacts": {
-      "phone": "478-697-6887",
-      "email": "jclem6952@gmail.com",
+      "phone": "4783040905",
+      "email": null,
       "contactName": "John Clem",
-      "website": "edennutrition.com",
-      "orderUrl": "edennutrition.com/order",
+      "website": null,
+      "orderUrl": null,
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/edennutritiondublin/",
+        "instagram": "@edennutritiondublin"
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "2036 Veterans Blvd",
+      "googleMapsUrl": null
+    }
   },
   {
     "slug": "rosies",
     "name": "Rosie's",
     "category": "eat",
     "isPremium": false,
-    "logo": "/images/businesses/rosies/logo.png",
-    "photos": [],
+    "logo": "/images/businesses/rosies/logo.jpg",
+    "photos": [
+      "/images/businesses/rosies/front.jpg",
+      "/images/businesses/rosies/scoop.jpg",
+      "/images/businesses/rosies/float.jpg"
+    ],
+    "paragraphs": [
+      "Rosie's Handmade Ice Cream is a hidden gem tucked behind the historic Dublin Theatre, with a welcoming pink glow that signals something special. This small-but-mighty downtown shop serves handmade ice cream crafted with premium ingredients and bold creativity. From the cult-favorite Butter Pecan to unique flavors like Blackberry Cheesecake and Caramel Macchiato, Rosie's regularly offers something new —making each visit a sweet surprise. Customer service is as exceptional as the ice cream, delivered with warmth and personality through their signature pink window. Beyond cones, Rosie's features sundaes, floats, and inventive treats that are as delightful as they are delicious. Whether you're just discovering Rosie's or making a return trip, each dip is a taste of joy in the heart of Dublin, GA."
+    ],
     "bannerImage": null,
     "description": null,
     "contacts": {
-      "phone": "513-504-7586",
-      "email": "rosiesofdublin@gmail.com",
+      "phone": null,
+      "email": null,
       "contactName": "Bob Dunn",
-      "additionalContact": "Hampton Dunn",
-      "website": "rosiesofdublin.com",
-      "orderUrl": "rosiesofdublin.com/order",
+      "website": null,
+      "orderUrl": null,
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/p/Rosies-Ice-Cream-100092355130976/",
+        "instagram": "@rosies.icecream.ga"
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "108 South Monroe Street",
+      "googleMapsUrl": null
+    }
   },
   {
     "slug": "la-joya",
@@ -300,69 +351,105 @@
     "category": "eat",
     "isPremium": false,
     "logo": "/images/businesses/la-joya/logo.png",
-    "photos": [],
+    "photos": [
+      "/images/businesses/la-joya/food1.jpg",
+      "/images/businesses/la-joya/food2.jpg",
+      "/images/businesses/la-joya/staff.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "Don't let the unassuming storefront fool you! La Joya Mexican Restaurant is a cherished local spot celebrated for its generous portions of authentic Mexican cuisine and warm, family-style hospitality. From the moment guests sit down, they're greeted with fresh tortilla chips, house-made salsa, and a choice of verde and roja sauces. The menu features standout dishes like carnitas, bistec a la Mexicana, and street tacos fashioned with heart by the Castro family. One Wednesday a month, locals pack the house for Mexican hamburger day paired with a Mexican Coca-Cola or Jarritos soda. Known as a local hidden gem, La Joya delights with fresh ingredients, quick service, affordable prices, and family-friendly atmosphere— making it a standout among locals and visitors alike. La Joya is closed on Saturdays and Sundays, so make sure you visit during the week!"
+    ],
     "contacts": {
-      "phone": "478-213-1130",
-      "email": "yadirabenita@outlook.com",
+      "phone": "4782969901",
+      "email": null,
       "contactName": "Yadira Castro",
-      "website": "lajoyamexican.com",
-      "orderUrl": "lajoyamexican.com/order",
+      "website": null,
+      "orderUrl": null,
       "social": {
-        "facebook": null,
+        "facebook": "https://www.facebook.com/LaJoyaMexicanRestaurant/",
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "1501 Rice Ave. Suite A",
+      "googleMapsUrl": null
+    }
   },
   {
-    "slug": "maxines-treats",
-    "name": "Maxine's Treats",
+    "slug": "maxs-treats",
+    "name": "Max's Treats",
     "category": "eat",
-    "isPremium": false,
-    "logo": "/images/businesses/maxines-treats/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "isPremium": true,
+    "logo": "/images/businesses/maxs-treats/logo.png",
+    "bannerImage": "/images/businesses/maxs-treats/banner.jpg",
+    "photos": [
+      "/images/businesses/maxs-treats/food1.jpg",
+      "/images/businesses/maxs-treats/maxine.jpg",
+      "/images/businesses/maxs-treats/staff.png",
+      "/images/businesses/maxs-treats/food2.jpg"
+    ],
     "description": null,
+    "paragraphs": [
+      "Max's Treats has earned a reputation for delivering more than just delicious desserts—it's a full-service catering company specializing in creating unforgettable experiences for any occasion. Founded and led by Maxine Garnto, who brings more than 30 years of culinary expertise, Max's Treats combines Southern charm with exceptional service. From weddings and corporate events to intimate family gatherings, their team provides complete catering solutions, complemented by beautifully crafted specialty cakes and desserts that have become a local favorite. Guests can also enjoy events at Max's Cottage, a charming on-site venue perfect for small parties, rehearsals, and celebrations. With a passion for food and hospitality, Max's Treats continues to be Dublin's trusted partner in making every event seamless, flavorful, and memorable."
+    ],
     "contacts": {
-      "phone": "478-984-8224",
-      "email": "maxine.treats@gmail.com",
+      "phone": "4789848224",
+      "email": null,
       "contactName": "Maxine Garnto",
-      "website": "maxinestreats.com",
-      "orderUrl": "maxinestreats.com/order",
+      "website": null,
+      "orderUrl": null,
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null
+    "address": {
+      "street": "1330 Lakeway Road",
+      "city": "East Dublin",
+      "state": "GA",
+      "zip": "31027",
+      "googleMapsUrl": null
+    }
   },
   {
     "slug": "candace-jamaican",
     "name": "Candace Jamaican Bar N Grill",
     "category": "eat",
-    "isPremium": true,
-    "logo": "/images/businesses/candace-jamaican/logo.png",
+    "isPremium": false,
+    "logo": "/images/businesses/candace-jamaican/logo.jpg",
     "photos": [
       "/images/businesses/candace-jamaican/drinks.jpg",
       "/images/businesses/candace-jamaican/food.jpg",
-      "/images/businesses/candace-jamaican/entertainment.jpg"
+      "/images/businesses/candace-jamaican/staff.jpg"
     ],
-    "description": "Candace Jamaican Bar and Grill brings vibrant Jamaican flavors and a lively nightlife vibe to Dublin. Built from grassroots hustle, the laid-back eatery represents resilience, passion, and a deep love of community. Patrons rave about standout dishes like oxtail, curry goat, and jerk lamb chops, paired with a welcoming atmosphere and friendly service. Full portions, beautiful food presentation, imported soft drinks, weekly specials, and vibrant events characterize the space. The bar features a full liquor menu and all-day happy-hour specials that keep the energy alive until late. More than just a restaurant - it's a cultural and social hub that honors Jamaican culinary tradition, while nurturing community connection and opportunity.",
+    "bannerImage": null,
+    "description": "",
+    "paragraphs": [
+      "Candace Jamaican Bar and Grill brings vibrant Jamaican flavors and a lively nightlife vibe to Dublin. Built from grassroots hustle, the laid-back eatery represents resilience, passion, and a deep love of community. Patrons rave about standout dishes like oxtail, curry goat, and jerk lamb chops, paired with a welcoming atmosphere and friendly service. Full portions, beautiful food presentation, imported soft drinks, weekly specials, and unique events characterize the space. The bar features a full liquor menu and all-day happy-hour specials that keep the energy alive until late. More than just a restaurant—it's a cultural and social hub that honors Jamaican culinary tradition, while nurturing community connection and opportunity."
+    ],
     "contacts": {
-      "phone": "478.304.0100",
-      "email": "forbes.pryce@gmail.com",
+      "phone": "4783040100",
+      "email": null,
       "contactName": "Pryce-Gary Forbes",
-      "additionalContact": "Candace Forbes",
       "website": "www.candacejamaican.com",
-      "orderUrl": "www.candacejamaican.com/order",
+      "orderUrl": "https://www.candacejamaican.com/popmenu-order/candace-jamaican-bar-and-grill/menus/main-menu",
       "social": {
-        "facebook": "Candace Jamaican Bar N' Grill",
+        "facebook": "https://www.facebook.com/p/Candace-Jamaican-Bar-N-Grill-61574929242002/",
         "instagram": "@candacejamaicanbng"
       }
     },
-    "address": "1214 N Jefferson Street, Dublin, GA"
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "1214 N Jefferson Street, Dublin, GA",
+      "googleMapsUrl": null
+    }
   },
   {
     "slug": "downtown-dublin",
@@ -377,7 +464,6 @@
       "phone": "478-272-2560",
       "email": "glenda@dtdublin.com",
       "contactName": "Glenda Berry",
-      "additionalContact": "Nichole Padgett",
       "website": "dtdublin.com",
       "orderUrl": "dtdublin.com/events",
       "social": {
