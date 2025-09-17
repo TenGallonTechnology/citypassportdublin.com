@@ -4,7 +4,7 @@
 @theme static {
   --font-sans: "Public Sans", sans-serif;
 
-  --color-paper: #fdfef4;
+  --color-paper: #fdfcf9;
   --ui-bg-paper: var(--color-paper);
 }
 

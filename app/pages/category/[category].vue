@@ -21,9 +21,7 @@
             </h2>
           </div>
         </div>
-        <p class="mb-2 text-sm">
-          {{ business.description }}
-        </p>
+
         <UButton
           variant="ghost"
           :to="`/business/${business.slug}`"

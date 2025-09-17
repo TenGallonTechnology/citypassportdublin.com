@@ -3,32 +3,34 @@
     "slug": "mission-bake-shoppe",
     "name": "Mission Bake Shoppe",
     "category": "eat",
-    "isPremium": false,
-    "logo": null,
+    "logo": "",
     "photos": [],
     "bannerImage": null,
-    "description": null,
+    "description": "",
     "contacts": {
       "phone": "478-278-6832",
+      "website": "",
       "email": "missionbakeshoppe@proton.me",
-      "contactName": "Dorcas Yoder",
-      "website": null,
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
-    "address": null,
-    "orderQRCode": null,
-    "features": [],
+    "address": {
+      "street": "1100 Hillcrest Pkwy Suite B9",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "googleMapsUrl": ""
+    },
     "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      "friday": "",
+      "saturday": "",
+      "sunday": ""
     }
   },
   {
@@ -41,17 +43,20 @@
     "description": null,
     "contacts": {
       "phone": "478-595-1215",
-      "email": "richardm@companysupplyga.com",
-      "contactName": "Rich Mascaro",
       "website": "companysupplyga.com",
-      "orderUrl": "companysupplyga.com/order",
+      "email": "richardm@companysupplyga.com",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "",
+        "instagram": ""
       }
     },
-    "address": null,
-    "features": [],
+    "address": {
+      "street": "",
+      "city": "",
+      "state": "",
+      "zip": "",
+      "googleMapsUrl": ""
+    },
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -82,16 +87,9 @@
       }
     },
     "address": null,
-    "features": [],
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "friday": null,
+    "saturday": null,
+    "sunday": null
   },
   {
     "slug": "brians-subs",
@@ -113,16 +111,9 @@
       }
     },
     "address": null,
-    "features": [],
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "friday": null,
+    "saturday": null,
+    "sunday": null
   },
   {
     "slug": "deanos",
@@ -145,16 +136,9 @@
       }
     },
     "address": null,
-    "features": [],
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "friday": null,
+    "saturday": null,
+    "sunday": null
   },
   {
     "slug": "williamsons-bakery",
@@ -177,16 +161,9 @@
       }
     },
     "address": null,
-    "features": [],
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "friday": null,
+    "saturday": null,
+    "sunday": null
   },
   {
     "slug": "holy-smokes",
@@ -197,28 +174,26 @@
     "photos": [],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "After years of winning on the BBQ competition circuit, Gary Lanton turned his passion into a full-time career, and in 2015, Holy Smokes BBQ was born. What began as a dream to bring championship-level flavor to the public quickly became a community staple and a source of pride for Dublin, Georgia.",
+      "With a win on BBQ Pitmasters and the title of Best Ribs in Georgia from the Food Network, Gary’s world-class BBQ has put his hometown on the map.",
+      "More than just smoked meat, Holy Smokes delivers decades of experience, expert technique, and deep Southern soul. Every bite tells a story of passion, pride, and the pursuit of BBQ perfection."
+    ],
     "contacts": {
-      "phone": "706-833-2222",
+      "phone": "478-272-7427",
       "email": "glanton@charter.net",
       "contactName": "Gary Lanton",
-      "website": "holysmokesbbq.com",
-      "orderUrl": "holysmokesbbq.com/order",
+      "website": "www.DublinBBQ.com",
+      "orderUrl": "www.DublinBBQ.com/order",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "",
+        "instagram": "@Holy_Smokes_BBQ_Dublin"
       }
     },
-    "address": null,
-    "features": [],
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "address": "1100 Hillcrest Pkwy Suite B9",
+    "friday": null,
+    "saturday": null,
+    "sunday": null
   },
   {
     "slug": "lou-anns",
@@ -241,16 +216,9 @@
       }
     },
     "address": null,
-    "features": [],
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "friday": null,
+    "saturday": null,
+    "sunday": null
   },
   {
     "slug": "eden-nutrition",
@@ -273,16 +241,9 @@
       }
     },
     "address": null,
-    "features": [],
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "friday": null,
+    "saturday": null,
+    "sunday": null
   },
   {
     "slug": "rosies",
@@ -306,16 +267,9 @@
       }
     },
     "address": null,
-    "features": [],
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "friday": null,
+    "saturday": null,
+    "sunday": null
   },
   {
     "slug": "la-joya",
@@ -338,16 +292,9 @@
       }
     },
     "address": null,
-    "features": [],
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "friday": null,
+    "saturday": null,
+    "sunday": null
   },
   {
     "slug": "maxines-treats",
@@ -370,16 +317,9 @@
       }
     },
     "address": null,
-    "features": [],
-    "hours": {
-      "monday": null,
-      "tuesday": null,
-      "wednesday": null,
-      "thursday": null,
-      "friday": null,
-      "saturday": null,
-      "sunday": null
-    }
+    "friday": null,
+    "saturday": null,
+    "sunday": null
   },
   {
     "slug": "candace-jamaican",
@@ -406,13 +346,6 @@
       }
     },
     "address": "1214 N Jefferson Street, Dublin, GA",
-    "features": [
-      "Full Bar",
-      "Happy Hour",
-      "Live Entertainment",
-      "Authentic Jamaican Cuisine",
-      "Event Space"
-    ],
     "hours": {
       "monday": "11:00 AM - 10:00 PM",
       "tuesday": "11:00 AM - 10:00 PM",
@@ -445,7 +378,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -477,7 +409,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -510,7 +441,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -542,7 +472,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -574,7 +503,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -606,7 +534,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -639,7 +566,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -672,7 +598,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -705,7 +630,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -738,7 +662,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -770,7 +693,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -801,7 +723,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -834,7 +755,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -865,7 +785,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -898,7 +817,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -931,7 +849,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -963,7 +880,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -996,7 +912,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1028,7 +943,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1060,7 +974,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1092,7 +1005,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1124,7 +1036,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1156,7 +1067,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1189,7 +1099,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1221,7 +1130,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1254,7 +1162,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1286,7 +1193,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1319,7 +1225,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1352,7 +1257,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1384,7 +1288,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1417,7 +1320,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1450,7 +1352,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1482,7 +1383,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1515,7 +1415,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1547,7 +1446,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1579,7 +1477,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1610,7 +1507,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,
@@ -1642,7 +1538,6 @@
       }
     },
     "address": null,
-    "features": [],
     "hours": {
       "monday": null,
       "tuesday": null,

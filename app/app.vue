@@ -1,48 +1,48 @@
 <script setup lang="ts">
-import { Analytics } from "@vercel/analytics/nuxt";
-import businesses from "~/data/businesses.json";
-import { useRoute } from "vue-router";
+import { Analytics } from '@vercel/analytics/nuxt'
+import businesses from '~/data/businesses.json'
+import { useRoute } from 'vue-router'
 
-const title = "Dublin-Laurens County Chamber Community Foundation";
-const description =
-  "Uniting community leaders to build a stronger future through childcare, education, and workforce solutions.";
+const title = 'Dublin-Laurens County Chamber Community Foundation'
+const description
+  = 'Uniting community leaders to build a stronger future through childcare, education, and workforce solutions.'
 
 useHead({
-  meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],
-  link: [{ rel: "icon", href: "/favicon.ico" }],
+  meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+  link: [{ rel: 'icon', href: '/favicon.ico' }],
   htmlAttrs: {
-    lang: "en",
-  },
-});
+    lang: 'en'
+  }
+})
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: "/1.png",
-  twitterImage: "/1.png",
-  twitterCard: "summary_large_image",
-});
+  ogImage: '/1.png',
+  twitterImage: '/1.png',
+  twitterCard: 'summary_large_image'
+})
 
-const route = useRoute();
+const route = useRoute()
 
 const categories = Array.from(
-  new Set((businesses as Array<{ category: string }>).map((b) => b.category)),
-);
-const navItems = categories.map((cat) => ({
+  new Set((businesses as Array<{ category: string }>).map(b => b.category))
+)
+const navItems = categories.map(cat => ({
   label: cat.charAt(0).toUpperCase() + cat.slice(1),
   icon: useCategoryIcon(cat).value,
   to: `/category/${cat.toLowerCase()}`,
   children: (
-    businesses as Array<{ slug: string; name: string; category: string }>
+    businesses as Array<{ slug: string, name: string, category: string }>
   )
-    .filter((b) => b.category === cat)
-    .map((b) => ({
+    .filter(b => b.category === cat)
+    .map(b => ({
       label: b.name,
-      to: `/business/${b.slug}`,
-    })),
-}));
+      to: `/business/${b.slug}`
+    }))
+}))
 </script>
 
 <template>
@@ -50,7 +50,10 @@ const navItems = categories.map((cat) => ({
   <UApp>
     <UHeader mode="drawer">
       <template #title>
-        <img src="/favicon.ico" class="w-auto h-15 shrink-0" />
+        <img
+          src="/favicon.ico"
+          class="w-auto h-15 shrink-0"
+        >
       </template>
       <UNavigationMenu :items="navItems" />
       <template #body>
@@ -80,10 +83,10 @@ const navItems = categories.map((cat) => ({
           to="https://tengallon.tech"
           target="_blank"
           :ui="{
-            leadingAvatarSize: 'lg',
+            leadingAvatarSize: 'lg'
           }"
           :avatar="{
-            src: 'https://raw.githubusercontent.com/TenGallonTechnology/images/refs/heads/main/tenGallonSolid.png',
+            src: 'https://raw.githubusercontent.com/TenGallonTechnology/images/refs/heads/main/tenGallonSolid.png'
           }"
           color="neutral"
           variant="ghost"
@@ -96,34 +99,38 @@ const navItems = categories.map((cat) => ({
 <!-- Business type for use in pages and components -->
 <script lang="ts">
 export interface Business {
-  id: string;
-  name: string;
-  logo: string;
-  category: "wellness" | "stay" | "shop" | "services" | "experience" | "eat";
-  description: string;
+  name: string
+  logo: string
+  bannerImage?: string | null
+  category: 'wellness' | 'stay' | 'shop' | 'services' | 'experience' | 'eat'
+  description: string
+  paragraphs: string[]
   contacts: {
-    phone?: string;
-    website?: string;
-    facebook?: string;
-    email?: string;
-  };
+    phone?: string
+    website?: string
+    email?: string
+    social?: {
+      facebook?: string | null
+      instagram?: string | null
+    }
+  }
   address: {
-    street?: string;
-    city?: string;
-    state?: string;
-    zip?: string;
-    googleMapsUrl?: string;
-  };
+    street?: string
+    city?: string
+    state?: string
+    zip?: string
+    googleMapsUrl?: string
+  }
   hours?: {
-    monday: string;
-    tuesday: string;
-    wednesday: string;
-    thursday: string;
-    friday: string;
-    saturday: string;
-    sunday: string;
-  };
-  photos: string[];
-  slug: string;
+    monday: string
+    tuesday: string
+    wednesday: string
+    thursday: string
+    friday: string
+    saturday: string
+    sunday: string
+  }
+  photos: string[]
+  slug: string
 }
 </script>
