@@ -19,7 +19,6 @@ export default defineNuxtConfig({
 
   routeRules: {
     "/": { prerender: true },
-    "/directory": { prerender: true },
     "/business/**": { prerender: true },
     "/category/**": { prerender: true },
   },
