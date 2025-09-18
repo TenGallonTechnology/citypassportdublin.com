@@ -787,47 +787,61 @@
     }
   },
   {
-    "slug": "mail-and-more",
-    "name": "Mail & More",
-    "category": "services",
-    "isPremium": false,
-    "logo": "/images/businesses/mail-and-more/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "phone": "478-272-7676",
-      "email": "audrey@mailandmoreofdublin.com",
-      "contactName": "Audrey Hogan",
-      "website": "mailandmoreofdublin.com",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
-    }
-  },
-  {
     "slug": "georgia-first",
     "name": "Georgia First",
     "category": "services",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/georgia-first/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "photos": [
+      "/images/businesses/georgia-first/lobby.jpg",
+      "/images/businesses/georgia-first/front.jpg",
+      "/images/businesses/georgia-first/teller.jpg"
+    ],
+    "bannerImage": "/images/businesses/georgia-first/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "Are you frustrated with banks that are focused on their own profits instead of the customer's needs? Georgia First Bank is your local business and personal finance solution. Serving customers in rural Georgia since 1903, a Dublin Branch opened its doors in 2024 as a friendly and modern full-service location providing checking and savings accounts, personal, mortgage, and business loans, plus digital banking and telephone support. Georgia First combines community-focused service with modern financial tools and personalized decision-making. With dependable local decisions, relationship banking, and welcoming staff, the Dublin branch reflects Georgia First Bank's core values of trust and community commitment."
+    ],
     "contacts": {
-      "phone": "912-346-1230",
-      "email": "lcaswell@georgiafirst.bank",
+      "phone": "4784107515",
+      "email": null,
       "contactName": "Jeremy Ragan",
       "website": "georgiafirst.bank",
       "social": {
-        "facebook": null,
+        "facebook": "https://www.facebook.com/georgiafirstbank/",
+        "instagram": "@georgiafirstbank"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "303 Industrial Blvd."
+    }
+  },
+  {
+    "slug": "mail-and-more",
+    "name": "Mail & More",
+    "category": "services",
+    "isPremium": true,
+    "logo": "/images/businesses/mail-and-more/logo.png",
+    "photos": [
+      "/images/businesses/mail-and-more/storefront.jpg",
+      "/images/businesses/mail-and-more/owner.jpg",
+      "/images/businesses/mail-and-more/window.jpg"
+    ],
+    "bannerImage": "/images/businesses/mail-and-more/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "Mail & More has proudly served the Dublin community since 1997, offering a wide range of essential mailing and business services. Founded with a vision to help serve the community, the business continues to thrive under the local ownership of Audrey Hogan. Born and raised in Dublin, Audrey returned home after college to build a business rooted in family values and customer care. Mail & More is known for reliability and exceeding expectations with services like FedEx, UPS, USPS, and DHL shipping, secure mailbox rentals, professional packing, notary services, document shredding, and more. With a deep commitment to community and convenience, Mail & More continues to grow— dedicated to making life easier for every customer who walks through the door."
+    ],
+    "contacts": {
+      "phone": "4782727676",
+      "email": null,
+      "contactName": "Audrey Hogan",
+      "website": "mailandmoreofdublin.com",
+      "social": {
+        "facebook": "https://www.facebook.com/MailandMoreofDublin/",
         "instagram": null
       }
     },
@@ -835,33 +849,46 @@
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "1101-L Hillcrest Pkwy"
     }
   },
+
   {
     "slug": "tlake-landscaping",
     "name": "TLake Landscaping",
     "category": "services",
-    "isPremium": false,
-    "logo": "/images/businesses/tlake-landscaping/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "isPremium": true,
+    "logo": "/images/businesses/tlake-landscaping/logo.jpg",
+    "photos": [
+      "/images/businesses/tlake-landscaping/coxfarms.jpg",
+      "/images/businesses/tlake-landscaping/front.jpg",
+      "/images/businesses/tlake-landscaping/landscape.webp"
+    ],
+    "bannerImage": "/images/businesses/tlake-landscaping/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "T. Lake Environmental Design, founded by Tim Lake in 1990, is a full-service landscape architecture, planning, construction, and maintenance firm headquartered in East Dublin. The professionals at T. Lake deliver expert design and contracting services for a diverse client base, including industrial and office parks, hospitality and multi-family developments, public institutions, and upscale residential properties. Their work reflects a thoughtful approach to environmental design, emphasizing each space’s context, history, and how people interact with it. With decades of experience and a strong local presence, T. Lake Environmental Design continues to shape and maintain functional, beautiful landscapes across Middle Georgia."
+    ],
+    "cta": {
+      "title": "View Our Portfolio",
+      "to": "https://www.tlake.com/portfolio",
+      "icon": "i-lucide-images"
+    },
     "contacts": {
-      "phone": "478-214-6061",
-      "email": "tim@tlake.com",
+      "phone": "4782723878",
+      "email": null,
       "contactName": "Tim Lake",
       "website": "tlake.com",
       "social": {
-        "facebook": null,
+        "facebook": "https://www.facebook.com/T.LakeEnvironmentalDesign/",
         "instagram": null
       }
     },
     "address": {
-      "city": "Dublin",
+      "city": "East Dublin",
       "state": "GA",
-      "zip": "31021",
-      "street": ""
+      "zip": "31027",
+      "street": "408 Central Drive"
     }
   },
   {
