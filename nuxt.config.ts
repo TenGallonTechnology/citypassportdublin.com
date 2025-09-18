@@ -17,11 +17,11 @@ export default defineNuxtConfig({
 
   css: ["~/assets/css/main.css"],
 
-  routeRules: {
-    "/": { prerender: true },
-    "/business/**": { prerender: true },
-    "/category/**": { prerender: true },
-  },
+  // routeRules: {
+  //   "/": { prerender: true },
+  //   "/business/**": { prerender: true },
+  //   "/category/**": { prerender: true },
+  // },
 
   compatibilityDate: "2025-01-15",
   nitro: {
