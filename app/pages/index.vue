@@ -19,9 +19,9 @@ function goToCategory(cat: string) {
       class="bg-linear-to-t from-neutral to-primary-50 items-center py-10"
     >
       <img
-        src="/favicon.ico"
+        src="/images/logo.png"
         alt="Dublin-Laurens County Chamber Community Foundation"
-        class="h-10 md:h-20 w-auto mx-auto"
+        class="h-24 md:h-36 w-auto mx-auto"
       >
     </UPageHero>
 
