@@ -5,9 +5,8 @@
   --font-sans: "Public Sans", sans-serif;
 
   --color-paper: #fdfcf9;
-  --ui-bg-paper: var(--color-paper);
-}
-
-:root {
+  /* override neutral */
   --ui-bg: var(--color-paper);
 }
+
+

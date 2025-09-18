@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex items-center justify-center bg-paper">
+  <div class="min-h-screen flex items-center justify-center">
     <div class="max-w-md mx-auto text-center p-8">
       <div class="mb-8">
         <UIcon
@@ -24,21 +24,14 @@
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <UButton
           to="/"
-          variant="solid"
+          variant="soft"
           class="inline-flex items-center gap-2"
         >
           <UIcon name="i-lucide-home" class="h-4 w-4" />
           Go Home
         </UButton>
 
-        <UButton
-          to="/directory"
-          variant="outline"
-          class="inline-flex items-center gap-2"
-        >
-          <UIcon name="i-lucide-map" class="h-4 w-4" />
-          Browse Directory
-        </UButton>
+     
       </div>
 
       <div v-if="error.statusCode === 404" class="mt-8">
@@ -46,14 +39,16 @@
           Looking for a specific business? Try browsing by category:
         </p>
         <div class="flex flex-wrap gap-2 justify-center">
-          <NuxtLink
+          <UButton
             v-for="category in categories"
             :key="category"
+            variant="outline"
+            color="neutral"
             :to="`/category/${category}`"
-            class="text-xs bg-secondary/50 hover:bg-secondary text-secondary-foreground px-3 py-1 rounded-full transition-colors capitalize"
+            :icon="useCategoryIcon(category).value"
           >
             {{ category }}
-          </NuxtLink>
+          </UButton>
         </div>
       </div>
     </div>

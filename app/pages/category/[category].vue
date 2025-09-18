@@ -39,7 +39,7 @@
           :to="`/business/${business.slug}`"
           class="btn mt-2"
         >
-          View Details →
+          Jump To Page →
         </UButton>
       </div>
     </div>

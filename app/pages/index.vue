@@ -16,7 +16,7 @@ function goToCategory(cat: string) {
     <UPageHero
       reverse
       description="Discover Dublin's best places to eat, stay, shop, and experience. Your city passport starts here!"
-      class="bg-linear-to-t from-paper to-primary-50 items-center py-10"
+      class="bg-linear-to-t from-neutral to-primary-50 items-center py-10"
     >
       <img
         src="/favicon.ico"
@@ -42,7 +42,7 @@ function goToCategory(cat: string) {
         <button
           v-for="cat in categories"
           :key="cat"
-          class="bg-paper p-6 rounded-lg shadow hover:shadow-lg flex flex-col items-center justify-center cursor-pointer"
+          class="p-6 rounded-lg shadow hover:shadow-lg flex flex-col items-center justify-center cursor-pointer"
           @click="goToCategory(cat)"
         >
           <span class="text-xl font-semibold capitalize mb-2">{{ cat }}</span>

@@ -5,9 +5,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/eslint", "@nuxt/ui-pro", "@nuxt/image", "@nuxt/scripts"],
 
   ui: {
-    colorMode: {
-      preference: "light",
-    },
+    colorMode: false
   },
 
   // Enable static site generation
