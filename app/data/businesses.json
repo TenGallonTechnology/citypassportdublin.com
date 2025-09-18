@@ -489,26 +489,31 @@
     "slug": "barn-at-acorn-ridge",
     "name": "The Barn at Acorn Ridge",
     "category": "experience",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/barn-at-acorn-ridge/logo.png",
     "photos": [],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "Set among rolling hills and centuries-old live oaks, Acorn Ridge is the perfect setting for life's most treasured moments. With sweeping views and breathtaking sunsets, every celebration is wrapped in the beauty of nature's splendor.",
+      "Handcrafted by the Mixon family, the venue boasts timeless post-and-beam construction accented with modern chandeliers, custom farm tables, fruitwood chiavari chairs, and curated antique furnishings—each detail thoughtfully chosen to create a space rich in refined elegance and distinctive character.",
+      "With full planning and coordinating services, personal care is at the heart of every detail. Couples are guided seamlessly through each step of their journey, from the first consultation to the last dance beneath the stars. Acorn Ridge creates the perfect setting for an unforgettable experience - crafted with care, curated with style, and cherished forever."
+    ],
     "contacts": {
-      "phone": "478-272-4555",
-      "email": "thebarnatacornridge@gmail.com",
+      "phone": "4782724555",
+      "email": null,
       "contactName": "Tanya Mixon",
-      "website": "barnatacornridge.com",
+      "website": null,
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/thebarnatacornridge/",
+        "instagram": "@thebarnatacornridge"
       }
     },
     "address": {
-      "city": "Dublin",
+      "city": "Toomsboro",
       "state": "GA",
-      "zip": "31021",
-      "street": ""
+      "zip": "31090",
+      "street": "610 Old Toomsboro Road"
     }
   },
   {
