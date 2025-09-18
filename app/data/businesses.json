@@ -897,12 +897,26 @@
     "category": "services",
     "isPremium": false,
     "logo": "/images/businesses/lawn-squad/logo.png",
-    "photos": [],
+    "photos": [
+      "/images/businesses/lawn-squad/service.jpg",
+      "/images/businesses/lawn-squad/service2.jpg",
+      "/images/businesses/lawn-squad/service3.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "The humidity and high temperatures of Georgia can take a toll on your yard, but your landscape can meet its full potential with the professional help of Lawn Squad.",
+      "T. Lake Environmental Design has partnered with this national network to bring expert lawn care right to your doorstep. They deliver customized lawn fertilization and weed-control plans designed for lush, green yards and scheduled treatments for disease, insects, fire ants, and grubs. Lawn Squad can also take care of expanded services like aeration, overseeding, and tree and shrub care! Their locally based team offers friendly, professional service and satisfaction-guaranteed workmanship. Lawn Squad of Central Georgia stands out for its reliable, comprehensive lawn care and commitment to making your outdoor space thrive."
+    ],
+    "cta": {
+      "title": "Get A Free Quote",
+      "to": "https://www.lawnsquad.com/",
+      "icon": "i-lucide-calculator"
+    },
     "contacts": {
-      "email": "kenya@tlake.com",
+      "email": null,
       "contactName": "Tim Lake",
+      "phone": "4786547902",
       "website": "lawnsquad.com",
       "social": {
         "facebook": null,
@@ -910,10 +924,10 @@
       }
     },
     "address": {
-      "city": "Dublin",
+      "city": "East Dublin",
       "state": "GA",
-      "zip": "31021",
-      "street": ""
+      "zip": "31027",
+      "street": "408 Central Drive"
     }
   },
   {
@@ -922,16 +936,23 @@
     "category": "services",
     "isPremium": false,
     "logo": "/images/businesses/darley-law-firm/logo.png",
-    "photos": [],
+    "photos": [
+      "/images/businesses/darley-law-firm/work1.jpg",
+      "/images/businesses/darley-law-firm/storefront.jpg",
+      "/images/businesses/darley-law-firm/work2.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "Darley Law Firm, located in charming downtown Dublin, is a highly regarded law practice offering personalized legal services in real estate and business law. Darley Law provides comprehensive support for both personal and professional legal needs with deep expertise in residential and commercial real estate—from property and mortgage closings to refinances and title insurance. They also offer business law services including LLC and corporate formation, operating agreements, and resolutions. Clients appreciate their efficient approach and commitment to creating seamless, stress-free experiences. As a trusted local legal partner, Darley Law Firm is a reliable choice for Dublin-area individuals and businesses seeking responsive, knowledgeable counsel."
+    ],
     "contacts": {
-      "phone": "478-219-7329",
-      "email": "Jacob@darleyfirm.com, cbrown@darleyfirm.com",
+      "phone": "478-219-7327",
+      "email": null,
       "contactName": "Jacob Darley",
       "website": "darleyfirm.com",
       "social": {
-        "facebook": null,
+        "facebook": "https://www.facebook.com/DarleyLawFirm/",
         "instagram": null
       }
     },
@@ -939,7 +960,7 @@
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "121 West Jackson Street, Suite #101"
     }
   },
 
