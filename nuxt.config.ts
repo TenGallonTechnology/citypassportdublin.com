@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
 
   // Enable static site generation
-  // ssr: true, TODO: turn me back on for SSR
+  ssr: true,
 
   devtools: {
     enabled: true,
