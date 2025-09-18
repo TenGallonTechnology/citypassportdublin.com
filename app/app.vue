@@ -111,12 +111,17 @@ export interface Business {
     phone?: string
     website?: string
     email?: string
-    orderUrl?: string
     social?: {
       facebook?: string | null
       instagram?: string | null
     }
   }
+  /** Optional primary call-to-action displayed prominently on business page */
+  cta?: {
+    title: string
+    to: string
+    icon?: string | null
+  } | null
   address: {
     street?: string
     city?: string

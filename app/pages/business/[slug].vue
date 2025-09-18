@@ -23,6 +23,7 @@
             :src="business.bannerImage"
             class="absolute inset-0 w-full h-full object-cover"
             placeholder
+
             draggable="false"
           />
           <div
@@ -37,7 +38,7 @@
                 <NuxtImg
                   :src="business.logo"
                   :alt="business.name"
-                  class="h-48 md:h-64 w-auto rounded-xl object-contain shadow"
+                  class="h-36 sm:h-48 md:h-64 w-auto rounded-xl object-contain shadow"
                   draggable="false"
                   placeholder
                 />
@@ -127,34 +128,22 @@
           />
         </div>
       </UCarousel>
-      <!-- Call to action section if applicable -->
-      <template
-        v-if="business.category === 'eat' && business.contacts?.orderUrl"
-      >
-        <UAlert
-          title="Order Online"
-          color="primary"
-          variant="soft"
-          orientation="horizontal"
-        >
-          <template #actions>
-            <UButton
-              :href="
-                business.contacts.orderUrl.startsWith('http')
-                  ? business.contacts.orderUrl
-                  : `https://${business.contacts.orderUrl}`
-              "
-              target="_blank"
-              rel="noopener"
-              icon="i-lucide-utensils-crossed"
-              variant="solid"
-              class="text-white"
-              size="sm"
-            >
-              Order Now
-            </UButton>
-          </template>
-        </UAlert>
+      <!-- Generic Call to Action section if applicable -->
+      <template v-if="business.cta?.to && business.cta.title">
+        <div class="my-8 flex justify-center">
+          <UButton
+            :href="business.cta.to.startsWith('http') ? business.cta.to : `https://${business.cta.to}`"
+            target="_blank"
+            size="lg"
+            block
+            rel="noopener"
+            :icon="business.cta.icon || 'i-lucide-external-link'"
+            variant="solid"
+            class="w-1/2"
+          >
+            {{ business.cta.title }}
+          </UButton>
+        </div>
       </template>
       <footer class="mt-4 border-t pt-3 flex flex-col gap-2 text-sm">
         <div v-if="business.address">

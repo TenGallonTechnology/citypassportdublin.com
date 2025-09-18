@@ -22,11 +22,15 @@
       "email": "glanton@charter.net",
       "contactName": "Gary Lanton",
       "website": "www.DublinBBQ.com",
-      "orderUrl": "https://dublinbbq.com/menu",
       "social": {
         "facebook": "https://www.facebook.com/holysmokesbbqfoodtruck/",
         "instagram": "@Holy_Smokes_BBQ_Dublin"
       }
+    },
+    "cta": {
+      "title": "View Menu",
+      "to": "https://dublinbbq.com/menu",
+      "icon": "i-lucide-utensils-crossed"
     },
     "address": {
       "city": "Dublin",
@@ -58,12 +62,12 @@
       "email": null,
       "contactName": null,
       "website": "www.louannsbiscuits.com",
-      "orderUrl": null,
       "social": {
         "facebook": "https://www.facebook.com/p/Lou-Anns-100063536624786/",
         "instagram": "@louannsbiscuitsandburgers"
       }
     },
+    "cta": null,
     "address": {
       "city": "Dublin",
       "state": "GA",
@@ -94,12 +98,12 @@
       "email": "briansgiantsubs@yahoo.com",
       "contactName": "Brad Meeks",
       "website": null,
-      "orderUrl": null,
       "social": {
         "facebook": "https://www.facebook.com/briansgiantsubs/",
         "instagram": "@BriansGiantSubs"
       }
     },
+    "cta": null,
     "address": {
       "city": "Dublin",
       "state": "GA",
@@ -127,12 +131,16 @@
     "contacts": {
       "phone": "4783531655",
       "website": "companysupplyga.com",
-      "orderUrl": "https://www.companysupplyga.com/popmenu-order/company-supply/menus/menu-ordering",
       "email": "maresag@companysupplyga.com",
       "social": {
         "facebook": "https://www.facebook.com/CompanySupply/",
         "instagram": "@companysupply_ga"
       }
+    },
+    "cta": {
+      "title": "Order Online",
+      "to": "https://www.companysupplyga.com/popmenu-order/company-supply/menus/menu-ordering",
+      "icon": "i-lucide-shopping-bag"
     },
     "address": {
       "street": "107 West Jackson Street",
@@ -166,11 +174,15 @@
       "email": "richardm@companysupplyga.com",
       "contactName": "Rich Mascaro",
       "website": "https://www.crookedfingerbrewing.com",
-      "orderUrl": "https://www.crookedfingerbrewing.com/order#menu?location=dublin",
       "social": {
         "facebook": "https://www.facebook.com/p/Crooked-Finger-Brewing-61556023693192/",
         "instagram": "@crooked_finger_brewing"
       }
+    },
+    "cta": {
+      "title": "Order / Menu",
+      "to": "https://www.crookedfingerbrewing.com/order#menu?location=dublin",
+      "icon": "i-lucide-beer"
     },
     "address": {
       "street": "226 S Jefferson St",
@@ -202,12 +214,12 @@
       "email": null,
       "contactName": "Maxine Garnto",
       "website": null,
-      "orderUrl": null,
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
+    "cta": null,
     "address": {
       "street": "1330 Lakeway Road",
       "city": "East Dublin",
@@ -236,12 +248,12 @@
       "email": "deanosdublin@gmail.com",
       "contactName": "Jennifer Shaffer",
       "website": "https://deanositalian.com/",
-      "orderUrl": null,
       "social": {
         "facebook": "https://www.facebook.com/deanositaliandublin/",
         "instagram": "@deanos_italian"
       }
     },
+    "cta": null,
     "address": {
       "city": "Dublin",
       "state": "GA",
@@ -272,12 +284,12 @@
       "email": null,
       "contactName": "Perry Williamson",
       "website": null,
-      "orderUrl": null,
       "social": {
         "facebook": "https://www.facebook.com/williamsonsbakerydublinga/",
         "instagram": "@williamsonbakery"
       }
     },
+    "cta": null,
     "address": {
       "city": "Dublin",
       "state": "GA",
@@ -307,12 +319,12 @@
       "email": null,
       "contactName": "Bob Dunn",
       "website": null,
-      "orderUrl": null,
       "social": {
         "facebook": "https://www.facebook.com/p/Rosies-Ice-Cream-100092355130976/",
         "instagram": "@rosies.icecream.ga"
       }
     },
+    "cta": null,
     "address": {
       "city": "Dublin",
       "state": "GA",
@@ -342,11 +354,15 @@
       "email": null,
       "contactName": "Pryce-Gary Forbes",
       "website": "www.candacejamaican.com",
-      "orderUrl": "https://www.candacejamaican.com/popmenu-order/candace-jamaican-bar-and-grill/menus/main-menu",
       "social": {
         "facebook": "https://www.facebook.com/p/Candace-Jamaican-Bar-N-Grill-61574929242002/",
         "instagram": "@candacejamaicanbng"
       }
+    },
+    "cta": {
+      "title": "Order / Menu",
+      "to": "https://www.candacejamaican.com/popmenu-order/candace-jamaican-bar-and-grill/menus/main-menu",
+      "icon": "i-lucide-utensils-crossed"
     },
     "address": {
       "city": "Dublin",
@@ -377,12 +393,12 @@
       "email": null,
       "contactName": "John Clem",
       "website": null,
-      "orderUrl": null,
       "social": {
         "facebook": "https://www.facebook.com/edennutritiondublin/",
         "instagram": "@edennutritiondublin"
       }
     },
+    "cta": null,
     "address": {
       "city": "Dublin",
       "state": "GA",
@@ -412,12 +428,12 @@
       "email": null,
       "contactName": "Yadira Castro",
       "website": null,
-      "orderUrl": null,
       "social": {
         "facebook": "https://www.facebook.com/LaJoyaMexicanRestaurant/",
         "instagram": null
       }
     },
+    "cta": null,
     "address": {
       "city": "Dublin",
       "state": "GA",
@@ -458,33 +474,6 @@
       "googleMapsUrl": ""
     }
   },
-
-  {
-    "slug": "downtown-dublin",
-    "name": "Downtown Dublin",
-    "category": "experience",
-    "isPremium": false,
-    "logo": "/images/businesses/downtown-dublin/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "phone": "478-272-2560",
-      "email": "glenda@dtdublin.com",
-      "contactName": "Glenda Berry",
-      "website": "dtdublin.com",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
-    }
-  },
   {
     "slug": "barn-at-acorn-ridge",
     "name": "The Barn at Acorn Ridge",
@@ -517,22 +506,58 @@
     }
   },
   {
+    "slug": "downtown-dublin",
+    "name": "Downtown Dublin",
+    "category": "experience",
+    "isPremium": true,
+    "logo": "/images/businesses/downtown-dublin/logo.png",
+    "photos": [
+      "/images/businesses/downtown-dublin/market2.jpg",
+      "/images/businesses/downtown-dublin/banner.jpg",
+      "/images/businesses/downtown-dublin/carnegie.jpg",
+      "/images/businesses/downtown-dublin/market.jpg"
+    ],
+    "bannerImage": "/images/businesses/downtown-dublin/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "Downtown Dublin, Georgia, is alive with culture, history, and community connection. At its center, Theatre Dublin, a beautifully restored Art Deco landmark originally built in 1934, hosts everything from live concerts to film screenings to Broadway-style productions by Dublin Community Theatre. ",
+      "Anchoring the square, the historic Carnegie Library, built in 1904, now serves as a cultural hub and event space, preserving its legacy as one of Georgia’s earliest Carnegie libraries. Championed by the Friends of the Carnegie, a historic lecture series, educational outreach, and regional art exhibit are featured throughout the year.",
+      "The Market on Madison adds to the downtown experience with its scenic pavilion, walking trails, and award- winning Farmers Market. Along with always popular First Friday concerts during the summer, the Market is also home to the annual Farm to Table Dinner, Pig in the Park BBQ, and the Chili Cook-off and Fall Festival. It is the gathering place downtown for outdoor live music, food, art, and family fun."
+    ],
+    "contacts": {
+      "phone": "4782722560",
+      "email": null,
+      "contactName": "Glenda Berry",
+      "website": "www.downtowndublinga.com",
+      "social": {
+        "facebook": "https://www.facebook.com/downtowndublinga/",
+        "instagram": "@downtowndublin"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "314 Academy Avenue"
+    }
+  },
+  {
     "slug": "visit-dublin",
     "name": "Visit Dublin",
     "category": "experience",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/visit-dublin/logo.png",
     "photos": [],
-    "bannerImage": null,
+    "bannerImage": "/images/businesses/visit-dublin/banner.jpg",
     "description": null,
     "contacts": {
-      "phone": "478-278-4074",
-      "email": "miriam@visitdublinga.org",
+      "phone": null,
+      "email": null,
       "contactName": "Miriam Lewis",
       "website": "visitdublinga.org",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/VisitDublinGA/",
+        "instagram": "@visitdublinga"
       }
     },
     "address": {
@@ -540,6 +565,39 @@
       "state": "GA",
       "zip": "31021",
       "street": ""
+    }
+  },
+  {
+    "slug": "laurens-county-rec",
+    "name": "Laurens County Rec Dept",
+    "category": "experience",
+    "isPremium": true,
+    "logo": "/images/businesses/laurens-county-rec/logo.jpeg",
+    "photos": [
+      "/images/businesses/laurens-county-rec/expo-center.jpg",
+      "/images/businesses/laurens-county-rec/fields.jpg",
+      "/images/businesses/laurens-county-rec/field.jpg",
+      "/images/businesses/laurens-county-rec/waterpark.jpg"
+    ],
+    "bannerImage": "/images/businesses/laurens-county-rec/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "The Dublin-Laurens County Recreation Authority invites the community to discover Southern Pines Regional Park—a premier, first-class recreation complex spanning 120 acres. Born from the 1999 merger of Dublin and Laurens County’s recreation departments, the Authority offers unmatched variety: from an Ag Expo & Arena for livestock shows and rodeos to the family-favorite Southern Pines Water Park, as well as extensive athletic facilities including baseball and softball diamonds, football and soccer fields, pickleball courts, playgrounds, and walking trails. Whether hosting regional tournaments, community camps, or special events, the Authority is committed to promoting wellness, skill development, and community engagement, and continues to be a vibrant hub for residents and visitors alike."
+    ],
+    "contacts": {
+      "email": null,
+      "contactName": "Jack Walker",
+      "website": "www.dlcra.org",
+      "social": {
+        "facebook": "https://www.facebook.com/dublinlaurenscountyrecreationauthority/",
+        "instagram": "@dlcra_legacysports"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "665 Home Run Drive"
     }
   },
   {
@@ -594,31 +652,7 @@
       "street": ""
     }
   },
-  {
-    "slug": "laurens-county-rec",
-    "name": "Laurens County Rec Dept",
-    "category": "experience",
-    "isPremium": false,
-    "logo": "/images/businesses/laurens-county-rec/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "email": "malletteb@dlcra.org",
-      "contactName": "Jack Walker",
-      "website": "dlcra.org",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
-    }
-  },
+
   {
     "slug": "warriors-ranch",
     "name": "Warriors Ranch",
