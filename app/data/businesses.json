@@ -28,7 +28,7 @@
       }
     },
     "cta": {
-      "title": "View Menu",
+      "title": "Order Online",
       "to": "https://dublinbbq.com/menu",
       "icon": "i-lucide-utensils-crossed"
     },
@@ -253,7 +253,11 @@
         "instagram": "@deanos_italian"
       }
     },
-    "cta": null,
+    "cta": {
+      "title": "View Menu",
+      "to": "https://deanositalian.com/dublin-deano-s-italian-food-menu",
+      "icon": "i-lucide-utensils-crossed"
+    },
     "address": {
       "city": "Dublin",
       "state": "GA",
@@ -521,9 +525,14 @@
     "description": null,
     "paragraphs": [
       "Downtown Dublin, Georgia, is alive with culture, history, and community connection. At its center, Theatre Dublin, a beautifully restored Art Deco landmark originally built in 1934, hosts everything from live concerts to film screenings to Broadway-style productions by Dublin Community Theatre. ",
-      "Anchoring the square, the historic Carnegie Library, built in 1904, now serves as a cultural hub and event space, preserving its legacy as one of Georgia’s earliest Carnegie libraries. Championed by the Friends of the Carnegie, a historic lecture series, educational outreach, and regional art exhibit are featured throughout the year.",
+      "Anchoring the square, the historic Carnegie Library, built in 1904, now serves as a cultural hub and event space, preserving its legacy as one of Georgia's earliest Carnegie libraries. Championed by the Friends of the Carnegie, a historic lecture series, educational outreach, and regional art exhibit are featured throughout the year.",
       "The Market on Madison adds to the downtown experience with its scenic pavilion, walking trails, and award- winning Farmers Market. Along with always popular First Friday concerts during the summer, the Market is also home to the annual Farm to Table Dinner, Pig in the Park BBQ, and the Chili Cook-off and Fall Festival. It is the gathering place downtown for outdoor live music, food, art, and family fun."
     ],
+    "cta": {
+      "title": "Find Out More",
+      "to": "https://downtowndublinga.com/",
+      "icon": "i-lucide-external-link"
+    },
     "contacts": {
       "phone": "4782722560",
       "email": null,
@@ -550,9 +559,18 @@
     "photos": [],
     "bannerImage": "/images/businesses/visit-dublin/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "Founded in 2012, Visit Dublin GA is the official tourism marketing organization for Dublin and Laurens County, Georgia, dedicated to showcasing the town's events, encouraging community involvement, and celebrating local business growth.",
+      "The heart of its operations is the Dublin Visitors Center - welcoming travelers seven days a week with friendly faces, insider tips, free coffee, Wi-Fi, and even a dog park for four-legged companions. With deep local roots, Visit Dublin GA shares authentic stories of success, spotlights small businesses, fosters strong partnerships, and drives economic growth through creative promotion. By blending heart, hospitality, and genuine community pride, Visit Dublin GA ensures visitors feel like locals—and locals feel proud to share their home."
+    ],
+    "cta": {
+      "title": "Sign Up For Our Newsletter",
+      "to": "https://go.hatchl.ink/widget/form/9dyIUP8UgHPGFeKULsk6",
+      "icon": "i-lucide-newspaper"
+    },
     "contacts": {
       "phone": null,
-      "email": null,
+      "email": "info@visitdublinga.org",
       "contactName": "Miriam Lewis",
       "website": "visitdublinga.org",
       "social": {
@@ -564,9 +582,10 @@
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "102 Travel Center Blvd."
     }
   },
+
   {
     "slug": "laurens-county-rec",
     "name": "Laurens County Rec Dept",
@@ -582,7 +601,7 @@
     "bannerImage": "/images/businesses/laurens-county-rec/banner.jpg",
     "description": null,
     "paragraphs": [
-      "The Dublin-Laurens County Recreation Authority invites the community to discover Southern Pines Regional Park—a premier, first-class recreation complex spanning 120 acres. Born from the 1999 merger of Dublin and Laurens County’s recreation departments, the Authority offers unmatched variety: from an Ag Expo & Arena for livestock shows and rodeos to the family-favorite Southern Pines Water Park, as well as extensive athletic facilities including baseball and softball diamonds, football and soccer fields, pickleball courts, playgrounds, and walking trails. Whether hosting regional tournaments, community camps, or special events, the Authority is committed to promoting wellness, skill development, and community engagement, and continues to be a vibrant hub for residents and visitors alike."
+      "The Dublin-Laurens County Recreation Authority invites the community to discover Southern Pines Regional Park—a premier, first-class recreation complex spanning 120 acres. Born from the 1999 merger of Dublin and Laurens County's recreation departments, the Authority offers unmatched variety: from an Ag Expo & Arena for livestock shows and rodeos to the family-favorite Southern Pines Water Park, as well as extensive athletic facilities including baseball and softball diamonds, football and soccer fields, pickleball courts, playgrounds, and walking trails. Whether hosting regional tournaments, community camps, or special events, the Authority is committed to promoting wellness, skill development, and community engagement, and continues to be a vibrant hub for residents and visitors alike."
     ],
     "contacts": {
       "email": null,
@@ -601,29 +620,69 @@
     }
   },
   {
+    "slug": "warriors-ranch",
+    "name": "Warriors Ranch",
+    "category": "experience",
+    "isPremium": true,
+    "logo": "/images/businesses/warriors-ranch/logo.jpg",
+    "photos": [
+      "/images/businesses/warriors-ranch/owner.jpg",
+      "/images/businesses/warriors-ranch/work.jpg",
+      "/images/businesses/warriors-ranch/horse.jpg"
+    ],
+    "bannerImage": "/images/businesses/warriors-ranch/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "Warriors Wellness & Recovery Ranch is a compassionate 501(c)(3) nonprofit offering life-changing support to veterans, first responders, and their families. When these heroes give their all, Warriors Ranch is there to help them with the aftermath. At the heart of their mission are expert counseling, peer support, and holistic therapies to foster emotional recovery and build a sense of camaraderie and peace. Nestled on 19 acres, the ranch provides a serene, restorative environment for sessions ranging from PTSD treatment to family therapy, utilizing both traditional and innovative models. Whether you're seeking a safe space for healing or interested in volunteering or supporting their cause, Warriors Ranch stands as a powerful testament to community-driven well-being and hope."
+    ],
+    "cta": {
+      "title": "Donate To Help A Veteran",
+      "to": "https://buy.stripe.com/eVa3dc3Kb7VddWMaEI",
+      "icon": "i-lucide-gift"
+    },
+    "contacts": {
+      "phone": 4782791886,
+      "email": null,
+      "contactName": "Marla Roche",
+      "website": "warriorsranch.com",
+      "social": {
+        "facebook": "https://www.facebook.com/WarriorsWRRanch/",
+        "instagram": "@warriorsranch"
+      }
+    },
+    "address": null
+  },
+  {
     "slug": "laurens-county-library",
     "name": "Laurens County Library",
     "category": "experience",
     "isPremium": false,
     "logo": "/images/businesses/laurens-county-library/logo.png",
-    "photos": [],
+    "photos": [
+      "/images/businesses/laurens-county-library/childrens-center.jpg",
+      "/images/businesses/laurens-county-library/globe.jpg",
+      "/images/businesses/laurens-county-library/table.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "Serving the community since 1904, The Laurens County Library traces its roots to a Carnegie grant. Built with vision and enduring purpose, the library remains a vital hub for literacy, learning, and resources for all. Patrons benefit from engaging programs and services like the 1000 Books Before Kindergarten initiative, 3D printing, the rich archival resources of the Heritage Center, robust online tools, and support for job seekers. Online access at home or on the go offers everything from ebooks, tutoring services, to legal resources. The library's commitment is to offer inspirational tools to inspire users and foster early literacy growth. Their vision looks ahead to keep the library relevant as a generational cornerstone for learning and community enrichment."
+    ],
     "contacts": {
-      "phone": "478-290-5927",
-      "email": "bbrown@ocrl.org",
+      "phone": "4782725710",
+      "email": null,
       "contactName": "Beverly Brown",
-      "website": "laurenslibrary.org",
+      "website": "www.ocrl.org/lc-home",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/laurenscountylibrary/",
+        "instagram": "@laurenscountylibrarydublin"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "801 Bellevue Ave"
     }
   },
   {
@@ -632,77 +691,99 @@
     "category": "experience",
     "isPremium": false,
     "logo": "/images/businesses/curate/logo.png",
-    "photos": [],
+    "photos": [
+      "/images/businesses/curate/storefront.jpg",
+      "/images/businesses/curate/social1.jpg",
+      "/images/businesses/curate/social2.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "Founded in 2024 by Buffy Walker, Curate began as a step of faith that opened the door to a space where women entrepreneurs and creatives could thrive in both purpose and community.",
+      "Located in downtown Dublin's historic Mackey Perry Prior building, the once industrial warehouse has been thoughtfully transformed into a haven of inspiration. The space welcomes women into a supportive environment where they are seen, empowered, and equipped to pursue their dreams, while also fostering meaningful connections, building confidence, and providing the tools needed to thrive personally and professionally.",
+      "Today, Curate features a coffee shop, juice bar, macro meal grab-and-go, artisan marketplace, local artists gallery wall, and a private women's fitness studio. More than a business, Curate is a faith-driven movement where women champion one another, trust in God's timing, and grow in boldness—together."
+    ],
     "contacts": {
-      "phone": "478-268-2245",
-      "email": "buffy.walker@yahoo.com",
+      "phone": null,
+      "email": "buffy@curateworkspace.com",
       "contactName": "Buffy Walker",
-      "website": "curatedublin.com",
+      "website": "curateworkspace.com",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/curate.dublin/",
+        "instagram": "@curate.workspace"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "213 Five Points Way"
     }
   },
 
   {
-    "slug": "warriors-ranch",
-    "name": "Warriors Ranch",
-    "category": "experience",
-    "isPremium": false,
-    "logo": "/images/businesses/warriors-ranch/logo.png",
+    "slug": "minute-man-press",
+    "name": "Minute Man Press",
+    "category": "services",
+    "isPremium": true,
+    "logo": "/images/businesses/minute-man-press/logo.png",
     "photos": [],
-    "bannerImage": null,
+    "bannerImage": "/images/businesses/minute-man-press/banner.png",
     "description": null,
+    "paragraphs": [
+      "Minuteman Press Macon is your local one-stop shop for high-quality printing, design, promotional and mailing solutions. Whether you're a small business, nonprofit, or large corporation, we bring your brand to life with professional precision and personal service. From eye-catching business cards and banners to branded apparel, signage, and direct mail campaigns, we can handle it all—on time and on budget. Our state-of-the-art equipment ensures crisp, vibrant results, while our experienced team helps guide each project from concept to completion.",
+      "Locally owned and deeply rooted in the Middle Georgia community, we pride ourselves on building lasting relationships with our clients and supporting their growth. At Minuteman Press Macon, your success is our mission—no job is too big or too small. Stop by, call, or visit us online to see how we can help your brand stand out and make a lasting impression. We Design, Print, and Promote You!"
+    ],
     "contacts": {
-      "phone": "478-697-8651",
-      "email": "marlaroche@warriorsranch.com",
-      "contactName": "Marla Roche",
-      "website": "warriorsranch.com",
+      "email": "mmpmacon@gmail.com",
+      "phone": "4784746263",
+      "contactName": "Richie Moore",
+      "website": null,
       "social": {
         "facebook": null,
         "instagram": null
       }
     },
     "address": {
-      "city": "Dublin",
+      "city": "Macon",
       "state": "GA",
-      "zip": "31021",
-      "street": ""
+      "zip": "31210",
+      "street": "4341 Interstate Dr"
     }
   },
   {
     "slug": "skn-bar",
     "name": "Skn Bar Aesthetics & Wellness",
     "category": "services",
-    "isPremium": false,
-    "logo": "/images/businesses/skn-bar/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "isPremium": true,
+    "logo": "/images/businesses/skn-bar/logo.jpg",
+    "photos": [
+      "/images/businesses/skn-bar/staff.jpg",
+      "/images/businesses/skn-bar/lobby.jpg",
+      "/images/businesses/skn-bar/owner.jpg"
+    ],
+    "bannerImage": "/images/businesses/skn-bar/banner.jpg",
     "description": null,
+    "paragraphs": [
+      " Established in 2023, SknBar was born from a deeply personal mission: to combine 25 years of clinical expertise with a passion for healing, transformation, and community care. Dublin native and founder, Tabitha Mullis, a seasoned medical professional, envisioned more than just an aesthetic and wellness clinic—she envisioned a space for confidence, beauty, and renewal.",
+      "At SknBar, every treatment is personalized and intentional, blending advanced aesthetic technologies with holistic wellness practices. From glow-boosting facials to confidence-enhancing injectables and wellness treatments, each service is designed to help you feel radiant, refreshed, and completely restored.",
+      "Backed by clinical expertise paired with genuine care, SknBar offers a warm, client-centered experience where transformation runs deeper than skin. This is self-care redefined."
+    ],
     "contacts": {
-      "phone": "478-697-6815",
-      "email": "sknbaraaw@yahoo.com",
+      "phone": "4782055177",
+      "email": null,
       "contactName": "Tabitha Mullis",
-      "website": "sknbar.com",
+      "website": "thesknbaraesthetics.com",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/p/The-SknBar-Aesthetics-Wellness-61551896168530/",
+        "instagram": "@the_sknbar"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "110 Corporate Drive"
     }
   },
   {
@@ -834,31 +915,7 @@
       "street": ""
     }
   },
-  {
-    "slug": "minute-man-press",
-    "name": "Minute Man Press",
-    "category": "services",
-    "isPremium": false,
-    "logo": "/images/businesses/minute-man-press/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "email": "mmpmaconart@gmail.com",
-      "contactName": "Richie Moore",
-      "website": "",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
-    }
-  },
+
   {
     "slug": "emerald-city-treasures",
     "name": "Emerald City Treasures",
