@@ -14,7 +14,7 @@ const origin = requestURL.origin
 useHead({
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    { name: 'theme-color', content: '#0f766e' },
+    { name: 'theme-color', content: '#fdfcf9' },
     { name: 'author', content: 'City Passport Dublin' },
     { property: 'og:site_name', content: title },
     { name: 'twitter:card', content: 'summary_large_image' }
