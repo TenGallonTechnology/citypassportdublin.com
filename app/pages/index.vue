@@ -26,7 +26,7 @@ useHead({
     <UPageHero
       reverse
       description="Discover Dublin's best places to eat, stay, shop, and experience. Your city passport starts here!"
-      class="bg-linear-to-t from-neutral to-primary-50 items-center py-10"
+      class="bg-linear-to-t from-neutral to-primary-50 items-center py-10 hero-bg"
     >
       <img
         src="/images/vertical_logo.png"
@@ -64,3 +64,51 @@ useHead({
     </section>
   </div>
 </template>
+
+<style scoped>
+/* Hero-only background image with fade to transparent toward bottom */
+.hero-bg {
+  position: relative;
+  overflow: hidden; /* make sure pseudo elements don't spill */
+}
+.hero-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/images/hero_background.png') center/cover no-repeat;
+  z-index: 0;
+  opacity: 0.8; /* base visibility of the image */
+  pointer-events: none;
+}
+/* Gradient mask to fade image out toward the bottom so page background shows */
+.hero-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  /* Fade image into site background color (#fdfcf9) */
+  background: linear-gradient(
+    to bottom,
+    rgba(253,252,249,0) 55%,
+    rgba(253,252,249,0.60) 78%,
+    rgba(253,252,249,0.95) 92%,
+    #fdfcf9 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+/* Ensure slotted hero content stays above background + fade */
+.hero-bg > * { position: relative; z-index: 2; }
+
+@media (min-width: 768px) {
+  .hero-bg::before { opacity: 0.75; }
+  .hero-bg::after { 
+    background: linear-gradient(
+      to bottom,
+      rgba(253,252,249,0) 60%,
+      rgba(253,252,249,0.55) 80%,
+      rgba(253,252,249,0.90) 93%,
+      #fdfcf9 100%
+    ); 
+  }
+}
+</style>
