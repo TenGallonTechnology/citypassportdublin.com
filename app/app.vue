@@ -157,6 +157,8 @@ export interface Business {
   bannerImage?: string | null
   /** Premium businesses get hero banner layout */
   isPremium: boolean
+  /** Whether this business can stamp a visitor passport */
+  stampAvailable?: boolean
   category: 'wellness' | 'stay' | 'shop' | 'services' | 'experience' | 'eat'
   description: string
   paragraphs: string[]

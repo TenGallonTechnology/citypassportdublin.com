@@ -3,6 +3,7 @@
     "slug": "holy-smokes",
     "name": "Holy Smokes",
     "category": "eat",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/holy-smokes/logo.png",
     "photos": [
@@ -44,6 +45,7 @@
     "slug": "lou-anns",
     "name": "Lou Ann's Biscuits & Burgers",
     "category": "eat",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/lou-anns/logo.jpeg",
     "photos": [
@@ -79,6 +81,7 @@
     "slug": "brians-subs",
     "name": "Brian's Subs",
     "category": "eat",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/brians-subs/logo.jpg",
     "bannerImage": "/images/businesses/brians-subs/banner.jpg",
@@ -116,6 +119,7 @@
     "slug": "company-supply",
     "name": "Company Supply",
     "category": "eat",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/company-supply/logo.png",
     "bannerImage": "/images/businesses/company-supply/banner.jpg",
@@ -154,6 +158,7 @@
     "slug": "crooked-finger-brewing",
     "name": "Crooked Finger Brewing",
     "category": "eat",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/crooked-finger-brewing/logo.jpg",
     "bannerImage": "/images/businesses/crooked-finger-brewing/banner.jpg",
@@ -196,6 +201,7 @@
     "slug": "maxs-treats",
     "name": "Max's Treats",
     "category": "eat",
+    "stampAvailable": false,
     "isPremium": true,
     "logo": "/images/businesses/maxs-treats/logo.png",
     "bannerImage": "/images/businesses/maxs-treats/banner.jpg",
@@ -232,6 +238,7 @@
     "slug": "deanos",
     "name": "Deanos",
     "category": "eat",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/deanos/logo.png",
     "photos": [
@@ -270,6 +277,7 @@
     "slug": "williamsons-bakery",
     "name": "Williamson's Bakery",
     "category": "eat",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/williamsons-bakery/logo.png",
     "photos": [
@@ -306,6 +314,7 @@
     "slug": "rosies",
     "name": "Rosie's",
     "category": "eat",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/rosies/logo.jpg",
     "photos": [
@@ -341,6 +350,7 @@
     "slug": "candace-jamaican",
     "name": "Candace Jamaican Bar N Grill",
     "category": "eat",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/candace-jamaican/logo.jpg",
     "photos": [
@@ -380,6 +390,7 @@
     "slug": "eden-nutrition",
     "name": "Eden Nutrition",
     "category": "eat",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/eden-nutrition/logo.png",
     "photos": [
@@ -415,6 +426,7 @@
     "slug": "la-joya",
     "name": "La Joya Mexican Restaurant",
     "category": "eat",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/la-joya/logo.png",
     "photos": [
@@ -450,6 +462,8 @@
     "slug": "mission-bake-shoppe",
     "name": "Mission Bake Shoppe",
     "category": "eat",
+    "stampAvailable": true,
+    "isPremium": false,
     "logo": "/images/businesses/mission-bake-shoppe/logo.jpg",
     "photos": [
       "/images/businesses/mission-bake-shoppe/drinks.jpg",
@@ -483,6 +497,7 @@
     "slug": "downtown-dublin",
     "name": "Downtown Dublin",
     "category": "experience",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/downtown-dublin/logo.png",
     "photos": [
@@ -525,6 +540,7 @@
     "slug": "laurens-county-rec",
     "name": "Laurens County Rec Dept",
     "category": "experience",
+    "stampAvailable": false,
     "isPremium": true,
     "logo": "/images/businesses/laurens-county-rec/logo.jpeg",
     "photos": [
@@ -558,6 +574,7 @@
     "slug": "warriors-ranch",
     "name": "Warriors Ranch",
     "category": "experience",
+    "stampAvailable": false,
     "isPremium": true,
     "logo": "/images/businesses/warriors-ranch/logo.jpg",
     "photos": [
@@ -591,6 +608,7 @@
     "slug": "laurens-county-library",
     "name": "Laurens County Library",
     "category": "experience",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/laurens-county-library/logo.png",
     "photos": [
@@ -624,6 +642,7 @@
     "slug": "curate",
     "name": "Curate",
     "category": "experience",
+    "stampAvailable": false,
     "isPremium": false,
     "logo": "/images/businesses/curate/logo.png",
     "photos": [
@@ -660,6 +679,7 @@
     "slug": "skn-bar",
     "name": "Skn Bar Aesthetics & Wellness",
     "category": "services",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/skn-bar/logo.jpg",
     "photos": [
@@ -695,6 +715,7 @@
     "slug": "georgia-first",
     "name": "Georgia First",
     "category": "services",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/georgia-first/logo.png",
     "photos": [
@@ -728,6 +749,7 @@
     "slug": "mail-and-more",
     "name": "Mail & More",
     "category": "services",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/mail-and-more/logo.png",
     "photos": [
@@ -762,6 +784,7 @@
     "slug": "tlake-landscaping",
     "name": "TLake Landscaping",
     "category": "services",
+    "stampAvailable": false,
     "isPremium": true,
     "logo": "/images/businesses/tlake-landscaping/logo.jpg",
     "photos": [
@@ -800,6 +823,7 @@
     "slug": "lawn-squad",
     "name": "Lawn Squad Lawncare",
     "category": "services",
+    "stampAvailable": false,
     "isPremium": false,
     "logo": "/images/businesses/lawn-squad/logo.png",
     "photos": [
@@ -839,6 +863,7 @@
     "slug": "darley-law-firm",
     "name": "Darley Law Firm",
     "category": "services",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/darley-law-firm/logo.png",
     "photos": [
@@ -872,6 +897,7 @@
     "slug": "fairfield-inn",
     "name": "Fairfield Inn & Suites",
     "category": "stay",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/fairfield-inn/logo.jpg",
     "photos": [
@@ -910,6 +936,7 @@
     "slug": "curry-companies",
     "name": "Curry Companies",
     "category": "stay",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/curry-companies/logo.jpg",
     "photos": [
@@ -948,6 +975,7 @@
     "slug": "laquinta",
     "name": "LaQuinta",
     "category": "stay",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/laquinta/logo.png",
     "photos": [
@@ -981,6 +1009,7 @@
     "slug": "chelle-realty",
     "name": "Chelle Realty",
     "category": "stay",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/chelle-realty/logo.jpg",
     "photos": [
@@ -1014,6 +1043,7 @@
     "slug": "hampton-inn",
     "name": "Hampton Inn & Suites",
     "category": "stay",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/hampton-inn/logo.jpg",
     "photos": [
@@ -1049,6 +1079,7 @@
     "slug": "home-2-suites",
     "name": "Home 2 Suites",
     "category": "stay",
+    "stampAvailable": false,
     "isPremium": false,
     "logo": "/images/businesses/home-2-suites/logo.png",
     "photos": [
@@ -1085,6 +1116,7 @@
     "slug": "medical-center",
     "name": "The Medical Center",
     "category": "wellness",
+    "stampAvailable": false,
     "isPremium": true,
     "logo": "/images/businesses/medical-center/logo.png",
     "photos": [
@@ -1124,6 +1156,7 @@
     "slug": "med-spa",
     "name": "Med Spa",
     "category": "wellness",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/med-spa/logo.png",
     "photos": [
@@ -1159,6 +1192,7 @@
     "slug": "hughston-clinic",
     "name": "Hughston Clinic Orthopedics",
     "category": "wellness",
+    "stampAvailable": false,
     "isPremium": true,
     "logo": "/images/businesses/hughston-clinic/logo.jpg",
     "photos": [
@@ -1197,6 +1231,7 @@
     "slug": "fairview-fitness",
     "name": "Fairview Fitness",
     "category": "wellness",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/fairview-fitness/logo.jpg",
     "photos": [
@@ -1231,6 +1266,7 @@
     "slug": "bass-rehab",
     "name": "Bass Rehab",
     "category": "wellness",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/bass-rehab/logo.png",
     "photos": [
@@ -1266,6 +1302,7 @@
     "slug": "eyesight-associates",
     "name": "Dublin Eye Associates",
     "category": "wellness",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/eyesight-associates/logo.jpg",
     "photos": [
@@ -1300,6 +1337,7 @@
     "slug": "georgia-hospice",
     "name": "Georgia Hospice Care",
     "category": "wellness",
+    "stampAvailable": false,
     "isPremium": true,
     "logo": "/images/businesses/georgia-hospice/logo.png",
     "photos": [
@@ -1335,6 +1373,7 @@
     "slug": "dublin-yoga",
     "name": "Dublin Yoga & Pilates",
     "category": "wellness",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/dublin-yoga/logo.png",
     "photos": [
@@ -1373,6 +1412,7 @@
     "slug": "medicine-cabinet",
     "name": "The Medicine Cabinet",
     "category": "wellness",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/medicine-cabinet/logo.png",
     "photos": [
@@ -1407,6 +1447,7 @@
     "slug": "emerald-city-treasures",
     "name": "Emerald City Treasures",
     "category": "shop",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/emerald-city-treasures/logo.jpg",
     "photos": [
@@ -1441,6 +1482,7 @@
     "slug": "bar-bridal",
     "name": "Bar Bridal",
     "category": "shop",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/bar-bridal/logo.jpg",
     "photos": [
@@ -1476,6 +1518,7 @@
     "slug": "smiths-jewelry",
     "name": "Smith's Jewelry",
     "category": "shop",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/smiths-jewelry/logo.jpg",
     "photos": [
@@ -1509,6 +1552,7 @@
     "slug": "plum-alley",
     "name": "Plum Alley",
     "category": "shop",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/plum-alley/logo.png",
     "photos": [
@@ -1544,6 +1588,7 @@
     "slug": "roche-farm-garden",
     "name": "Roche Farm & Garden",
     "category": "shop",
+    "stampAvailable": true,
     "isPremium": true,
     "logo": "/images/businesses/roche-farm-garden/logo.png",
     "photos": [
@@ -1577,6 +1622,7 @@
     "slug": "sir-shop",
     "name": "Sir Shop",
     "category": "shop",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/sir-shop/logo.jpg",
     "photos": [
@@ -1610,6 +1656,7 @@
     "slug": "olive-branch",
     "name": "The Olive Branch",
     "category": "shop",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/olive-branch/logo.jpg",
     "photos": [
@@ -1643,6 +1690,7 @@
     "slug": "emma-laura",
     "name": "Emma Laura",
     "category": "shop",
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/emma-laura/logo.jpg",
     "photos": [
@@ -1683,6 +1731,7 @@
     "slug": "colleens-china",
     "name": "Colleen's China",
     "category": "shop",
+    "stampAvailable": false,
     "isPremium": false,
     "logo": "/images/businesses/colleens-china/logo.png",
     "photos": [

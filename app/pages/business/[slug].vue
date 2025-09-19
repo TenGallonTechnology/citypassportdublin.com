@@ -4,6 +4,21 @@
     :key="slug"
     class="max-w-7xl mx-auto"
   >
+    <!-- Passport Stamp Availability Badge -->
+    <div
+      v-if="business?.stampAvailable"
+      class="fixed z-40 top-20 right-4 md:top-24 md:right-8"
+    >
+      <UTooltip text="Please ask us to stamp your passport" :delay-duration="200" >
+        <div class="relative group">
+          <UIcon
+            name="i-mdi-check-decagram"
+            class="text-yellow-500 dark:text-yellow-400 drop-shadow-lg h-12 w-12"
+          />
+          <span class="sr-only">Passport stamp available</span>
+        </div>
+      </UTooltip>
+    </div>
     <USeparator
       :icon="categoryIcon"
       :color="categoryColor"

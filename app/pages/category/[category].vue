@@ -9,6 +9,14 @@
       <span v-else-if="category === 'services'">Local Services</span>
       <span v-else>{{ category }} Local</span>
     </h1>
+    <div class="flex items-center gap-2 mb-4 text-sm text-muted-foreground">
+      <UIcon
+        name="i-mdi-check-decagram"
+        class="text-yellow-500 dark:text-yellow-400 h-5 w-5"
+      />
+      <span> = Please ask us to stamp your passport</span>
+    </div>
+
     <div
       v-if="filtered.length === 0"
       class="text-center py-10"
@@ -28,8 +36,18 @@
             :src="business.logo"
           />
           <div>
-            <h2 class="text-lg font-semibold">
+            <h2 class="text-lg font-semibold flex items-center gap-2">
               {{ business.name }}
+              <UTooltip
+              :delay-duration="200"
+                v-if="business.stampAvailable"
+                text="Please ask us to stamp your passport"
+              >
+                <UIcon
+                  name="i-mdi-check-decagram"
+                  class="text-yellow-500 dark:text-yellow-400 h-5 w-5"
+                />
+              </UTooltip>
             </h2>
           </div>
         </div>
