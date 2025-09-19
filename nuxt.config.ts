@@ -17,18 +17,17 @@ export default defineNuxtConfig({
 
   css: ["~/assets/css/main.css"],
 
-  // routeRules: {
-  //   "/": { prerender: true },
-  //   "/business/**": { prerender: true },
-  //   "/category/**": { prerender: true },
-  // },
+  routeRules: {
+    "/": { prerender: true },
+    "/business/**": { prerender: true },
+    "/category/**": { prerender: true },
+  },
 
   compatibilityDate: "2025-01-15",
   nitro: {
     prerender: {
       routes: [
         "/",
-        "/directory",
         // Generate all business detail pages
         ...businesses.map((business: any) => `/business/${business.slug}`),
         // Generate all category pages

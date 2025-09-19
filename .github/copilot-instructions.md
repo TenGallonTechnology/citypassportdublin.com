@@ -13,7 +13,7 @@ Concise, project-specific instructions for AI assistants contributing to this re
 2. Build step reads the file to generate prerender route list (category + each business slug). Adding a business requires: valid `slug`, `category` (lowercase), and optional fields. Missing fields should safely render (code guards for null/undefined).
 3. Navigation structure is recomputed on each render from the JSON (no caching layer). Category uniqueness via `new Set` over `category` field.
 4. `useCategoryIcon(category)` composable returns a computed icon class. If adding new categories, update this composable and ensure matching lowercase category in data.
-5. Page routing relies on Nuxt's file-based routes: `business/[slug].vue`, `category/[category].vue`, and `directory.vue`.
+5. Page routing relies on Nuxt's file-based routes: `business/[slug].vue`, `category/[category].vue`.
 
 ## Conventions
 - Categories: always lowercase in data; UI capitalization handled in templates.

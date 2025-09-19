@@ -867,7 +867,7 @@
     "bannerImage": "/images/businesses/tlake-landscaping/banner.jpg",
     "description": null,
     "paragraphs": [
-      "T. Lake Environmental Design, founded by Tim Lake in 1990, is a full-service landscape architecture, planning, construction, and maintenance firm headquartered in East Dublin. The professionals at T. Lake deliver expert design and contracting services for a diverse client base, including industrial and office parks, hospitality and multi-family developments, public institutions, and upscale residential properties. Their work reflects a thoughtful approach to environmental design, emphasizing each space’s context, history, and how people interact with it. With decades of experience and a strong local presence, T. Lake Environmental Design continues to shape and maintain functional, beautiful landscapes across Middle Georgia."
+      "T. Lake Environmental Design, founded by Tim Lake in 1990, is a full-service landscape architecture, planning, construction, and maintenance firm headquartered in East Dublin. The professionals at T. Lake deliver expert design and contracting services for a diverse client base, including industrial and office parks, hospitality and multi-family developments, public institutions, and upscale residential properties. Their work reflects a thoughtful approach to environmental design, emphasizing each space's context, history, and how people interact with it. With decades of experience and a strong local presence, T. Lake Environmental Design continues to shape and maintain functional, beautiful landscapes across Middle Georgia."
     ],
     "cta": {
       "title": "View Our Portfolio",
@@ -967,16 +967,28 @@
     "slug": "fairfield-inn",
     "name": "Fairfield Inn & Suites",
     "category": "stay",
-    "isPremium": false,
-    "logo": "/images/businesses/fairfield-inn/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "isPremium": true,
+    "logo": "/images/businesses/fairfield-inn/logo.jpg",
+    "photos": [
+      "/images/businesses/fairfield-inn/conference.jpg",
+      "/images/businesses/fairfield-inn/pool.jpg",
+      "/images/businesses/fairfield-inn/storefront.jpg"
+    ],
+    "bannerImage": "/images/businesses/fairfield-inn/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "Fairfield Inn & Suites by Marriott Dublin delivers a relaxing and convenient stay just off I-16 near Exit 51 and is conveniently located about five minutes from downtown Dublin and adjacent to Dublin-Laurens Recreation Center. Guests start each morning with a complimentary hot breakfast featuring scrambled eggs, sausage, oatmeal, fresh fruit, and yogurt—all served in a welcoming setting. The hotel offers thoughtful amenities: free high-speed Wi-Fi, a seasonal outdoor pool, 24-hour fitness center, business center and meeting spaces, on-site laundry, and even electric vehicle charging. Guest rooms are equipped with refrigerators, microwaves, coffee makers, and modern TVs with streaming options. Whether you're visiting for business or leisure, Fairfield Inn & Suites provides comfort, value, and a strategic location that makes exploring Dublin effortless."
+    ],
+    "cta": {
+      "title": "Book Your Stay",
+      "to": "https://www.marriott.com/en-us/hotels/dbnfi-fairfield-inn-and-suites-dublin/overview/",
+      "icon": "i-lucide-bed"
+    },
     "contacts": {
-      "phone": "478-277-0333",
-      "email": "christine.pate@marriott.com",
+      "phone": "4782770333",
+      "email": null,
       "contactName": "Christine Pate",
-      "website": "marriott.com/fairfield-dublin",
+      "website": "https://www.marriott.com/en-us/hotels/dbnfi-fairfield-inn-and-suites-dublin/overview/",
       "social": {
         "facebook": null,
         "instagram": null
@@ -986,7 +998,111 @@
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "620 Pinehill Road"
+    }
+  },
+  {
+    "slug": "curry-companies",
+    "name": "Curry Companies",
+    "category": "stay",
+    "isPremium": true,
+    "logo": "/images/businesses/curry-companies/logo.jpg",
+    "photos": [
+      "/images/businesses/curry-companies/office.jpg",
+      "/images/businesses/curry-companies/fountain.jpg",
+      "/images/businesses/curry-companies/firepit.jpg"
+    ],
+    "bannerImage": "/images/businesses/curry-companies/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "Founded in 1902, Curry Companies has proudly served Middle Georgia with four generations of family ownership. What began as a small insurance agency has grown into a full-service real estate and property management firm, trusted for integrity, expertise, and community commitment. Over the decades, Curry Companies has developed residential subdivisions, self-storage facilities, apartments, shopping centers, and historic renovations in downtown Dublin, while continuing to provide tailored insurance services and expert real estate guidance. With deep roots and unmatched local knowledge, Curry Companies is dedicated to helping clients live, invest, and enjoy in the communities they call home. From insurance protection to property management and real estate development, Curry Companies remains a name synonymous with service and trust."
+    ],
+    "cta": {
+      "title": "View Our Listings",
+      "to": "https://curryrealestate.com/residential-real-estate/",
+      "icon": "i-lucide-home"
+    },
+    "contacts": {
+      "phone": "4782722335",
+      "email": null,
+      "contactName": "Will Curry",
+      "website": "currycompanies.com",
+      "social": {
+        "facebook": "https://www.facebook.com/currycompanies/",
+        "instagram": "@currycompanies"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "1825 Veterans Blvd"
+    }
+  },
+  {
+    "slug": "laquinta",
+    "name": "LaQuinta",
+    "category": "stay",
+    "isPremium": true,
+    "logo": "/images/businesses/laquinta/logo.png",
+    "photos": [
+      "/images/businesses/laquinta/storefront.jpg",
+      "/images/businesses/laquinta/pool.jpg",
+      "/images/businesses/laquinta/storefront2.jpg"
+    ],
+    "bannerImage": "/images/businesses/laquinta/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "Since opening in 2007, LaQuinta has welcomed guests from across Georgia, the U.S., and beyond—offering warm Southern hospitality and unbeatable value. What truly sets it apart is the exceptional staff: friendly, professional, and dedicated to making every stay enjoyable. Guests enjoy an outstanding product at a fair price, including comfortable rooms, excellent service, and the only indoor heated pool in town. The hotel is ideally located near local businesses, ball fields, shopping, restaurants, and area attractions—making it perfect for both business and leisure travel. Each morning begins with a delicious hot country breakfast, served with a smile. Whether you're visiting for work or play, this hotel is committed to delivering comfort, convenience, and a welcoming atmosphere that feels like home."
+    ],
+    "contacts": {
+      "phone": "4782723110",
+      "email": null,
+      "contactName": "Dana Kinzler",
+      "website": "wyndhamhotels.com/laquinta/dublin-georgia/la-quinta-dublin/overview",
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "101 Travel Center Blvd"
+    }
+  },
+  {
+    "slug": "chelle-realty",
+    "name": "Chelle Realty",
+    "category": "stay",
+    "isPremium": true,
+    "logo": "/images/businesses/chelle-realty/logo.jpg",
+    "photos": [
+      "/images/businesses/chelle-realty/staff1.jpg",
+      "/images/businesses/chelle-realty/staff2.jpg",
+      "/images/businesses/chelle-realty/sign.jpg"
+    ],
+    "bannerImage": "/images/businesses/chelle-realty/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "CHELLE Realty is a full-service, independent real estate company deeply rooted in community and client care. Based locally at 524 Academy Avenue, the firm serves all of Georgia, guiding buyers and sellers through residential, commercial, and investment real estate with expertise and personalized attention. Founded by Michelle Baird, her team of experienced agents and brokers are leaders in community service and volunteerism while remaining grounded in local knowledge and customer satisfaction. In addition to sales, the company now offers property management services through a dedicated Income Property Specialist. Chelle Realty is known for their professionalism, responsiveness, and tailored support—highlighting a true hometown feel with modern tools. Whether you're buying, selling, or renting, Chelle Realty delivers trusted service backed by results."
+    ],
+    "contacts": {
+      "phone": "4783040499",
+      "email": null,
+      "contactName": "Michelle Baird",
+      "website": "chellerealtyllc.com",
+      "social": {
+        "facebook": "https://www.facebook.com/chellerealtyllc/",
+        "instagram": "@chelle_realty_llc"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "524 Academy Ave"
     }
   },
   {
@@ -994,15 +1110,24 @@
     "name": "Hampton Inn & Suites",
     "category": "stay",
     "isPremium": false,
-    "logo": "/images/businesses/hampton-inn/logo.png",
-    "photos": [],
+    "logo": "/images/businesses/hampton-inn/logo.jpg",
+    "photos": [
+      "/images/businesses/hampton-inn/desk.jpg",
+      "/images/businesses/hampton-inn/storefront.jpg",
+      "/images/businesses/hampton-inn/table.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "Nestled just off Interstate 16, Hampton Inn & Suites Dublin offers a welcoming home-away-from-home for travelers visiting Dublin, Georgia. Whether you're in town for business, family visits, or exploring the area's local attractions, the hotel combines comfort, convenience, and genuine hospitality.",
+      "Each room and suite is thoughtfully designed with modern touches, including free Wi‐Fi, cozy bedding, and spacious bathrooms, ensuring every guest feels at ease. Start your day with Hampton's signature hot breakfast before taking a dip in the seasonal outdoor pool, enjoying a workout in the fitness center, or exploring Dublin's charming shops and restaurants.",
+      "With attentive staff and amenities designed for both work and relaxation, Hampton Inn & Suites Dublin makes every stay effortless and memorable— where visitors feel like part of the community from the moment they arrive."
+    ],
     "contacts": {
-      "phone": "478-205-5740",
-      "email": "philpatel1962@gmail.com",
-      "contactName": "Phil and Melanie Patel",
-      "website": "hilton.com/hampton-dublin",
+      "phone": "4782466055",
+      "email": null,
+      "contactName": "Phil Patel",
+      "website": "hilton.com",
       "social": {
         "facebook": null,
         "instagram": null
@@ -1012,33 +1137,7 @@
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
-    }
-  },
-  {
-    "slug": "laquinta",
-    "name": "LaQuinta",
-    "category": "stay",
-    "isPremium": false,
-    "logo": "/images/businesses/laquinta/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "phone": "478-272-3110",
-      "email": "dana.laquinta@yahoo.com",
-      "contactName": "Dana Kinzler",
-      "website": "laquinta.com/dublin",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
+      "street": "103 Travel Center Blvd"
     }
   },
   {
@@ -1047,14 +1146,23 @@
     "category": "stay",
     "isPremium": false,
     "logo": "/images/businesses/home-2-suites/logo.png",
-    "photos": [],
+    "photos": [
+      "/images/businesses/home-2-suites/room.jpg",
+      "/images/businesses/home-2-suites/storefront.jpg",
+      "/images/businesses/home-2-suites/firepit.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "Established in 2024, Home2 Suites by Hilton offers guests a true home away from home. Welcoming travelers from all walks of life, this modern 92-room extended stay hotel combines warm hospitality with thoughtful service to create a comfortable, inviting experience for both short visits and longer stays.",
+      "Located just off I-16 at Exit 51, the locally owned and operated Home2 Suites by Hilton is Dublin's newest hotel and the only extended stay property in the area. Spacious suites feature kitchenettes, complimentary Wi-Fi, and cozy living spaces designed for convenience and comfort. Guests enjoy a complimentary breakfast each morning, access to a fitness center, and an outdoor pool with grills for relaxing gatherings.",
+      "Proudly serving visitors to Dublin, Home2 Suites by Hilton is dedicated to providing clean accommodations and an engaging guest experience where everyone feels they truly belong."
+    ],
     "contacts": {
-      "phone": "478-205-5464",
-      "email": "marybeth.turner@hilton.com",
+      "phone": "4782055464",
+      "email": null,
       "contactName": "MaryBeth Turner",
-      "website": "hilton.com/home2suites-dublin",
+      "website": "hilton.com",
       "social": {
         "facebook": null,
         "instagram": null
@@ -1064,59 +1172,7 @@
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
-    }
-  },
-  {
-    "slug": "curry-companies",
-    "name": "Curry Companies",
-    "category": "stay",
-    "isPremium": false,
-    "logo": "/images/businesses/curry-companies/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "phone": "478-278-3691",
-      "email": "will@currycompanies.com",
-      "contactName": "Will Curry",
-      "website": "currycompanies.com",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
-    }
-  },
-  {
-    "slug": "chelle-realty",
-    "name": "Chelle Realty",
-    "category": "stay",
-    "isPremium": false,
-    "logo": "/images/businesses/chelle-realty/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "phone": "478-595-2501",
-      "email": "buyandsellwithchelle@gmail.com",
-      "contactName": "Michelle Baird",
-      "website": "chellerealty.com",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
+      "street": "105 Travel Center Blvd"
     }
   },
 
@@ -1124,14 +1180,27 @@
     "slug": "medical-center",
     "name": "The Medical Center",
     "category": "wellness",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/medical-center/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "photos": [
+      "/images/businesses/medical-center/desk.jpg",
+      "/images/businesses/medical-center/staff.jpg",
+      "/images/businesses/medical-center/bp.jpg"
+    ],
+    "bannerImage": "/images/businesses/medical-center/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "Since 1964, the Medical Center has been more than just a family practice clinic—it's been a trusted partner in the health and well-being of the community. When you visit for a regularly scheduled appointment or for urgent care, you see a physician every time. Centrally located at 908 Hillcrest Parkway, their dedicated team of family practice physicians and staff provide compassionate, comprehensive care six days a week. Whether it's a routine wellness check, an urgent care visit, X-rays, MRI, cardiac tests, or labwork, patients can count on attentive service in a welcoming environment.",
+      "With extended weekday and weekend hours and a focus on prevention as well as treatment, the Medical Center is committed to keeping families healthy at every stage of life. Their mission is simple: to make quality healthcare accessible for all of Dublin and surrounding communities."
+    ],
+    "cta": {
+      "title": "Meet Our Providers",
+      "to": "https://www.dublinmedicalcenter.com/meet-our-providers/",
+      "icon": "i-lucide-square-user"
+    },
     "contacts": {
-      "phone": "478-279-4885",
-      "email": "nmayo@dublinmedicalcenter.com",
+      "phone": "478.272.7411",
+      "email": null,
       "contactName": "Tracie McDaniel",
       "website": "dublinmedicalcenter.com",
       "social": {
@@ -1143,103 +1212,141 @@
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "908 Hillcrest Parkway"
     }
   },
   {
     "slug": "med-spa",
     "name": "Med Spa",
     "category": "wellness",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/med-spa/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "photos": [
+      "/images/businesses/med-spa/treatment.jpg",
+      "/images/businesses/med-spa/storefront.jpg",
+      "/images/businesses/med-spa/staff.jpg"
+    ],
+    "bannerImage": "/images/businesses/med-spa/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "Established in 2006, MedSpa Dublin has been a trusted name in the community for delivering luxurious aesthetic services with a focus on personal care and professional expertise. The spa offers a serene escape where clients enjoy personalized treatments administered by well-trained, certified providers—ensuring every visit feels both indulgent and effective.",
+      "Specializing in non-surgical, anti-aging solutions and a wide range of aesthetic treatments—from Botox and dermal fillers to chemical peels, laser therapies, and renewing facials—MedSpa Dublin customizes each service to suit individual goals and skin concerns.",
+      "With a dedication to warm, confidential care paired with cutting-edge techniques, MedSpa Dublin stands as the premier destination for refined self-care and beauty."
+    ],
     "contacts": {
-      "phone": "478-290-0488",
-      "email": "ginajmoses@gmail.com",
+      "phone": "4782758346",
+      "email": null,
       "contactName": "Gina Moses",
-      "website": "dublinmedspa.com",
+      "website": "www.medspadublin.com",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/medspadublin/",
+        "instagram": "@medspa_dublin"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "2400 Bellevue Rd, Suite 11"
     }
   },
   {
     "slug": "hughston-clinic",
     "name": "Hughston Clinic Orthopedics",
     "category": "wellness",
-    "isPremium": false,
-    "logo": "/images/businesses/hughston-clinic/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "isPremium": true,
+    "logo": "/images/businesses/hughston-clinic/logo.jpg",
+    "photos": [
+      "/images/businesses/hughston-clinic/work.jpg",
+      "/images/businesses/hughston-clinic/work2.jpg",
+      "/images/businesses/hughston-clinic/work3.jpg",
+      "/images/businesses/hughston-clinic/work4.jpg"
+    ],
+    "bannerImage": "/images/businesses/hughston-clinic/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "At Hughston Clinic, we provide superior, patient-centered orthopaedic care as part of a physician-owned, multi-specialty group. Our mission is to improve lives, strengthen community health, and shape the future of medicine.",
+      "We offer an integrated system of research, education, and treatment that puts patients first. With Centers of Excellence in spine, upper and lower extremities, trauma, and total joint replacement, our award-winning care is delivered by specialty-trained physicians and dedicated healthcare professionals focused on one goal— our patients.",
+      "Hughston's vertically integrated practice combines outstanding facilities, innovative technology, and strong corporate support to maximize efficiency, streamline cost, and provide affordable healthcare without sacrificing quality.",
+      "Dr. Dustin Gay and Dr. Heath Richter proudly serve as team physicians for the Macon Mayhem, Trinity Christian School, East Laurens Schools, West Laurens Schools, and Johnson County Schools. Whether on the sidelines or in the clinic, we're committed to helping our local community stay healthy, active, and strong."
+    ],
+
     "contacts": {
-      "phone": "706-575-0977",
-      "email": "ewilliams@hughston.com",
+      "phone": "4783531166",
+      "email": null,
       "contactName": "Erin Williams",
-      "website": "hughston.com",
+      "website": "https://THC-GA.lnk.to/DublinDS",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/hughstonclinicdublin/",
+        "instagram": "@hughstonclinic"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "100 Medical Drive, Suite 400"
     }
   },
   {
     "slug": "fairview-fitness",
     "name": "Fairview Fitness",
     "category": "wellness",
-    "isPremium": false,
-    "logo": "/images/businesses/fairview-fitness/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "isPremium": true,
+    "logo": "/images/businesses/fairview-fitness/logo.jpg",
+    "photos": [
+      "/images/businesses/fairview-fitness/bench.jpg",
+      "/images/businesses/fairview-fitness/pulldown.jpg",
+      "/images/businesses/fairview-fitness/treadmill.jpg",
+      "/images/businesses/fairview-fitness/storefront.jpg"
+    ],
+    "bannerImage": "/images/businesses/fairview-fitness/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "Established in 1986, Fairview Fitness Center has proudly remained the longest-standing fitness facility in Dublin and Laurens County. Known for its all-inclusive, family-oriented environment, the center offers a welcoming space where health and community go hand in hand. Whether guests are new or established, the team finds joy in helping every member pursue a healthier, more vibrant life—because living your best life starts with feeling your best. Open to the public and operating 24/7, Fairview Fitness Center caters to all interests and fitness levels. From a refreshing indoor pool and relaxing sauna to energizing group fitness classes and racquetball courts, there's something for everyone. Committed to excellence for nearly four decades, Fairview Fitness Center continues to set the standard as the area's premier location for health, fitness, and wellness."
+    ],
     "contacts": {
-      "phone": "478-595-9804",
-      "email": "jaybailey@hotmail.com",
+      "phone": "4783531900",
+      "email": null,
       "contactName": "Jay Bailey",
       "website": "fairviewfitness.com",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/p/Fairview-Fitness-Center-100063492764380/",
+        "instagram": "@fairviewfitness24"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "200 Industrial Blvd"
     }
   },
   {
     "slug": "bass-rehab",
     "name": "Bass Rehab",
     "category": "wellness",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/bass-rehab/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "photos": [
+      "/images/businesses/bass-rehab/rehab1.jpg",
+      "/images/businesses/bass-rehab/rehab2.jpg",
+      "/images/businesses/bass-rehab/staff.jpg"
+    ],
+    "bannerImage": "/images/businesses/bass-rehab/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "Bass Physical Therapy and Rehabilitation Center, Inc., founded in 1965 by Charles E. Bass, Sr., is one of Georgia's pioneering private physical therapy clinics. Beyond his dedication to healthcare, Mr. Bass was deeply involved in community fundraisers and charitable initiatives, including supporting the creation of Laurens Memorial Hospital's first ICU. He passionately demonstrated a deep commitment to the community—a legacy that lives on today.",
+      "Now in its third generation, Bass Physical Therapy remains a family owned and operated business dedicated to serving Dublin and Laurens County with the same care and personal touch that has defined it for six decades.",
+      "Proudly serving their community, the Bass family is honored to uphold a legacy of compassionate care and heartfelt service—dedicated to supporting the health and well-being of every patient for years to come."
+    ],
     "contacts": {
-      "phone": "478-272-7494",
-      "email": "dbass1223@gmail.com",
+      "phone": "4782727494",
+      "email": null,
       "contactName": "Denise Bass",
-      "website": "bassrehab.com",
+      "website": "www.bassphysicaltherapy.com",
       "social": {
-        "facebook": null,
+        "facebook": "https://www.facebook.com/BassPTRehab/",
         "instagram": null
       }
     },
@@ -1247,7 +1354,76 @@
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "101 Fairview Park Drive"
+    }
+  },
+  {
+    "slug": "eyesight-associates",
+    "name": "Dublin Eye Associates",
+    "category": "wellness",
+    "isPremium": true,
+    "logo": "/images/businesses/eyesight-associates/logo.jpg",
+    "photos": [
+      "/images/businesses/eyesight-associates/scope.jpg",
+      "/images/businesses/eyesight-associates/service.jpg",
+      "/images/businesses/eyesight-associates/glasses.jpg",
+      "/images/businesses/eyesight-associates/service2.jpg"
+    ],
+    "bannerImage": "/images/businesses/eyesight-associates/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "For more than four decades, Dublin Eye Associates has provided trusted, comprehensive eye care to families across Middle Georgia. This locally owned practice offers expert ophthalmology and optometry services—from routine eye exams and custom glasses to advanced treatment and surgeries for cataracts, glaucoma, and LASIK. Need a new pair of readers or sunglasses? Walk in and try them on at their optical shop. With a full-service optical center on-site and an ambulatory surgery center, patients benefit from seamless, thoughtful care delivered by a diverse team of specialists. Dublin Eye Associates blends professional expertise, personalized service, and modern convenience, making it a trusted partner in preserving vision and enhancing eye health for the Dublin community and beyond."
+    ],
+    "contacts": {
+      "phone": "4782725933",
+      "email": null,
+      "contactName": "John Williams / Clark Dailey",
+      "website": "dublineyeassociates.com",
+      "social": {
+        "facebook": "https://www.facebook.com/dublinoptical/",
+        "instagram": "@dublineyeassociates"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "2400 Bellevue Road, Suite 18"
+    }
+  },
+  {
+    "slug": "georgia-hospice",
+    "name": "Georgia Hospice Care",
+    "category": "wellness",
+    "isPremium": true,
+    "logo": "/images/businesses/georgia-hospice/logo.png",
+    "photos": [
+      "/images/businesses/georgia-hospice/photo.jpg",
+      "/images/businesses/georgia-hospice/vet.jpg",
+      "/images/businesses/georgia-hospice/care.png"
+    ],
+    "bannerImage": "/images/businesses/georgia-hospice/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "Serving Dublin and surrounding counties, Georgia Hospice Care is a trusted choice for families seeking clinical excellence with comfort, compassion, and dignity.",
+      "We serve with love and provide the highest level of care during the end-of-life journey, creating meaningful experiences for our patients and families. Across all 159 counties in our state, we provide care wherever our patients call home.",
+      "We are proud to be a USA Today Top Workplace - a distinction based solely on employee feedback on company culture. Our care team holds a CMS 5-Star Rating for Hospice Quality of Care and Patient/Caregiver Experience. We offer specialty programs like Dementia Capable Care and We Honor Veterans, and we exceed the national benchmark for visits in the last seven days of life so we can be present with our patients and families when they need us most."
+    ],
+    "contacts": {
+      "email": null,
+      "phone": "8884287348",
+      "contactName": "Ashlee Vickers",
+      "website": "georgiahospicecare.com",
+      "social": {
+        "facebook": "www.facebook.com/GeorgiaHospiceCare/",
+        "instagram": null
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "1111 Hillcrest Parkway, Suite C"
     }
   },
   {
@@ -1256,75 +1432,36 @@
     "category": "wellness",
     "isPremium": false,
     "logo": "/images/businesses/dublin-yoga/logo.png",
-    "photos": [],
+    "photos": [
+      "/images/businesses/dublin-yoga/mat.jpg",
+      "/images/businesses/dublin-yoga/stretch.jpg",
+      "/images/businesses/dublin-yoga/staff.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "Dublin Yoga and Pilates is a premier destination for mindful movement and holistic wellness in downtown Dublin, Georgia. Founded by certified instructor Jordan Willis, the studio offers a diverse range of classes designed to nurture strength, flexibility, and inner balance. From dynamic Vinyasa flows and core-focused Pilates to soothing Yin yoga and energetic Hip-Hop Happy Hour sessions, every class welcomes participants of all skill levels in a supportive, inclusive environment. Dublin Yoga and Pilates blends purpose with motion to help students cultivate physical vitality and mental clarity. Whether seeking stress relief, improved mobility, or community connection, clients benefit from experienced instructors who guide and inspire. The studio invites locals and visitors alike to discover the transformative power of mindful movement and leave feeling energized and centered."
+    ],
+    "cta": {
+      "title": "View Class Schedule",
+      "to": "https://www.dublinyogaandpilates.com/schedule",
+      "icon": "i-lucide-calendar"
+    },
     "contacts": {
-      "phone": "843-789-0330",
-      "email": "jordangwillis16@gmail.com",
+      "phone": "8437890330",
+      "email": null,
       "contactName": "Jordan Willis",
-      "website": "dublinyoga.com",
+      "website": "www.dublinyogaandpilates.com",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/p/Dublin-Yoga-and-Pilates-61576197303538/",
+        "instagram": "@dublinyogaandpilates"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
-    }
-  },
-  {
-    "slug": "eyesight-associates",
-    "name": "Eyesight Associates",
-    "category": "wellness",
-    "isPremium": false,
-    "logo": "/images/businesses/eyesight-associates/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "phone": "478-484-3292",
-      "email": "jgw@dublineyeassociates.com; clark@dublineyeassociate.com",
-      "contactName": "John Williams / Clark Dailey",
-      "website": "dublineyeassociates.com",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
-    }
-  },
-  {
-    "slug": "georgia-hospice",
-    "name": "Georgia Hospice Care",
-    "category": "wellness",
-    "isPremium": false,
-    "logo": "/images/businesses/georgia-hospice/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "email": "Ashlee.vickers@georgiahospicecare.com",
-      "contactName": "Ashlee Vickers",
-      "website": "georgiahospicecare.com",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
+      "street": "128 W Jackson Street"
     }
   },
   {
@@ -1333,16 +1470,23 @@
     "category": "wellness",
     "isPremium": false,
     "logo": "/images/businesses/medicine-cabinet/logo.png",
-    "photos": [],
+    "photos": [
+      "/images/businesses/medicine-cabinet/mail.jpg",
+      "/images/businesses/medicine-cabinet/pharma.jpg",
+      "/images/businesses/medicine-cabinet/staff.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "The Medicine Cabinet of Dublin is a locally owned pharmacy offering a full suite of modern conveniences and personalized care. Their drive-thru window ensures quick service, while free prescription delivery and an easy online refill system make managing medications effortless—from home or on the go. The pharmacy also features expert compounding services, allowing them to customize injected, oral solutions, and encapsulated medications for specialized needs. In-store you find a variety of wound care supplies, specialty vitamins, and high quality CBD products. The Medicine Cabinet pharmacy excels in providing tailored, high-tech pharmaceutical care with warmth and reliability."
+    ],
     "contacts": {
-      "phone": "912-381-3968",
-      "email": "geoffmeeks@medcab.com",
+      "phone": "4782721822",
+      "email": null,
       "contactName": "Geoffrey Meeks",
-      "website": "medcab.com",
+      "website": "medcab.org",
       "social": {
-        "facebook": null,
+        "facebook": "https://www.facebook.com/p/The-Medicine-Cabinet-Of-Dublin-100039222437515/",
         "instagram": null
       }
     },
@@ -1350,9 +1494,10 @@
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "1819 Rice Ave"
     }
   },
+
   {
     "slug": "emerald-city-treasures",
     "name": "Emerald City Treasures",

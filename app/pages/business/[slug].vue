@@ -145,27 +145,8 @@
           </UButton>
         </div>
       </template>
-      <footer class="mt-4 border-t pt-3 flex flex-col gap-2 text-sm">
-        <div v-if="business.address">
-          <UIcon name="i-lucide-pin" />
-          <strong>Address:</strong>
-          <p>{{ business.address.street }}</p>
-          <p>
-            {{ business.address.city }}, {{ business.address.state }}
-            {{ business.address.zip }}
-          </p>
-          <a
-            v-if="business.address.googleMapsUrl"
-            :href="business.address.googleMapsUrl"
-            target="_blank"
-            rel="noopener"
-            class="link mt-1 inline-block"
-          >View on Google Maps</a>
-        </div>
-
-        <div v-if="business.contacts">
-          <UIcon name="i-lucide-info" />
-          <strong>Contact:</strong>
+      <USeparator class="mt-4"> <UIcon name="i-lucide-link" /> Connect With Us</USeparator>
+       <div v-if="business.contacts">
           <div class="flex flex-wrap gap-3 mt-1 justify-around w-full">
             <UButton
               v-if="business.contacts.phone"
@@ -238,12 +219,30 @@
             </UButton>
           </div>
         </div>
-      </footer>
+        <div v-if="business.address">
+          <UIcon name="i-lucide-map-pin-house" />
+          <strong>Address:</strong>
+          <p>{{ business.address.street }}</p>
+          <p>
+            {{ business.address.city }}, {{ business.address.state }}
+            {{ business.address.zip }}
+          </p>
+          <a
+            v-if="business.address.googleMapsUrl"
+            :href="business.address.googleMapsUrl"
+            target="_blank"
+            rel="noopener"
+            class="link mt-1 inline-block"
+          >View on Google Maps</a>
+        </div>
+
+       
+
 
       <div class="fixed bottom-4 left-0 right-0 pointer-events-none">
         <div class="container max-w-xl mx-auto px-4">
           <div
-            class="bg-background/90 backdrop-blur-sm rounded-full shadow-lg flex items-center p-2 pointer-events-auto"
+            class="bg-white/65 backdrop-blur-md rounded-full shadow-xl flex items-center p-2 pointer-events-auto"
           >
             <UButton
               :disabled="!prevSlug"
