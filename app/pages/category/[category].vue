@@ -50,9 +50,10 @@
 import { useRoute } from 'vue-router'
 import type { Business } from '~/app.vue'
 import businesses from '~/data/businesses.json'
+import { useHead, useRequestURL } from '#imports'
 
 const route = useRoute()
-const category = route.params.category as string
+let category = route.params.category as string
 
 // Get valid categories from the data
 const validCategories = Array.from(
@@ -60,15 +61,26 @@ const validCategories = Array.from(
 )
 
 // Check if the category is valid
-if (!validCategories.includes(category)) {
+if (!validCategories.includes(category as Business['category'])) {
   throw createError({
     statusCode: 404,
     statusMessage: 'Category not found'
   })
 }
 
+// Now safely narrow the type
+category = category as Business['category']
+
 const filtered = (businesses as unknown as Array<Business>).filter(
-  b => b.category === category
+  (b) => b.category === category
 )
 const categoryIcon = useCategoryIcon(category)
+
+// Canonical URL for category pages
+const requestURL = useRequestURL()
+useHead({
+  link: [
+    { rel: 'canonical', href: `${requestURL.origin}/category/${category}` }
+  ]
+})
 </script>

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import businesses from '~/data/businesses.json'
 import { useRouter } from 'vue-router'
+import { useHead, useRequestURL } from '#imports'
 
 const router = useRouter()
 const categories = Array.from(new Set((businesses as { category: string }[]).map(b => b.category)))
@@ -9,10 +10,19 @@ const counts = Object.fromEntries(categories.map(cat => [cat, (businesses as { c
 function goToCategory(cat: string) {
   router.push(`/category/${cat}`)
 }
+
+// Canonical for root + hidden semantic paragraph
+const requestURL = useRequestURL()
+useHead({
+  link: [
+    { rel: 'canonical', href: requestURL.origin + '/' }
+  ]
+})
 </script>
 
 <template>
   <div>
+    <p class="sr-only">Explore categories of Dublin Georgia local businesses including wellness, places to stay, shopping, services, unique experiences, and dining to plan your visit.</p>
     <UPageHero
       reverse
       description="Discover Dublin's best places to eat, stay, shop, and experience. Your city passport starts here!"

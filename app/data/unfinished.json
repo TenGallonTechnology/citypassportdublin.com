@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "barn-at-acorn-ridge",
+    "name": "The Barn at Acorn Ridge",
+    "category": "experience",
+    "isPremium": true,
+    "logo": "/images/businesses/barn-at-acorn-ridge/logo.png",
+    "photos": [],
+    "bannerImage": null,
+    "description": null,
+    "paragraphs": [
+      "Set among rolling hills and centuries-old live oaks, Acorn Ridge is the perfect setting for life's most treasured moments. With sweeping views and breathtaking sunsets, every celebration is wrapped in the beauty of nature's splendor.",
+      "Handcrafted by the Mixon family, the venue boasts timeless post-and-beam construction accented with modern chandeliers, custom farm tables, fruitwood chiavari chairs, and curated antique furnishings—each detail thoughtfully chosen to create a space rich in refined elegance and distinctive character.",
+      "With full planning and coordinating services, personal care is at the heart of every detail. Couples are guided seamlessly through each step of their journey, from the first consultation to the last dance beneath the stars. Acorn Ridge creates the perfect setting for an unforgettable experience - crafted with care, curated with style, and cherished forever."
+    ],
+    "contacts": {
+      "phone": "4782724555",
+      "email": null,
+      "contactName": "Tanya Mixon",
+      "website": null,
+      "social": {
+        "facebook": "https://www.facebook.com/thebarnatacornridge/",
+        "instagram": "@thebarnatacornridge"
+      }
+    },
+    "address": {
+      "city": "Toomsboro",
+      "state": "GA",
+      "zip": "31090",
+      "street": "610 Old Toomsboro Road"
+    }
+  },
+  {
+    "slug": "minute-man-press",
+    "name": "Minute Man Press",
+    "category": "services",
+    "isPremium": true,
+    "logo": "/images/businesses/minute-man-press/logo.png",
+    "photos": [],
+    "bannerImage": "/images/businesses/minute-man-press/banner.png",
+    "description": null,
+    "paragraphs": [
+      "Minuteman Press Macon is your local one-stop shop for high-quality printing, design, promotional and mailing solutions. Whether you're a small business, nonprofit, or large corporation, we bring your brand to life with professional precision and personal service. From eye-catching business cards and banners to branded apparel, signage, and direct mail campaigns, we can handle it all—on time and on budget. Our state-of-the-art equipment ensures crisp, vibrant results, while our experienced team helps guide each project from concept to completion.",
+      "Locally owned and deeply rooted in the Middle Georgia community, we pride ourselves on building lasting relationships with our clients and supporting their growth. At Minuteman Press Macon, your success is our mission—no job is too big or too small. Stop by, call, or visit us online to see how we can help your brand stand out and make a lasting impression. We Design, Print, and Promote You!"
+    ],
+    "contacts": {
+      "email": "mmpmacon@gmail.com",
+      "phone": "4784746263",
+      "contactName": "Richie Moore",
+      "website": null,
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": {
+      "city": "Macon",
+      "state": "GA",
+      "zip": "31210",
+      "street": "4341 Interstate Dr"
+    }
+  },
+  {
+    "slug": "visit-dublin",
+    "name": "Visit Dublin",
+    "category": "experience",
+    "isPremium": true,
+    "logo": "/images/businesses/visit-dublin/logo.png",
+    "photos": [],
+    "bannerImage": "/images/businesses/visit-dublin/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "Founded in 2012, Visit Dublin GA is the official tourism marketing organization for Dublin and Laurens County, Georgia, dedicated to showcasing the town's events, encouraging community involvement, and celebrating local business growth.",
+      "The heart of its operations is the Dublin Visitors Center - welcoming travelers seven days a week with friendly faces, insider tips, free coffee, Wi-Fi, and even a dog park for four-legged companions. With deep local roots, Visit Dublin GA shares authentic stories of success, spotlights small businesses, fosters strong partnerships, and drives economic growth through creative promotion. By blending heart, hospitality, and genuine community pride, Visit Dublin GA ensures visitors feel like locals—and locals feel proud to share their home."
+    ],
+    "cta": {
+      "title": "Sign Up For Our Newsletter",
+      "to": "https://go.hatchl.ink/widget/form/9dyIUP8UgHPGFeKULsk6",
+      "icon": "i-lucide-newspaper"
+    },
+    "contacts": {
+      "phone": null,
+      "email": "info@visitdublinga.org",
+      "contactName": "Miriam Lewis",
+      "website": "visitdublinga.org",
+      "social": {
+        "facebook": "https://www.facebook.com/VisitDublinGA/",
+        "instagram": "@visitdublinga"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "102 Travel Center Blvd."
+    }
+  }
+]

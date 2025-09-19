@@ -10,6 +10,25 @@
       class="mt-3 mb-0"
     />
 
+    <!-- Primary page heading (visually hidden for layout preservation, present for SEO & accessibility) -->
+    <h1 class="sr-only">{{ business.name }}</h1>
+
+    <!-- Hidden (screen-reader only) breadcrumb navigation for semantic context -->
+    <nav
+      aria-label="Breadcrumb"
+      class="sr-only"
+    >
+      <ol>
+        <li><NuxtLink to="/">Home</NuxtLink></li>
+        <li v-if="business?.category">
+          <NuxtLink :to="`/category/${business.category}`">
+            {{ business?.category ? business.category.charAt(0).toUpperCase() + business.category.slice(1) : '' }}
+          </NuxtLink>
+        </li>
+        <li aria-current="page">{{ business?.name }}</li>
+      </ol>
+    </nav>
+
     <div
       v-if="business"
       class="p-2 rounded-lg"
@@ -290,7 +309,7 @@
 </template>
 
 <script setup lang="ts">
-import { useSeoMeta } from '#imports'
+import { useSeoMeta, useHead, useRequestURL } from '#imports'
 import { useRoute, useRouter } from 'vue-router'
 import businesses from '~/data/businesses.json'
 import { ref, watch, computed } from 'vue'
@@ -368,20 +387,57 @@ function goTo(targetSlug: string | null | undefined) {
   if (!targetSlug) return
   router.push({ name: 'business-slug', params: { slug: targetSlug } })
 }
+// Canonical + origin helpers
+const requestURL = useRequestURL()
+const origin = computed(() => requestURL.origin)
+const canonicalUrl = computed(() =>
+  business.value?.slug ? `${origin.value}/business/${business.value.slug}` : origin.value
+)
 
+// Main SEO meta (reactive via functions)
 useSeoMeta({
-  title: business.value?.name
-    ? `${business.value.name} | Dublin Passport`
-    : 'Business | Dublin Passport',
-  description:
+  title: () =>
+    business.value?.name
+      ? `${business.value.name} | Dublin Passport`
+      : 'Business | Dublin Passport',
+  description: () =>
     business.value?.description || 'Discover local businesses in Dublin.',
-  ogTitle: business.value?.name
-    ? `${business.value.name} | Dublin Passport`
-    : 'Business | Dublin Passport',
-  ogDescription:
+  ogTitle: () =>
+    business.value?.name
+      ? `${business.value.name} | Dublin Passport`
+      : 'Business | Dublin Passport',
+  ogDescription: () =>
     business.value?.description || 'Discover local businesses in Dublin.',
-  ogImage: business.value?.photos?.[0] || '/favicon.ico',
-  twitterImage: business.value?.photos?.[0] || '/favicon.ico',
-  twitterCard: 'summary_large_image'
+  ogImage: () => business.value?.logo || '/favicon.ico',
+  twitterImage: () => business.value?.logo || '/favicon.ico',
+  twitterCard: 'summary_large_image',
+  // Use a supported og:type; fallback to 'website' (specialized local business type not in provided union)
+  ogType: 'website',
+  ogUrl: () => canonicalUrl.value,
+  robots: 'index, follow',
+  ogLocale: 'en_US',
+  twitterTitle: () =>
+    business.value?.name
+      ? `${business.value.name} | Dublin Passport`
+      : 'Business | Dublin Passport',
+  twitterDescription: () =>
+    business.value?.description || 'Discover local businesses in Dublin.'
+})
+
+// Additional head: canonical link + multiple og:image (beyond first)
+useHead(() => {
+  const additionalImages = (business.value?.photos || []).slice(1, 5)
+  return {
+    link: [
+      {
+        rel: 'canonical',
+        href: canonicalUrl.value
+      }
+    ],
+    meta: [
+      // Additional og:image tags
+      ...additionalImages.map(src => ({ property: 'og:image', content: src }))
+    ]
+  }
 })
 </script>

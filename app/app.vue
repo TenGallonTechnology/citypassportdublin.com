@@ -2,17 +2,29 @@
 import { Analytics } from '@vercel/analytics/nuxt'
 import businesses from '~/data/businesses.json'
 import { useRoute } from 'vue-router'
+import { useRequestURL } from '#imports'
 
 const title = 'City Passport Dublin'
-const description
-  = 'Discover the best local businesses in Dublin, GA with City Passport Dublin. Explore top-rated restaurants, shops, services, and experiences to make the most of your visit or stay.'
+const description = 'Discover the best local businesses in Dublin, GA with City Passport Dublin. Explore top-rated restaurants, shops, services, and experiences to make the most of your visit or stay.'
+
+// Derive origin (SSR safe). Will be empty client-side before hydration if not SSR.
+const requestURL = useRequestURL()
+const origin = requestURL.origin
 
 useHead({
-  meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1' }],
-  link: [{ rel: 'icon', href: '/favicon.ico' }],
-  htmlAttrs: {
-    lang: 'en'
-  }
+  meta: [
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'theme-color', content: '#0f766e' },
+    { name: 'author', content: 'City Passport Dublin' },
+    { property: 'og:site_name', content: title },
+    { name: 'twitter:card', content: 'summary_large_image' }
+  ],
+  link: [
+    { rel: 'icon', href: '/favicon.ico' },
+    { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }
+  ],
+  htmlAttrs: { lang: 'en' },
+  titleTemplate: (chunk?: string) => (chunk ? `${chunk} · City Passport Dublin` : title)
 })
 
 useSeoMeta({
@@ -20,9 +32,8 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: '/1.png',
-  twitterImage: '/1.png',
-  twitterCard: 'summary_large_image'
+  ogImage: '/images/logo.png',
+  twitterImage: '/images/logo.png'
 })
 
 const route = useRoute()
@@ -43,6 +54,45 @@ const navItems = categories.map(cat => ({
       to: `/business/${b.slug}`
     }))
 }))
+
+// Structured data: Organization, WebSite, Category ItemList
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': `${origin}/#org`,
+  name: 'City Passport Dublin',
+  url: origin,
+  logo: `${origin}/images/logo.png`
+}
+
+const webSiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': `${origin}/#website`,
+  url: origin,
+  name: 'City Passport Dublin',
+  publisher: { '@id': `${origin}/#org` }
+}
+
+const categoryListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Business Categories',
+  itemListElement: categories.map((cat, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: cat,
+    url: `${origin}/category/${cat}`
+  }))
+}
+
+useHead({
+  script: [
+    { type: 'application/ld+json', innerHTML: JSON.stringify(organizationSchema) },
+    { type: 'application/ld+json', innerHTML: JSON.stringify(webSiteSchema) },
+    { type: 'application/ld+json', innerHTML: JSON.stringify(categoryListSchema) }
+  ]
+})
 </script>
 
 <template>
@@ -52,6 +102,7 @@ const navItems = categories.map(cat => ({
       <template #title>
         <img
           src="/images/logo.png"
+          alt="City Passport Dublin logo"
           class="w-auto h-13 shrink-0"
         >
       </template>
@@ -66,6 +117,8 @@ const navItems = categories.map(cat => ({
     </UHeader>
 
     <UMain>
+      <!-- Hidden intro paragraph for semantic context / keyword support -->
+      <p class="sr-only">City Passport Dublin is your curated directory of local restaurants, lodging, wellness services, retail shops, professional services, and unique experiences in Dublin, Georgia.</p>
       <NuxtPage :key="route.fullPath" />
     </UMain>
 

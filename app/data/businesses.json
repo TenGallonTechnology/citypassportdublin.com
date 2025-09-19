@@ -478,37 +478,7 @@
       "googleMapsUrl": ""
     }
   },
-  {
-    "slug": "barn-at-acorn-ridge",
-    "name": "The Barn at Acorn Ridge",
-    "category": "experience",
-    "isPremium": true,
-    "logo": "/images/businesses/barn-at-acorn-ridge/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "paragraphs": [
-      "Set among rolling hills and centuries-old live oaks, Acorn Ridge is the perfect setting for life's most treasured moments. With sweeping views and breathtaking sunsets, every celebration is wrapped in the beauty of nature's splendor.",
-      "Handcrafted by the Mixon family, the venue boasts timeless post-and-beam construction accented with modern chandeliers, custom farm tables, fruitwood chiavari chairs, and curated antique furnishings—each detail thoughtfully chosen to create a space rich in refined elegance and distinctive character.",
-      "With full planning and coordinating services, personal care is at the heart of every detail. Couples are guided seamlessly through each step of their journey, from the first consultation to the last dance beneath the stars. Acorn Ridge creates the perfect setting for an unforgettable experience - crafted with care, curated with style, and cherished forever."
-    ],
-    "contacts": {
-      "phone": "4782724555",
-      "email": null,
-      "contactName": "Tanya Mixon",
-      "website": null,
-      "social": {
-        "facebook": "https://www.facebook.com/thebarnatacornridge/",
-        "instagram": "@thebarnatacornridge"
-      }
-    },
-    "address": {
-      "city": "Toomsboro",
-      "state": "GA",
-      "zip": "31090",
-      "street": "610 Old Toomsboro Road"
-    }
-  },
+
   {
     "slug": "downtown-dublin",
     "name": "Downtown Dublin",
@@ -548,41 +518,6 @@
       "state": "GA",
       "zip": "31021",
       "street": "314 Academy Avenue"
-    }
-  },
-  {
-    "slug": "visit-dublin",
-    "name": "Visit Dublin",
-    "category": "experience",
-    "isPremium": true,
-    "logo": "/images/businesses/visit-dublin/logo.png",
-    "photos": [],
-    "bannerImage": "/images/businesses/visit-dublin/banner.jpg",
-    "description": null,
-    "paragraphs": [
-      "Founded in 2012, Visit Dublin GA is the official tourism marketing organization for Dublin and Laurens County, Georgia, dedicated to showcasing the town's events, encouraging community involvement, and celebrating local business growth.",
-      "The heart of its operations is the Dublin Visitors Center - welcoming travelers seven days a week with friendly faces, insider tips, free coffee, Wi-Fi, and even a dog park for four-legged companions. With deep local roots, Visit Dublin GA shares authentic stories of success, spotlights small businesses, fosters strong partnerships, and drives economic growth through creative promotion. By blending heart, hospitality, and genuine community pride, Visit Dublin GA ensures visitors feel like locals—and locals feel proud to share their home."
-    ],
-    "cta": {
-      "title": "Sign Up For Our Newsletter",
-      "to": "https://go.hatchl.ink/widget/form/9dyIUP8UgHPGFeKULsk6",
-      "icon": "i-lucide-newspaper"
-    },
-    "contacts": {
-      "phone": null,
-      "email": "info@visitdublinga.org",
-      "contactName": "Miriam Lewis",
-      "website": "visitdublinga.org",
-      "social": {
-        "facebook": "https://www.facebook.com/VisitDublinGA/",
-        "instagram": "@visitdublinga"
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": "102 Travel Center Blvd."
     }
   },
 
@@ -721,36 +656,6 @@
     }
   },
 
-  {
-    "slug": "minute-man-press",
-    "name": "Minute Man Press",
-    "category": "services",
-    "isPremium": true,
-    "logo": "/images/businesses/minute-man-press/logo.png",
-    "photos": [],
-    "bannerImage": "/images/businesses/minute-man-press/banner.png",
-    "description": null,
-    "paragraphs": [
-      "Minuteman Press Macon is your local one-stop shop for high-quality printing, design, promotional and mailing solutions. Whether you're a small business, nonprofit, or large corporation, we bring your brand to life with professional precision and personal service. From eye-catching business cards and banners to branded apparel, signage, and direct mail campaigns, we can handle it all—on time and on budget. Our state-of-the-art equipment ensures crisp, vibrant results, while our experienced team helps guide each project from concept to completion.",
-      "Locally owned and deeply rooted in the Middle Georgia community, we pride ourselves on building lasting relationships with our clients and supporting their growth. At Minuteman Press Macon, your success is our mission—no job is too big or too small. Stop by, call, or visit us online to see how we can help your brand stand out and make a lasting impression. We Design, Print, and Promote You!"
-    ],
-    "contacts": {
-      "email": "mmpmacon@gmail.com",
-      "phone": "4784746263",
-      "contactName": "Richie Moore",
-      "website": null,
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Macon",
-      "state": "GA",
-      "zip": "31210",
-      "street": "4341 Interstate Dr"
-    }
-  },
   {
     "slug": "skn-bar",
     "name": "Skn Bar Aesthetics & Wellness",
@@ -1639,19 +1544,26 @@
     "slug": "roche-farm-garden",
     "name": "Roche Farm & Garden",
     "category": "shop",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/roche-farm-garden/logo.png",
-    "photos": [],
-    "bannerImage": null,
+    "photos": [
+      "/images/businesses/roche-farm-garden/store.jpg",
+      "/images/businesses/roche-farm-garden/storefront.jpg",
+      "/images/businesses/roche-farm-garden/inside.jpg"
+    ],
+    "bannerImage": "/images/businesses/roche-farm-garden/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "Founded in 1929, Roche Farm & Garden, Inc. has been a trusted source for quality farm, garden, and feed supplies for over four decades. Located at 803 E. Jackson Street, this family-owned, full-service center supplies everyone from home gardeners to professional landscapers, offering more than 10,000 in-stock items—including seeds, lawn care products, hardware, clothing, live chickens, and unique outdoor décor. Known for friendly, knowledgeable service and fair prices, Roche Farm & Garden has earned a loyal following in Laurens and surrounding counties. For more than forty years it remains a go-to destination for expert gardening advice, premium products, and a welcoming, hometown shopping experience that has stood the test of time."
+    ],
     "contacts": {
       "phone": "4782723340",
       "email": null,
       "contactName": "Chip Roche",
       "website": "rochefarmgarden.com",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/rochefarmandgarden/",
+        "instagram": "@rochefarmandgarden"
       }
     },
     "address": {
@@ -1662,55 +1574,36 @@
     }
   },
   {
-    "slug": "colleens-china",
-    "name": "Colleen's China",
-    "category": "shop",
-    "isPremium": false,
-    "logo": "/images/businesses/colleens-china/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "phone": "478-279-0063",
-      "email": "colleenschina@bellsouth.net",
-      "contactName": "Sally Daniels",
-      "website": "colleenschina.com",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
-    }
-  },
-  {
     "slug": "sir-shop",
     "name": "Sir Shop",
     "category": "shop",
     "isPremium": false,
-    "logo": "/images/businesses/sir-shop/logo.png",
-    "photos": [],
+    "logo": "/images/businesses/sir-shop/logo.jpg",
+    "photos": [
+      "/images/businesses/sir-shop/suits.jpg",
+      "/images/businesses/sir-shop/gift.jpg",
+      "/images/businesses/sir-shop/display.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "The Sir Shop, celebrating 50 years in Dublin, is the go-to destination for men's clothing—offering timeless style and personalized service. This full-line menswear retailer features an extensive selection of high-quality dress and casual items, formal wear, footwear, formal rentals, and accessories. Brands like Poncho, Peter Millar, Jack Victor and Duck Head are showcased alongside Sir Shop's custom line of clothing. Shoppers appreciate the knowledgeable, attentive staff who assist with fit and fashion—from classic suits and silk ties to golf apparel and shoes. Looking for a gift? Their extensive collection of accessories and gifts along with complimentary gift wrapping make occasions a breeze. Whether you are looking for a traditional fit, or the latest styles, Sir Shop consistently delivers quality men's clothing with personal service."
+    ],
     "contacts": {
-      "phone": "478-272-7600",
-      "email": "bill@sirshop.com",
+      "phone": "4782727600",
+      "email": null,
       "contactName": "Bill Hoyt",
-      "website": "sirshop.com",
+      "website": "www.sirshop.com",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/p/SIR-SHOP-100063818910639/",
+        "instagram": "@sirshopdublin"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "2034 Veterans Blvd"
     }
   },
   {
@@ -1718,18 +1611,65 @@
     "name": "The Olive Branch",
     "category": "shop",
     "isPremium": false,
-    "logo": "/images/businesses/olive-branch/logo.png",
-    "photos": [],
+    "logo": "/images/businesses/olive-branch/logo.jpg",
+    "photos": [
+      "/images/businesses/olive-branch/store.jpg",
+      "/images/businesses/olive-branch/storefront.jpg",
+      "/images/businesses/olive-branch/display.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "For over 40 years, The Olive Branch has been a cornerstone of faith and encouragement in Dublin. Originally Pinholster Bookstore, it was lovingly renamed by the Flanders, who built a mission-focused business grounded in their love for Christ and a desire to serve others. Under new ownership, The Olive Branch continues to offer a wide range of inspirational products including Bibles, Christian books, study guides, journals, music, and gifts for every occasion. You can shop on their website and have your items delivered to your door, or visit their friendly, helpful staff in their central Dublin location. From wedding and baby gifts to church supplies and special orders, customers appreciate the thoughtful selections, while gift-wrapping and engraving services make every purchase feel personal. Tucked in the back, Eden Nutrition provides a refreshing treat, rounding out this unique and uplifting shopping experience for locals and visitors alike."
+    ],
     "contacts": {
-      "phone": "478-272-3203",
-      "email": "obbooks2036@gmail.com",
+      "phone": "4782723203",
+      "email": null,
       "contactName": "Vickie Achord",
-      "website": "olivebranch.com",
+      "website": null,
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/TheOliveBranchDublin/",
+        "instagram": "theolivebranch_dublin"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "2036 Veterans Blvd"
+    }
+  },
+  {
+    "slug": "emma-laura",
+    "name": "Emma Laura",
+    "category": "shop",
+    "isPremium": false,
+    "logo": "/images/businesses/emma-laura/logo.jpg",
+    "photos": [
+      "/images/businesses/emma-laura/sneakers.jpg",
+      "/images/businesses/emma-laura/jewelry.jpg",
+      "/images/businesses/emma-laura/products.jpg"
+    ],
+    "paragraphs": [
+      "Since 1983, Emma Laura has been a cherished part of the Dublin community, known for its fashionable finds and genuine, personalized service. In 2024, Rachel Gay stepped in as the new owner, bringing a fresh perspective, a love for current trends, and a mission to help every woman feel her best.",
+      "Emma Laura isn't just a boutique—it's a place where connections are made. The dedicated team takes pride in building lasting relationships with customers and their families, creating a shopping experience that feels more like visiting friends.",
+      "Rachel is devoted to upholding Emma Laura's legacy while guiding it into the future—broadening its storefront and enhancing its online presence to serve both longtime customers and those discovering this cherished boutique for the first time."
+    ],
+    "bannerImage": null,
+    "description": null,
+    "cta": {
+      "title": "Shop The Newest Styles Here",
+      "to": "https://www.emma-laura.com/",
+      "icon": "i-lucide-shopping-bag"
+    },
+    "contacts": {
+      "phone": "4782722095",
+      "email": null,
+      "contactName": "Rachel Gay",
+      "website": "www.Emma-Laura.com",
+      "social": {
+        "facebook": "https://www.facebook.com/shopemmalaura",
+        "instagram": "@shopemmalaura"
       }
     },
     "address": {
@@ -1740,29 +1680,38 @@
     }
   },
   {
-    "slug": "emma-laura",
-    "name": "Emma Laura",
+    "slug": "colleens-china",
+    "name": "Colleen's China",
     "category": "shop",
     "isPremium": false,
-    "logo": "/images/businesses/emma-laura/logo.png",
-    "photos": [],
+    "logo": "/images/businesses/colleens-china/logo.png",
+    "photos": [
+      "/images/businesses/colleens-china/china1.jpg",
+      "/images/businesses/colleens-china/china2.jpg",
+      "/images/businesses/colleens-china/china3.jpg"
+    ],
     "bannerImage": null,
     "description": null,
+    "paragraphs": [
+      "Established in 1989 by Sally Willis and her mother, Colleen's was born from a shared love of elegant tabletop décor and a passion for serving others. What began as a branch of the beloved Colleen's Flower Shop has grown into one of Dublin's most cherished gift stores—celebrating 36 years under the same dedicated ownership.",
+      "Colleen's is known for exceptional customer service and a thoughtfully curated selection of gifts, perfect for weddings, holidays, and everyday celebrations. From helping brides and grooms build their dream registries to assisting shoppers in finding the perfect gift, Colleen's brings warmth and care to every interaction.",
+      "Proudly serving the Dublin community and beyond with an exclusive collection of unique gifts and home accents, Colleen's China provides the attention to detail every celebration deserves."
+    ],
     "contacts": {
-      "phone": "478-410-2324",
-      "email": "78rachelgay@gmail.com",
-      "contactName": "Rachel Gay",
-      "website": "emmalaura.com",
+      "phone": "4782726767",
+      "email": null,
+      "contactName": "Sally Daniels",
+      "website": "colleenschina.com",
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/colleens.china/",
+        "instagram": "@colleenschina"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "1801 Rice Avenue, Suite C"
     }
   }
 ]
