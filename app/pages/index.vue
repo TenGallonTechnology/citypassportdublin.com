@@ -48,16 +48,18 @@ useHead({
       <h2 class="text-2xl font-semibold mb-6 text-center">
         Browse by Category
       </h2>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-        <button
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mx-1">
+        <UButton
+          variant="ghost"
           v-for="cat in categories"
           :key="cat"
-          class="p-6 rounded-lg shadow hover:shadow-lg flex flex-col items-center justify-center cursor-pointer"
+          :icon="useCategoryIcon(cat).value"
+          class="p-6 text-nuetral rounded-lg shadow hover:shadow-lg flex flex-col items-center justify-center cursor-pointer"
           @click="goToCategory(cat)"
         >
           <span class="text-xl font-semibold capitalize mb-2">{{ cat }}</span>
-          <span class="text-sm text-muted-foreground">{{ counts[cat] }} places</span>
-        </button>
+          <span class="text-sm text-primary text-muted-foreground">{{ counts[cat] }} places</span>
+        </UButton>
       </div>
     </section>
   </div>
