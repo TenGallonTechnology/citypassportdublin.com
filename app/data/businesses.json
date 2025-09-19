@@ -1503,41 +1503,152 @@
     "name": "Emerald City Treasures",
     "category": "shop",
     "isPremium": true,
-    "logo": "/images/businesses/emerald-city-treasures/logo.png",
-    "photos": [],
-    "bannerImage": "/images/businesses/emerald-city-treasures/banner.png",
+    "logo": "/images/businesses/emerald-city-treasures/logo.jpg",
+    "photos": [
+      "/images/businesses/emerald-city-treasures/store.jpg",
+      "/images/businesses/emerald-city-treasures/store2.jpg",
+      "/images/businesses/emerald-city-treasures/store3.jpg"
+    ],
+    "bannerImage": "/images/businesses/emerald-city-treasures/banner.jpg",
     "description": null,
+    "paragraphs": [
+      "Emerald City Treasures in Dublin, Georgia, is a captivating treasure trove located at 1401 Telfair Street—just minutes from downtown and I-16. Guests can get lost browsing through an expansive collection of American antiques, Depression-era glassware, silverplate, period décor, vintage toys, vinyl records, and sparkling jewelry. The boutique also showcases artisan-made regional goods, such as handcrafted soaps, local honey, and fresh sourdough - creating a uniquely local shopping experience.",
+      "Its sister location, Emerald City Treasures Too, at 1807 Rice Avenue in the Williamsburg Shopping Center, expands the creative inventory with rustic primitives, farmhouse-style décor, and Dublin-made memorabilia. Together, both locations serve as Dublin's beloved destination for treasure hunters, artists, and gift-seekers—fusing nostalgia with community creativity in every corner."
+    ],
     "contacts": {
-      "phone": "904-635-9460",
-      "email": "larockc@bellsouth.net",
+      "phone": "9046359460",
+      "email": null,
       "contactName": "Jeana LaRock",
-      "website": "emeraldcitytreasures.com",
+      "website": null,
       "social": {
-        "facebook": null,
-        "instagram": null
+        "facebook": "https://www.facebook.com/p/Emerald-City-Treasures-61564144754191/",
+        "instagram": "@ectreasurestoo"
       }
     },
     "address": {
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "1401 Telfair Street | 1807 Rice Avenue"
     }
   },
   {
     "slug": "bar-bridal",
     "name": "Bar Bridal",
     "category": "shop",
+    "isPremium": true,
+    "logo": "/images/businesses/bar-bridal/logo.jpg",
+    "photos": [
+      "/images/businesses/bar-bridal/staff.jpg",
+      "/images/businesses/bar-bridal/decor.jpg",
+      "/images/businesses/bar-bridal/storefront.jpg"
+    ],
+    "bannerImage": "/images/businesses/bar-bridal/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "Located in the heart of downtown Dublin, Bar Bridal offers a luxury bridal experience with a small-town feel. With a heart for service and a passion for detail, this premier bridal boutique is devoted to building meaningful relationships with brides and their families—turning special moments into lasting memories.",
+      "The boutique delivers a personalized bridal experience that's as memorable as the dress itself. From the first consultation to final fitting, every gown is tailored to reflect the bride's unique style, fit, and vision.",
+      "Driven by a passion for service, elegance, and connection, Bar Bridal is a place where love stories are celebrated, memories are made, and unforgettable wedding journeys truly begin."
+    ],
+    "contacts": {
+      "phone": "4783538887",
+      "email": null,
+      "contactName": "Tabitha Mullis",
+      "website": "barbridal.com",
+      "social": {
+        "facebook": "https://www.facebook.com/people/Bar-Bridal/61573716032972/",
+        "instagram": "@barbridal_dublin"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "101 West Jackson Street"
+    }
+  },
+  {
+    "slug": "smiths-jewelry",
+    "name": "Smith's Jewelry",
+    "category": "shop",
+    "isPremium": true,
+    "logo": "/images/businesses/smiths-jewelry/logo.jpg",
+    "photos": [
+      "/images/businesses/smiths-jewelry/china1.jpg",
+      "/images/businesses/smiths-jewelry/china2.jpg",
+      "/images/businesses/smiths-jewelry/storefront.jpg"
+    ],
+    "bannerImage": "/images/businesses/smiths-jewelry/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "Founded in 1911 by William Smith, Smith's has stood as a timeless treasure in the heart of downtown Dublin for over a century. Renowned for its fine jewelry, elegant tableware, and thoughtfully curated gifts, Smith's is celebrated for perfecting the details, ensuring every selection is as memorable as the occasion it honors. Since 2015, sixth-generation owner Natalie Curry has carried forward this proud legacy, thoughtfully renovating the historic storefront to preserve its charm while introducing refined, modern touches. Guests are welcomed with warm, personalized service and expertise with GIA-certified appraisals, custom design, engraving, and repair. Whether creating a bridal registry, selecting an heirloom, or marking life's milestones, Smith's remains the quintessential destination where elegance, tradition, and heartfelt service come together."
+    ],
+    "contacts": {
+      "phone": "4782725112",
+      "email": null,
+      "contactName": "Natalie Curry",
+      "website": "www.smithsofdublin.com",
+      "social": {
+        "facebook": "https://www.facebook.com/smithsofdublin/",
+        "instagram": "@smithsofdublin"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "130 West Jackson Street"
+    }
+  },
+  {
+    "slug": "plum-alley",
+    "name": "Plum Alley",
+    "category": "shop",
+    "isPremium": true,
+    "logo": "/images/businesses/plum-alley/logo.png",
+    "photos": [
+      "/images/businesses/plum-alley/service.jpg",
+      "/images/businesses/plum-alley/shopping.jpg",
+      "/images/businesses/plum-alley/shopping2.jpg"
+    ],
+    "bannerImage": "/images/businesses/plum-alley/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "For over forty years, Plum Alley has offered a curated selection of stylish women's clothing, along with personal and heartfelt service that keeps customers returning again and again. Store owner, Kim Hatchett, and her team have a passion for helping women find the perfect outfit, and many shoppers have become long-time friends. Kim takes time to understand each customer's style and even serves as a personal shopper, offering guidance when customers want an opinion. She knows her inventory inside and out and often updates regular shoppers when the perfect piece arrives.",
+      "Plum Alley specializes in helping women find outfits that make them feel confident and beautiful. Whether it's a wardrobe refresh or a special-occasion look, customers know they'll be guided with care, honesty, and expertise.",
+      "Plum Alley continues to be a cornerstone of the community, combining fashion with friendship- and making every woman feel fabulous, one outfit at a time."
+    ],
+    "contacts": {
+      "phone": "4782751972",
+      "email": null,
+      "contactName": "Kim Hatchett",
+      "website": null,
+      "social": {
+        "facebook": "https://www.facebook.com/shopPlumAlley/",
+        "instagram": "@shopplumalley"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "2032 Veterans Blvd. Suite D"
+    }
+  },
+  {
+    "slug": "roche-farm-garden",
+    "name": "Roche Farm & Garden",
+    "category": "shop",
     "isPremium": false,
-    "logo": "/images/businesses/bar-bridal/logo.png",
+    "logo": "/images/businesses/roche-farm-garden/logo.png",
     "photos": [],
     "bannerImage": null,
     "description": null,
     "contacts": {
-      "phone": "478-697-6815",
-      "email": "barbridal@yahoo.com",
-      "contactName": "Tabitha Mullis",
-      "website": "barbridal.com",
+      "phone": "4782723340",
+      "email": null,
+      "contactName": "Chip Roche",
+      "website": "rochefarmgarden.com",
       "social": {
         "facebook": null,
         "instagram": null
@@ -1547,7 +1658,7 @@
       "city": "Dublin",
       "state": "GA",
       "zip": "31021",
-      "street": ""
+      "street": "803 East Jackson Street"
     }
   },
   {
@@ -1564,32 +1675,6 @@
       "email": "colleenschina@bellsouth.net",
       "contactName": "Sally Daniels",
       "website": "colleenschina.com",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
-    }
-  },
-  {
-    "slug": "plum-alley",
-    "name": "Plum Alley",
-    "category": "shop",
-    "isPremium": false,
-    "logo": "/images/businesses/plum-alley/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "phone": "478-275-1972",
-      "email": "plumalley@hotmail.com",
-      "contactName": "Kim Hatchett",
-      "website": "plumalley.com",
       "social": {
         "facebook": null,
         "instagram": null
@@ -1655,32 +1740,6 @@
     }
   },
   {
-    "slug": "smiths-jewelry",
-    "name": "Smith's Jewelry",
-    "category": "shop",
-    "isPremium": false,
-    "logo": "/images/businesses/smiths-jewelry/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "phone": "770-335-6643",
-      "email": "natalie@smithsofdublin.com",
-      "contactName": "Natalie Curry",
-      "website": "smithsofdublin.com",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
-    }
-  },
-  {
     "slug": "emma-laura",
     "name": "Emma Laura",
     "category": "shop",
@@ -1694,32 +1753,6 @@
       "email": "78rachelgay@gmail.com",
       "contactName": "Rachel Gay",
       "website": "emmalaura.com",
-      "social": {
-        "facebook": null,
-        "instagram": null
-      }
-    },
-    "address": {
-      "city": "Dublin",
-      "state": "GA",
-      "zip": "31021",
-      "street": ""
-    }
-  },
-  {
-    "slug": "roche-farm-garden",
-    "name": "Roche Farm & Garden",
-    "category": "shop",
-    "isPremium": false,
-    "logo": "/images/businesses/roche-farm-garden/logo.png",
-    "photos": [],
-    "bannerImage": null,
-    "description": null,
-    "contacts": {
-      "phone": "478-278-1704",
-      "email": "croche@gotoroche.com",
-      "contactName": "Chip Roche",
-      "website": "rochefarmgarden.com",
       "social": {
         "facebook": null,
         "instagram": null

@@ -3,9 +3,9 @@ import { Analytics } from '@vercel/analytics/nuxt'
 import businesses from '~/data/businesses.json'
 import { useRoute } from 'vue-router'
 
-const title = 'Dublin-Laurens County Chamber Community Foundation'
+const title = 'City Passport Dublin'
 const description
-  = 'Uniting community leaders to build a stronger future through childcare, education, and workforce solutions.'
+  = 'Discover the best local businesses in Dublin, GA with City Passport Dublin. Explore top-rated restaurants, shops, services, and experiences to make the most of your visit or stay.'
 
 useHead({
   meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1' }],
