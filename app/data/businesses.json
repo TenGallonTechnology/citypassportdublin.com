@@ -1502,10 +1502,10 @@
     "slug": "emerald-city-treasures",
     "name": "Emerald City Treasures",
     "category": "shop",
-    "isPremium": false,
+    "isPremium": true,
     "logo": "/images/businesses/emerald-city-treasures/logo.png",
     "photos": [],
-    "bannerImage": null,
+    "bannerImage": "/images/businesses/emerald-city-treasures/banner.png",
     "description": null,
     "contacts": {
       "phone": "904-635-9460",
