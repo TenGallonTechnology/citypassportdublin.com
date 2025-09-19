@@ -398,14 +398,14 @@ const canonicalUrl = computed(() =>
 useSeoMeta({
   title: () =>
     business.value?.name
-      ? `${business.value.name} | Dublin Passport`
-      : 'Business | Dublin Passport',
+      ? `${business.value.name}`
+      : 'Business',
   description: () =>
     business.value?.description || 'Discover local businesses in Dublin.',
   ogTitle: () =>
     business.value?.name
-      ? `${business.value.name} | Dublin Passport`
-      : 'Business | Dublin Passport',
+      ? `${business.value.name}`
+      : 'Business',
   ogDescription: () =>
     business.value?.description || 'Discover local businesses in Dublin.',
   ogImage: () => business.value?.logo || '/favicon.ico',
@@ -418,8 +418,8 @@ useSeoMeta({
   ogLocale: 'en_US',
   twitterTitle: () =>
     business.value?.name
-      ? `${business.value.name} | Dublin Passport`
-      : 'Business | Dublin Passport',
+      ? `${business.value.name}`
+      : 'Business',
   twitterDescription: () =>
     business.value?.description || 'Discover local businesses in Dublin.'
 })
