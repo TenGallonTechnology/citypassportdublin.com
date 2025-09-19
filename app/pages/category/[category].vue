@@ -23,7 +23,7 @@
       >
         <div class="flex items-center gap-3 mb-2">
           <UAvatar
-            icon="i-lucide-image"
+            icon="i-mdi-image"
             size="3xl"
             :src="business.logo"
           />
@@ -39,7 +39,7 @@
           :to="`/business/${business.slug}`"
           class="btn mt-2"
         >
-          Jump To Page →
+          Visit Page →
         </UButton>
       </div>
     </div>

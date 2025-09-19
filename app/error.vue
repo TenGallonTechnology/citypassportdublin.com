@@ -3,7 +3,7 @@
     <div class="max-w-md mx-auto text-center p-8">
       <div class="mb-8">
         <UIcon
-          name="i-lucide-map-pin-off"
+          name="i-mdi-alert-circle-outline"
           class="h-24 w-24 mx-auto text-muted-foreground mb-4"
         />
         <h1 class="text-4xl font-bold text-foreground mb-2">
@@ -27,7 +27,7 @@
           variant="soft"
           class="inline-flex items-center gap-2"
         >
-          <UIcon name="i-lucide-home" class="h-4 w-4" />
+          <UIcon name="i-mdi-home" class="h-4 w-4" />
           Go Home
         </UButton>
 

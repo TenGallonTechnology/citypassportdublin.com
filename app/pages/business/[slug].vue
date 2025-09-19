@@ -155,8 +155,9 @@
             target="_blank"
             size="lg"
             block
+            :color="categoryColor"
             rel="noopener"
-            :icon="business.cta.icon || 'i-lucide-external-link'"
+            :icon="business.cta.icon || 'i-mdi-exit-to-app'"
             variant="solid"
             class="w-1/2"
           >
@@ -164,23 +165,31 @@
           </UButton>
         </div>
       </template>
-      <USeparator class="mt-4"> <UIcon name="i-lucide-link" /> Connect With Us</USeparator>
+      <USeparator class="mt-4">
+        <UIcon name="i-mdi-link-variant" />
+        <span
+          class="ml-1 font-handwritten text-3xl leading-tight tracking-wide"
+          :style="headingStyle"
+        >Connect With Us</span>
+      </USeparator>
        <div v-if="business.contacts">
           <div class="flex flex-wrap gap-3 mt-1 justify-around w-full">
             <UButton
               v-if="business.contacts.phone"
-              variant="ghost"
-              icon="i-lucide-phone"
+              variant="outline"
+              icon="i-mdi-phone"
               size="sm"
+              :color="categoryColor"
               :href="`tel:${business.contacts.phone}`"
             >
               Phone
             </UButton>
             <UButton
               v-if="business.contacts.email"
-              variant="ghost"
-              icon="i-lucide-mail"
+              variant="outline"
+              icon="i-mdi-email"
               size="sm"
+              :color="categoryColor"
               :href="`mailto:${business.contacts.email}`"
               class="link"
             >
@@ -196,9 +205,10 @@
               target="_blank"
               rel="noopener"
               class="link"
-              variant="ghost"
-              icon="i-lucide-globe"
+              variant="outline"
+              icon="i-mdi-web"
               size="sm"
+              :color="categoryColor"
             >
               Website
             </UButton>
@@ -211,9 +221,10 @@
               "
               target="_blank"
               rel="noopener"
-              variant="ghost"
+              variant="outline"
               size="sm"
-              icon="i-lucide-facebook"
+              :color="categoryColor"
+              icon="i-mdi-facebook"
             >
               Facebook
             </UButton>
@@ -230,16 +241,17 @@
               "
               target="_blank"
               rel="noopener"
-              variant="ghost"
+              variant="outline"
               size="sm"
-              icon="i-lucide-instagram"
+              :color="categoryColor"
+              icon="i-mdi-instagram"
             >
               Instagram
             </UButton>
           </div>
         </div>
-        <div v-if="business.address">
-          <UIcon name="i-lucide-map-pin-house" />
+        <div v-if="business.address" class="mt-4">
+          <UIcon name="i-mdi-map-marker-star" />
           <strong>Address:</strong>
           <p>{{ business.address.street }}</p>
           <p>
@@ -272,7 +284,7 @@
             >
               <div class="flex items-center gap-2 justify-start w-full min-w-0">
                 <UIcon
-                  name="i-lucide-chevron-left"
+                  name="i-mdi-chevron-left"
                   class="h-4 w-4 shrink-0"
                 />
                 <span class="truncate text-left">{{ prevBusiness?.name }}</span>
@@ -296,7 +308,7 @@
                   nextBusiness?.name
                 }}</span>
                 <UIcon
-                  name="i-lucide-chevron-right"
+                  name="i-mdi-chevron-right"
                   class="h-4 w-4 shrink-0"
                 />
               </div>
@@ -339,18 +351,25 @@ const nextBusiness = computed(() =>
 const categoryIcon = computed(() =>
   business.value?.category
     ? useCategoryIcon(business.value.category).value
-    : 'i-lucide-store'
+    : 'i-mdi-store'
 )
 const categoryColor = computed(() => {
-  const colors: Record<string, 'primary' | 'secondary' | 'warning'> = {
-    wellness: 'primary',
-    stay: 'secondary',
-    shop: 'warning',
-    services: 'primary',
-    experience: 'secondary',
-    eat: 'warning'
+  const colors: Record<string, 'wellness' | 'stay' | 'shop' | 'services' | 'experience' | 'eat'> = {
+    wellness: 'wellness',
+    stay: 'stay',
+    shop: 'shop',
+    services: 'services',
+    experience: 'experience',
+    eat: 'eat'
   }
   return colors[business.value?.category ?? ''] || 'neutral'
+})
+
+// Inline style for handwritten heading using existing CSS custom properties if available
+const headingStyle = computed(() => {
+  const c = categoryColor.value
+  // Our theme variables use --color-<category>; fallback to currentColor
+  return { color: `var(--color-${c}, currentColor)` }
 })
 
 // Determine if business is premium (hero eligible)

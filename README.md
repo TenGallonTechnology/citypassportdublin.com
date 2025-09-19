@@ -70,7 +70,7 @@ Example snippet:
   "cta": {
     "title": "View Menu",
     "to": "https://example.com/menu",
-    "icon": "i-lucide-utensils-crossed"
+    "icon": "i-mdi-silverware-fork-knife"
   }
 }
 ```

@@ -30,7 +30,7 @@
     "cta": {
       "title": "Order Online",
       "to": "https://dublinbbq.com/menu",
-      "icon": "i-lucide-utensils-crossed"
+      "icon": "i-mdi-silverware-fork-knife"
     },
     "address": {
       "city": "Dublin",
@@ -140,7 +140,7 @@
     "cta": {
       "title": "Order Online",
       "to": "https://www.companysupplyga.com/popmenu-order/company-supply/menus/menu-ordering",
-      "icon": "i-lucide-shopping-bag"
+      "icon": "i-mdi-shopping"
     },
     "address": {
       "street": "107 West Jackson Street",
@@ -182,7 +182,7 @@
     "cta": {
       "title": "Order / Menu",
       "to": "https://www.crookedfingerbrewing.com/order#menu?location=dublin",
-      "icon": "i-lucide-beer"
+      "icon": "i-mdi-beer"
     },
     "address": {
       "street": "226 S Jefferson St",
@@ -256,7 +256,7 @@
     "cta": {
       "title": "View Menu",
       "to": "https://deanositalian.com/dublin-deano-s-italian-food-menu",
-      "icon": "i-lucide-utensils-crossed"
+      "icon": "i-mdi-silverware-fork-knife"
     },
     "address": {
       "city": "Dublin",
@@ -366,7 +366,7 @@
     "cta": {
       "title": "Order / Menu",
       "to": "https://www.candacejamaican.com/popmenu-order/candace-jamaican-bar-and-grill/menus/main-menu",
-      "icon": "i-lucide-utensils-crossed"
+      "icon": "i-mdi-silverware-fork-knife"
     },
     "address": {
       "city": "Dublin",
@@ -501,7 +501,7 @@
     "cta": {
       "title": "Find Out More",
       "to": "https://downtowndublinga.com/",
-      "icon": "i-lucide-external-link"
+      "icon": "i-mdi-information"
     },
     "contacts": {
       "phone": "4782722560",
@@ -573,7 +573,7 @@
     "cta": {
       "title": "Donate To Help A Veteran",
       "to": "https://buy.stripe.com/eVa3dc3Kb7VddWMaEI",
-      "icon": "i-lucide-gift"
+      "icon": "i-mdi-gift"
     },
     "contacts": {
       "phone": 4782791886,
@@ -777,7 +777,7 @@
     "cta": {
       "title": "View Our Portfolio",
       "to": "https://www.tlake.com/portfolio",
-      "icon": "i-lucide-images"
+      "icon": "i-mdi-image-size-select-actual"
     },
     "contacts": {
       "phone": "4782723878",
@@ -816,7 +816,7 @@
     "cta": {
       "title": "Get A Free Quote",
       "to": "https://www.lawnsquad.com/",
-      "icon": "i-lucide-calculator"
+      "icon": "i-mdi-calculator-variant"
     },
     "contacts": {
       "email": null,
@@ -887,7 +887,7 @@
     "cta": {
       "title": "Book Your Stay",
       "to": "https://www.marriott.com/en-us/hotels/dbnfi-fairfield-inn-and-suites-dublin/overview/",
-      "icon": "i-lucide-bed"
+      "icon": "i-mdi-bed"
     },
     "contacts": {
       "phone": "4782770333",
@@ -925,7 +925,7 @@
     "cta": {
       "title": "View Our Listings",
       "to": "https://curryrealestate.com/residential-real-estate/",
-      "icon": "i-lucide-home"
+      "icon": "i-mdi-home-search"
     },
     "contacts": {
       "phone": "4782722335",
@@ -1101,7 +1101,7 @@
     "cta": {
       "title": "Meet Our Providers",
       "to": "https://www.dublinmedicalcenter.com/meet-our-providers/",
-      "icon": "i-lucide-square-user"
+      "icon": "i-mdi-doctor"
     },
     "contacts": {
       "phone": "478.272.7411",
@@ -1350,7 +1350,7 @@
     "cta": {
       "title": "View Class Schedule",
       "to": "https://www.dublinyogaandpilates.com/schedule",
-      "icon": "i-lucide-calendar"
+      "icon": "i-mdi-calendar"
     },
     "contacts": {
       "phone": "8437890330",
@@ -1660,7 +1660,7 @@
     "cta": {
       "title": "Shop The Newest Styles Here",
       "to": "https://www.emma-laura.com/",
-      "icon": "i-lucide-shopping-bag"
+      "icon": "i-mdi-shopping"
     },
     "contacts": {
       "phone": "4782722095",

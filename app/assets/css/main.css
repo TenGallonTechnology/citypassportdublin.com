@@ -3,10 +3,29 @@
 
 @theme static {
   --font-sans: "Public Sans", sans-serif;
+  /* Handwritten display font (local Handsome Pro) */
+  --font-handwritten: 'Handsome Pro', cursive;
 
   --color-paper: #fdfcf9;
+  --color-experience: #163862;
+  --color-eat: #0f9b47;
+  --color-shop: #72b2da;
+  --color-stay: #6aaab1;
+  --color-services: #7cb35d;
+  --color-wellness: #009186;
   /* override neutral */
   --ui-bg: var(--color-paper);
 }
+
+/* Local Handsome Pro font faces (copy font files into /public/fonts/handsome-pro/) */
+@font-face {
+  font-family: 'Handsome Pro';
+  src: url('/fonts/handsome-pro/handsome-pro.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-handwritten { font-family: var(--font-handwritten); font-weight: 500; letter-spacing: .5px; }
 
 

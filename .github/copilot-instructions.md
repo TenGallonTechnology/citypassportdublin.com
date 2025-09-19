@@ -20,7 +20,7 @@ Concise, project-specific instructions for AI assistants contributing to this re
 - Optional string fields may be `null`. Components must null-check before rendering links, images, hours, etc. Continue this pattern.
 - SEO: Use `useSeoMeta` per page; keep fallback images to `/favicon.ico` if no photos.
 - Imports: Prefer alias `~/` for app root; types co-located (e.g., `Business` interface inside `app.vue`). If moving `Business` type to a dedicated file, adjust all imports consistently.
-- Icons: Use lucide icon sets via class names (`i-lucide-*`). Ensure new icons follow existing naming style.
+- Icons: Use MDI icon sets via class names (`i-mdi-*`). Ensure new icons follow existing naming style.
 - Styling: Keep spacing utilities minimal and consistent with existing examples (e.g., `max-w-4xl mx-auto p-6`).
 
 ## Common Tasks

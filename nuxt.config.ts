@@ -5,7 +5,24 @@ export default defineNuxtConfig({
   modules: ["@nuxt/eslint", "@nuxt/ui-pro", "@nuxt/image", "@nuxt/scripts"],
 
   ui: {
-    colorMode: false
+    colorMode: false,
+    theme: {
+      colors: [
+        'primary',
+        'secondary',
+        'info',
+        'success',
+        'warning',
+        'error',
+        'eat',
+        'experience',
+        'shop',
+        'stay',
+        'services',
+        'wellness',
+        'paper'
+      ]
+    }
   },
 
   // Enable static site generation

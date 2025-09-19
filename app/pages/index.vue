@@ -29,9 +29,9 @@ useHead({
       class="bg-linear-to-t from-neutral to-primary-50 items-center py-10"
     >
       <img
-        src="/images/logo.png"
+        src="/images/vertical_logo.png"
         alt="Dublin-Laurens County Chamber Community Foundation"
-        class="h-24 md:h-36 w-auto mx-auto"
+        class="h-36 md:h-48 w-auto mx-auto"
       >
     </UPageHero>
 
