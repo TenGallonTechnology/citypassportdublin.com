@@ -25,8 +25,8 @@ useHead({
     <p class="sr-only">Explore categories of Dublin Georgia local businesses including wellness, places to stay, shopping, services, unique experiences, and dining to plan your visit.</p>
     <UPageHero
       reverse
-      description="Discover Dublin's best places to eat, stay, shop, and experience. Your city passport starts here!"
-      class="bg-linear-to-t from-neutral to-primary-50 items-center py-10 hero-bg"
+      
+      class="bg-linear-to-t from-neutral to-primary-50 items-center py-5 hero-bg"
     >
       <img
         src="/images/vertical_logo.png"
@@ -53,12 +53,13 @@ useHead({
           variant="ghost"
           v-for="cat in categories"
           :key="cat"
+          :color="cat as 'eat' | 'experience' | 'services' | 'stay' | 'wellness' | 'shop'"
           :icon="useCategoryIcon(cat).value"
-          class="p-6 text-nuetral rounded-lg shadow hover:shadow-lg flex flex-col items-center justify-center cursor-pointer"
+          class="p-6 rounded-lg shadow hover:shadow-lg flex flex-col items-center justify-center cursor-pointer"
           @click="goToCategory(cat)"
         >
           <span class="text-xl font-semibold capitalize mb-2">{{ cat }}</span>
-          <span class="text-sm text-primary text-muted-foreground">{{ counts[cat] }} places</span>
+          <span class="text-sm text-muted-foreground">{{ counts[cat] }} places</span>
         </UButton>
       </div>
     </section>
@@ -98,6 +99,9 @@ useHead({
 }
 /* Ensure slotted hero content stays above background + fade */
 .hero-bg > * { position: relative; z-index: 2; }
+
+/* Icon size adjustment (color now comes from Nuxt UI color prop) */
+.iconify { font-size: 2rem; }
 
 @media (min-width: 768px) {
   .hero-bg::before { opacity: 0.75; }

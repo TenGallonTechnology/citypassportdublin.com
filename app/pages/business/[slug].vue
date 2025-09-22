@@ -19,11 +19,14 @@
         </div>
       </UTooltip>
     </div>
-    <USeparator
-      :icon="categoryIcon"
-      :color="categoryColor"
-      class="mt-3 mb-0"
-    />
+    <!-- Custom thicker separator: two colored bars with centered icon -->
+    <div class="flex items-center w-full mt-4 mb-2 select-none" aria-hidden="true">
+      <div :class="['w-full h-2 rounded-xs ', barBgClass]" />
+      <div class="mx-4 flex items-center justify-center text-foreground">
+        <UIcon :name="categoryIcon" class="h-5 w-5" />
+      </div>
+      <div :class="['w-full h-2 rounded-xs ', barBgClass]" />
+    </div>
 
     <!-- Primary page heading (visually hidden for layout preservation, present for SEO & accessibility) -->
     <h1 class="sr-only">{{ business.name }}</h1>
@@ -187,8 +190,8 @@
           :style="headingStyle"
         >Connect With Us</span>
       </USeparator>
-       <div v-if="business.contacts">
-          <div class="flex flex-wrap gap-3 mt-1 justify-around w-full">
+     <div v-if="business.contacts">
+       <div class="flex flex-wrap gap-3 mt-3 justify-center items-center mx-auto w-full max-w-2xl text-center">
             <UButton
               v-if="business.contacts.phone"
               variant="outline"
@@ -288,11 +291,11 @@
       <div class="fixed bottom-4 left-0 right-0 pointer-events-none">
         <div class="container max-w-xl mx-auto px-4">
           <div
-            class="bg-white/65 backdrop-blur-md rounded-full shadow-xl flex items-center p-2 pointer-events-auto"
+            class="bg-cat-experience text-white rounded-lg shadow-2xl flex items-center p-2 pointer-events-auto"
           >
             <UButton
               :disabled="!prevSlug"
-              class="group text-xs flex-1 min-w-0 max-w-[calc(50%-12px)]"
+              class="group text-xs flex-1 min-w-0 max-w-[calc(50%-12px)] text-white hover:bg-white/10 disabled:opacity-40 disabled:hover:bg-transparent"
               variant="ghost"
               size="xs"
               @click="goTo(prevSlug ?? null)"
@@ -300,7 +303,7 @@
               <div class="flex items-center gap-2 justify-start w-full min-w-0">
                 <UIcon
                   name="i-mdi-chevron-left"
-                  class="h-4 w-4 shrink-0"
+                  class="h-4 w-4 shrink-0 text-white"
                 />
                 <span class="truncate text-left">{{ prevBusiness?.name }}</span>
               </div>
@@ -313,7 +316,7 @@
 
             <UButton
               :disabled="!nextSlug"
-              class="group text-xs flex-1 min-w-0 max-w-[calc(50%-12px)]"
+              class="group text-xs flex-1 min-w-0 max-w-[calc(50%-12px)] text-white hover:bg-white/10 disabled:opacity-40 disabled:hover:bg-transparent"
               variant="ghost"
               size="xs"
               @click="goTo(nextSlug ?? null)"
@@ -324,7 +327,7 @@
                 }}</span>
                 <UIcon
                   name="i-mdi-chevron-right"
-                  class="h-4 w-4 shrink-0"
+                  class="h-4 w-4 shrink-0 text-white"
                 />
               </div>
             </UButton>
@@ -340,6 +343,7 @@ import { useSeoMeta, useHead, useRequestURL } from '#imports'
 import { useRoute, useRouter } from 'vue-router'
 import businesses from '~/data/businesses.json'
 import { ref, watch, computed } from 'vue'
+import { useCategoryColor } from '~/composables/useCategoryColor'
 import type { Business } from '~/app.vue'
 
 const route = useRoute()
@@ -368,23 +372,19 @@ const categoryIcon = computed(() =>
     ? useCategoryIcon(business.value.category).value
     : 'i-mdi-store'
 )
-const categoryColor = computed(() => {
-  const colors: Record<string, 'wellness' | 'stay' | 'shop' | 'services' | 'experience' | 'eat'> = {
-    wellness: 'wellness',
-    stay: 'stay',
-    shop: 'shop',
-    services: 'services',
-    experience: 'experience',
-    eat: 'eat'
-  }
-  return colors[business.value?.category ?? ''] || 'neutral'
-})
+const categoryColor = computed(() => useCategoryColor(business.value?.category).value)
 
 // Inline style for handwritten heading using existing CSS custom properties if available
 const headingStyle = computed(() => {
   const c = categoryColor.value
   // Our theme variables use --color-<category>; fallback to currentColor
   return { color: `var(--color-${c}, currentColor)` }
+})
+
+// Map category color token to static bg-cat-* class
+const barBgClass = computed(() => {
+  const c = categoryColor.value
+  return `bg-cat-${c}`
 })
 
 // Determine if business is premium (hero eligible)

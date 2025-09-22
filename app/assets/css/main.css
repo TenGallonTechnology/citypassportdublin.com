@@ -28,4 +28,22 @@
 
 .font-handwritten { font-family: var(--font-handwritten); font-weight: 500; letter-spacing: .5px; }
 
+/* Static background helpers to allow using classes instead of inline styles */
+.bg-cat-eat { background-color: var(--color-eat); }
+.bg-cat-experience { background-color: var(--color-experience); }
+.bg-cat-shop { background-color: var(--color-shop); }
+.bg-cat-stay { background-color: var(--color-stay); }
+.bg-cat-services { background-color: var(--color-services); }
+.bg-cat-wellness { background-color: var(--color-wellness); }
+.bg-cat-neutral { background-color: var(--color-paper); }
+
+/* Text color helpers for category theming */
+.text-cat-eat { color: var(--color-eat); }
+.text-cat-experience { color: var(--color-experience); }
+.text-cat-shop { color: var(--color-shop); }
+.text-cat-stay { color: var(--color-stay); }
+.text-cat-services { color: var(--color-services); }
+.text-cat-wellness { color: var(--color-wellness); }
+.text-cat-neutral { color: var(--color-paper); }
+
 

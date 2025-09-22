@@ -30,11 +30,24 @@
         class="p-4 rounded-lg shadow hover:shadow-lg"
       >
         <div class="flex items-center gap-3 mb-2">
-          <UAvatar
-            icon="i-mdi-image"
-            size="3xl"
-            :src="business.logo"
-          />
+          <!-- Square logo (previously circular avatar). Shows full logo inside a square with rounded corners. -->
+          <div
+            class="w-18 h-18 rounded-lg overflow-hidden  flex items-center justify-center border border-gray-200 dark:border-gray-700 shadow-xs"
+          >
+            <NuxtImg
+              v-if="business.logo"
+              :src="business.logo"
+              :alt="`${business.name} logo`"
+              class="w-full h-full object-contain "
+              placeholder
+              draggable="false"
+            />
+            <UIcon
+              v-else
+              name="i-mdi-image-off"
+              class="h-10 w-10 text-gray-400"
+            />
+          </div>
           <div>
             <h2 class="text-lg font-semibold flex items-center gap-2">
               {{ business.name }}
@@ -55,9 +68,10 @@
         <UButton
           variant="ghost"
           :to="`/business/${business.slug}`"
-          class="btn mt-2"
+          :color="categoryColor"
+          class="font-handwritten text-2xl p-1 "
         >
-          Visit Page →
+          Connect With Us
         </UButton>
       </div>
     </div>
@@ -69,6 +83,7 @@ import { useRoute } from 'vue-router'
 import type { Business } from '~/app.vue'
 import businesses from '~/data/businesses.json'
 import { useHead, useRequestURL } from '#imports'
+import { useCategoryColor } from '~/composables/useCategoryColor'
 
 const route = useRoute()
 let category = route.params.category as string
@@ -93,6 +108,7 @@ const filtered = (businesses as unknown as Array<Business>).filter(
   (b) => b.category === category
 )
 const categoryIcon = useCategoryIcon(category)
+const categoryColor = useCategoryColor(category as Business['category'])
 
 // Canonical URL for category pages
 const requestURL = useRequestURL()
