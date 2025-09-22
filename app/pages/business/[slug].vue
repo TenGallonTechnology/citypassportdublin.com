@@ -2,7 +2,7 @@
   <div
     v-if="business"
     :key="slug"
-    class="max-w-7xl mx-auto"
+    class="max-w-7xl mx-auto pb-32"
   >
     <!-- Passport Stamp Availability Badge -->
     <div
@@ -299,7 +299,7 @@
        
 
 
-      <div class="fixed bottom-4 left-0 right-0 pointer-events-none">
+  <div class="fixed bottom-4 left-0 right-0 pointer-events-none z-50">
         <div class="container max-w-xl mx-auto px-4">
           <div
             class="bg-cat-experience text-white rounded-lg shadow-2xl flex items-center p-2 pointer-events-auto"

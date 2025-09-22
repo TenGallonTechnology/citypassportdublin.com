@@ -1,5 +1,6 @@
 <template>
-  <div class="p-6 max-w-4xl mx-auto">
+  <div class="category-page-bg">
+    <div class="p-6 max-w-4xl mx-auto">
     <h1 class="text-3xl font-bold mb-6 capitalize flex items-center gap-2">
       <UIcon
         :name="categoryIcon"
@@ -25,12 +26,11 @@
       <div
         v-for="business in filtered"
         :key="business.slug"
-        class="p-4 rounded-lg shadow hover:shadow-lg"
+        class="p-4 rounded-lg shadow hover:shadow-lg bg-paper"
       >
-        <div class="flex items-center gap-3 mb-2">
-          <!-- Square logo (previously circular avatar). Shows full logo inside a square with rounded corners. -->
+        <div class="flex items-center gap-3 mb-2 ">
           <div
-            class="w-18 h-18 rounded-lg overflow-hidden  flex items-center justify-center border border-gray-200 dark:border-gray-700 shadow-xs"
+            class="w-18 h-18 rounded-lg overflow-hidden   flex items-center justify-center border border-gray-200 dark:border-gray-700 shadow-xs"
           >
             <NuxtImg
               v-if="business.logo"
@@ -73,6 +73,7 @@
         </UButton>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -117,3 +118,23 @@ useHead({
   ]
 })
 </script>
+
+<style scoped>
+.category-page-bg {
+  position: relative;
+  min-height: 100vh;
+}
+.category-page-bg::before {
+  content: '';
+  position: fixed; /* cover viewport regardless of content height */
+  inset: 0;
+  background: url('/images/stamps.png') center/cover repeat;
+  opacity: 0.2; /* lighter for subtle texture */
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: -1;
+}
+@media (min-width: 768px) {
+  .category-page-bg::before { opacity: 0.22; }
+}
+</style>

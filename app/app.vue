@@ -131,7 +131,7 @@ useHead({
 
     <USeparator />
 
-    <UFooter>
+  <UFooter class="bg-paper/95 backdrop-blur-sm">
       <template #left>
         <p class="text-sm text-muted">
           Copyright © {{ new Date().getFullYear() }}
