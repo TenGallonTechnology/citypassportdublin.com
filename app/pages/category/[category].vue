@@ -5,9 +5,7 @@
         :name="categoryIcon"
         class="h-8 w-8"
       />
-      <span v-if="category === 'wellness'">Local wellness</span>
-      <span v-else-if="category === 'services'">Local Services</span>
-      <span v-else>{{ category }} Local</span>
+  <span>{{ categoryLabel }}</span>
     </h1>
     <div class="flex items-center gap-2 mb-4 text-sm text-muted-foreground">
       <UIcon
@@ -109,6 +107,7 @@ const filtered = (businesses as unknown as Array<Business>).filter(
 )
 const categoryIcon = useCategoryIcon(category)
 const categoryColor = useCategoryColor(category as Business['category'])
+const categoryLabel = useCategoryLabel(category)
 
 // Canonical URL for category pages
 const requestURL = useRequestURL()

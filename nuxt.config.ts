@@ -38,6 +38,7 @@ export default defineNuxtConfig({
     "/": { prerender: true },
     "/business/**": { prerender: true },
     "/category/**": { prerender: true },
+    "/passport-award": { prerender: true }
   },
 
   compatibilityDate: "2025-01-15",
@@ -45,6 +46,7 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         "/",
+        "/passport-award",
         // Generate all business detail pages
         ...businesses.map((business: any) => `/business/${business.slug}`),
         // Generate all category pages

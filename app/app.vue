@@ -41,19 +41,26 @@ const route = useRoute()
 const categories = Array.from(
   new Set((businesses as Array<{ category: string }>).map(b => b.category))
 )
-const navItems = categories.map(cat => ({
-  label: cat.charAt(0).toUpperCase() + cat.slice(1),
-  icon: useCategoryIcon(cat).value,
-  to: `/category/${cat.toLowerCase()}`,
-  children: (
-    businesses as Array<{ slug: string, name: string, category: string }>
-  )
-    .filter(b => b.category === cat)
-    .map(b => ({
-      label: b.name,
-      to: `/business/${b.slug}`
-    }))
-}))
+const navItems = [
+  ...categories.map(cat => ({
+    label: cat.charAt(0).toUpperCase() + cat.slice(1),
+    icon: useCategoryIcon(cat).value,
+    to: `/category/${cat.toLowerCase()}`,
+    children: (
+      businesses as Array<{ slug: string, name: string, category: string }>
+    )
+      .filter(b => b.category === cat)
+      .map(b => ({
+        label: b.name,
+        to: `/business/${b.slug}`
+      }))
+  })),
+  {
+    label: 'Passport Award',
+    icon: 'i-mdi-seal-variant',
+    to: '/passport-award'
+  }
+]
 
 // Structured data: Organization, WebSite, Category ItemList
 const organizationSchema = {
@@ -103,7 +110,7 @@ useHead({
         <img
           src="/images/logo.png"
           alt="City Passport Dublin logo"
-          class="w-auto h-13 shrink-0"
+          class="w-auto h-11"
         >
       </template>
       <UNavigationMenu :items="navItems" />
