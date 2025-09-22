@@ -271,18 +271,29 @@
         <div v-if="business.address" class="mt-4">
           <UIcon name="i-mdi-map-marker-star" />
           <strong>Address:</strong>
-          <p>{{ business.address.street }}</p>
-          <p>
-            {{ business.address.city }}, {{ business.address.state }}
-            {{ business.address.zip }}
-          </p>
-          <a
-            v-if="business.address.googleMapsUrl"
-            :href="business.address.googleMapsUrl"
-            target="_blank"
-            rel="noopener"
-            class="link mt-1 inline-block"
-          >View on Google Maps</a>
+          <div>
+            <a
+              v-if="mapsUrl"
+              :href="mapsUrl"
+              target="_blank"
+              rel="noopener"
+              class="link inline-block group"
+              :aria-label="`Open Google Maps for ${business.name} address`"
+            >
+              <p class="group-hover:underline">{{ business.address.street }}</p>
+              <p class="group-hover:underline">
+                {{ business.address.city }}, {{ business.address.state }}
+                {{ business.address.zip }}
+              </p>
+            </a>
+            <template v-else>
+              <p>{{ business.address.street }}</p>
+              <p>
+                {{ business.address.city }}, {{ business.address.state }}
+                {{ business.address.zip }}
+              </p>
+            </template>
+          </div>
         </div>
 
        
@@ -389,6 +400,18 @@ const barBgClass = computed(() => {
 
 // Determine if business is premium (hero eligible)
 const isPremium = computed(() => !!business.value?.isPremium)
+
+// Computed Google Maps URL: prefer explicit googleMapsUrl; else build a search query
+const mapsUrl = computed(() => {
+  const addr = business.value?.address
+  if (!addr) return null
+  if (addr.googleMapsUrl) return addr.googleMapsUrl
+  // Build a clean single-line address string
+  const parts = [addr.street, addr.city, addr.state, addr.zip].filter(Boolean)
+  if (!parts.length) return null
+  const query = encodeURIComponent(parts.join(', '))
+  return `https://www.google.com/maps/search/?api=1&query=${query}`
+})
 
 watch(
   () => route.params.slug,
