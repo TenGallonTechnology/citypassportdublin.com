@@ -277,7 +277,7 @@
               :href="mapsUrl"
               target="_blank"
               rel="noopener"
-              class="link inline-block group"
+              class=" inline-block group text-primary"
               :aria-label="`Open Google Maps for ${business.name} address`"
             >
               <p class="group-hover:underline">{{ business.address.street }}</p>
