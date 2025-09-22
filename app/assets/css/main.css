@@ -46,4 +46,14 @@
 .text-cat-wellness { color: var(--color-wellness); }
 .text-cat-neutral { color: var(--color-paper); }
 
+/* Semi-transparent background variants (40% opacity) */
+/* Tailwind won't parse dynamic bg-${category}/40 strings at runtime, so we predefine classes. */
+.bg-eat\/60 { background-color: rgb(15 155 71 / 0.6); }
+.bg-experience\/60 { background-color: rgb(22 56 98 / 0.6); }
+.bg-shop\/60 { background-color: rgb(114 178 218 / 0.6); }
+.bg-stay\/60 { background-color: rgb(106 170 177 / 0.6); }
+.bg-services\/60 { background-color: rgb(124 179 93 / 0.6); }
+.bg-wellness\/60 { background-color: rgb(0 145 134 / 0.6); }
+.bg-paper\/60, .bg-neutral\/60 { background-color: rgb(252 250 246 / 0.6); }
+
 
