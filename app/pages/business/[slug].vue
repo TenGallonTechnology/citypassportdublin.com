@@ -309,14 +309,20 @@
               class="group text-xs flex-1 min-w-0 max-w-[calc(50%-12px)] text-white hover:bg-white/10 disabled:opacity-40 disabled:hover:bg-transparent"
               variant="ghost"
               size="xs"
-              @click="goTo(prevSlug ?? null)"
+              @click="goTo('prev')"
             >
               <div class="flex items-center gap-2 justify-start w-full min-w-0">
                 <UIcon
                   name="i-mdi-chevron-left"
                   class="h-4 w-4 shrink-0 text-white"
                 />
-                <span class="truncate text-left">{{ prevBusiness?.name }}</span>
+                <span class="truncate text-left">
+                  {{
+                    prevBusiness && business && prevBusiness.category !== business.category
+                      ? prevCategoryLabel
+                      : prevBusiness?.name
+                  }}
+                </span>
               </div>
             </UButton>
 
@@ -330,12 +336,16 @@
               class="group text-xs flex-1 min-w-0 max-w-[calc(50%-12px)] text-white hover:bg-white/10 disabled:opacity-40 disabled:hover:bg-transparent"
               variant="ghost"
               size="xs"
-              @click="goTo(nextSlug ?? null)"
+              @click="goTo('next')"
             >
               <div class="flex items-center gap-2 justify-end w-full min-w-0">
-                <span class="truncate text-right">{{
-                  nextBusiness?.name
-                }}</span>
+                <span class="truncate text-right">
+                  {{
+                    nextBusiness && business && nextBusiness.category !== business.category
+                      ? nextCategoryLabel
+                      : nextBusiness?.name
+                  }}
+                </span>
                 <UIcon
                   name="i-mdi-chevron-right"
                   class="h-4 w-4 shrink-0 text-white"
@@ -355,6 +365,7 @@ import { useRoute, useRouter } from 'vue-router'
 import businesses from '~/data/businesses.json'
 import { ref, watch, computed } from 'vue'
 import { useCategoryColor } from '~/composables/useCategoryColor'
+import { useCategoryLabel } from '~/composables/useCategoryLabel'
 import type { Business } from '~/app.vue'
 
 const route = useRoute()
@@ -366,18 +377,13 @@ const index = ref(items.findIndex(b => b.slug === slug.value))
 const business = ref<Business | null>(
   index.value !== -1 ? (items[index.value] as Business) : null
 )
-const prevSlug = computed(() =>
-  index.value > 0 ? items[index.value - 1]?.slug : null
-)
-const nextSlug = computed(() =>
-  index.value < items.length - 1 ? items[index.value + 1]?.slug : null
-)
-const prevBusiness = computed(() =>
-  index.value > 0 ? items[index.value - 1] : null
-)
-const nextBusiness = computed(() =>
-  index.value < items.length - 1 ? items[index.value + 1] : null
-)
+const prevBusiness = computed(() => index.value > 0 ? items[index.value - 1] : null)
+const nextBusiness = computed(() => index.value < items.length - 1 ? items[index.value + 1] : null)
+const prevSlug = computed(() => prevBusiness.value?.slug || null)
+const nextSlug = computed(() => nextBusiness.value?.slug || null)
+// Category labels (only used when crossing a boundary)
+const prevCategoryLabel = computed(() => prevBusiness.value ? useCategoryLabel(prevBusiness.value.category).value : '')
+const nextCategoryLabel = computed(() => nextBusiness.value ? useCategoryLabel(nextBusiness.value.category).value : '')
 const categoryIcon = computed(() =>
   business.value?.category
     ? useCategoryIcon(business.value.category).value
@@ -440,9 +446,17 @@ watch(
   { immediate: true }
 )
 
-function goTo(targetSlug: string | null | undefined) {
-  if (!targetSlug) return
-  router.push({ name: 'business-slug', params: { slug: targetSlug } })
+function goTo(target: 'prev' | 'next') {
+  const targetBiz = target === 'prev' ? prevBusiness.value : nextBusiness.value
+  if (!targetBiz || !business.value) return
+
+  const isDifferentCategory = targetBiz.category !== business.value.category
+  if (isDifferentCategory) {
+    // Navigate to the category listing instead of directly to the next business
+    router.push({ name: 'category-category', params: { category: targetBiz.category } })
+    return
+  }
+  router.push({ name: 'business-slug', params: { slug: targetBiz.slug } })
 }
 // Canonical + origin helpers
 const requestURL = useRequestURL()

@@ -110,7 +110,7 @@ useHead({
         <img
           src="/images/logo.png"
           alt="City Passport Dublin logo"
-          class="w-auto h-11"
+          class="w-auto h-10"
         >
       </template>
       <UNavigationMenu :items="navItems" />
