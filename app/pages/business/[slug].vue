@@ -9,14 +9,18 @@
       v-if="business?.stampAvailable"
       class="fixed z-40 top-20 right-4 md:top-24 md:right-8"
     >
-      <UTooltip text="Please ask us to stamp your passport" :delay-duration="200" >
-        <div class="relative group">
+      <UTooltip text="Passport stamp available – view Passport Award details" :delay-duration="200">
+        <NuxtLink
+          to="/passport-award"
+          aria-label="Passport stamp available – learn about the Passport Award"
+          class="relative group block focus:outline-none focus-visible:ring-2 ring-offset-2 ring-yellow-500 rounded-full"
+        >
           <UIcon
             name="i-mdi-check-decagram"
-            class="text-yellow-500 dark:text-yellow-400 drop-shadow-lg h-12 w-12"
+            class="text-yellow-500 dark:text-yellow-400 drop-shadow-lg h-10 w-10 transition-transform group-hover:scale-110"
           />
-          <span class="sr-only">Passport stamp available</span>
-        </div>
+          <span class="sr-only">Passport stamp available – learn about the Passport Award</span>
+        </NuxtLink>
       </UTooltip>
     </div>
     <!-- Custom thicker separator: two colored bars with centered icon -->

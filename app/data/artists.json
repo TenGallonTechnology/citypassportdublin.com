@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "riley-cook",
+    "name": "Riley Cook",
+    "photo": "/images/riley_cook.jpg",
+    "bio": "Riley Cook, an artist from Dublin, Georgia, discovered his passion for drawing and painting in middle school, later honing his skills in high school. At 16, he launched an art page that led to commissions and growth across media—from pencil and digital art to acrylic and watercolor. Inspired by architecture, Riley created house portraits of Dublin’s historic homes, gaining local acclaim. His portfolio now spans landscapes, portraits, and varied subjects. Today, he also teaches young students, finding fulfillment in sharing creativity. For Riley, art way to connect, tell stories, and cultivate joy.",
+    "contacts": {
+      "facebook": "https://www.facebook.com/rcookart/",
+      "instagram": "@rcookart",
+      "phone": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "lyle-dorman",
+    "name": "Lyle Dorman",
+    "photo": "/images/lyle_dorman.jpg",
+    "bio": "For Lyle Dorman, Dublin, Georgia has been home for nearly 20 years—a community where he’s built both his career and his family’s story. By profession, Lyle has spent the past 22 years serving as a Nurse Anesthetist, nearly 20 of them at Fairview Park Hospital. Outside the hospital, another calling has steadily grown—a love of photography that began on his honeymoon with a borrowed film camera. What started as a simple curiosity has become a true passion. Today, Lyle’s lens captures the joy of Friday night lights, the warmth of family milestones, and the excitement of seniors stepping boldly into their next chapter. His photography has become more than just a side business—it’s a way of celebrating community and preserving memories for friends and neighbors. At home, Lyle shares life with his wife of 25 years, Heather, their three daughters—Chaney, Ansley, and Darcey—and their beloved pug, Major.",
+    "contacts": {
+      "facebook": null,
+      "instagram": null,
+      "phone": "4786971054",
+      "email": "lylecdorman@gmail.com"
+    }
+  }
+]
