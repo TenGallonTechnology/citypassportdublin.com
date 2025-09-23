@@ -36,7 +36,7 @@
             </ul>
           </li>
         </ol>
-        <p class="mt-4 text-xs opacity-70">Be courteous—always kindly request a stamp and support the local businesses you visit.</p>
+        <p class="mt-4 text-xs opacity-70">Support the local businesses you visit.</p>
       </UCard>
     </header>
 
