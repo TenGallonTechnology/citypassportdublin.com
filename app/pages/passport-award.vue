@@ -5,13 +5,39 @@
         <UIcon name="i-mdi-seal-variant" class="h-8 w-8 text-yellow-500 dark:text-yellow-400" />
         <span>Passport Award Locations</span>
       </h1>
-      <p class="text-sm opacity-80 mt-2 max-w-3xl">
-        Visit participating locations below and kindly ask for your passport to be stamped. Collect them all to earn the Passport Award! Businesses are grouped by category for easy exploring.
-      </p>
       <div class="flex items-center gap-2 mt-4 text-sm text-muted-foreground">
-        <UIcon name="i-mdi-check-decagram" class="text-yellow-500 dark:text-yellow-400 h-5 w-5" />
+        <UIcon name="i-mdi-decagram" class="text-yellow-500 dark:text-yellow-400 h-5 w-5" />
         <span>Indicates passport stamp available</span>
       </div>
+
+      <UCard variant="soft" class="mt-8">
+        <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
+          <span>How To Collect Your City Passport Stamps</span>
+        </h2>
+        <ol class="list-decimal pl-5 space-y-4 text-sm">
+          <li>
+            <p><strong>Pick up your passport card</strong> from a participating business. (Marked By <UIcon
+                name="i-mdi-decagram"
+                class="text-yellow-500 dark:text-yellow-400 h-4 w-4 align-text-bottom"
+              />)</p>
+          </li>
+          <li>
+            <p>
+              <strong>Explore local stops.</strong>
+              Visit participating businesses and collect <strong>9 different</strong> passport stamps.
+            </p>
+          </li>
+          <li>
+            <p><strong>Redeem Your Award.</strong> Once your page is full, bring it to one of the three designated City Passport Award Locations below to claim your gift:</p>
+            <ul class="list-disc pl-5 mt-2 space-y-1">
+              <li>Downtown at <NuxtLink to="/business/smiths-jewelry" class="underline hover:no-underline">Smith's Jewelry</NuxtLink></li>
+              <li>Midtown at <NuxtLink to="/business/emerald-city-treasures" class="underline hover:no-underline">Emerald City Treasures Too</NuxtLink></li>
+              <li>Interstate at <NuxtLink to="/business/visit-dublin" class="underline hover:no-underline">Visit Dublin</NuxtLink></li>
+            </ul>
+          </li>
+        </ol>
+        <p class="mt-4 text-xs opacity-70">Be courteous—always kindly request a stamp and support the local businesses you visit.</p>
+      </UCard>
     </header>
 
     <div v-if="stampGroups.length === 0" class="py-10 text-center">
@@ -52,7 +78,7 @@
                     {{ biz.name }}
                   </NuxtLink>
                   <UTooltip text="Passport stamp available" :delay-duration="200">
-                    <UIcon name="i-mdi-check-decagram" class="text-yellow-500 dark:text-yellow-400 h-4 w-4" />
+                    <UIcon name="i-mdi-decagram" class="text-yellow-500 dark:text-yellow-400 h-4 w-4" />
                   </UTooltip>
                 </h3>
                 <p v-if="biz.address?.street" class="text-xs opacity-70 truncate">{{ formatAddress(biz) }}</p>

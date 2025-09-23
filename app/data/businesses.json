@@ -571,7 +571,46 @@
       "street": "314 Academy Avenue"
     }
   },
-
+  {
+    "slug": "visit-dublin",
+    "name": "Visit Dublin",
+    "category": "experience",
+    "stampAvailable": true,
+    "isPremium": true,
+    "logo": "/images/businesses/visit-dublin/logo.png",
+    "photos": [
+      "/images/businesses/visit-dublin/flowers.jpg",
+      "/images/businesses/visit-dublin/giftshop.jpg",
+      "/images/businesses/visit-dublin/cit.jpg"
+    ],
+    "bannerImage": "/images/businesses/visit-dublin/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "Founded in 2012, Visit Dublin GA is the official tourism marketing organization for Dublin and Laurens County, Georgia, dedicated to showcasing the town's events, encouraging community involvement, and celebrating local business growth.",
+      "The heart of its operations is the Dublin Visitors Center - welcoming travelers seven days a week with friendly faces, insider tips, free coffee, Wi-Fi, and even a dog park for four-legged companions. With deep local roots, Visit Dublin GA shares authentic stories of success, spotlights small businesses, fosters strong partnerships, and drives economic growth through creative promotion. By blending heart, hospitality, and genuine community pride, Visit Dublin GA ensures visitors feel like locals—and locals feel proud to share their home."
+    ],
+    "cta": {
+      "title": "Sign Up For Our Newsletter",
+      "to": "https://go.hatchl.ink/widget/form/9dyIUP8UgHPGFeKULsk6",
+      "icon": "i-mdi-newspaper"
+    },
+    "contacts": {
+      "phone": null,
+      "email": "info@visitdublinga.org",
+      "contactName": "Miriam Lewis",
+      "website": "visitdublinga.org",
+      "social": {
+        "facebook": "https://www.facebook.com/VisitDublinGA/",
+        "instagram": "@visitdublinga"
+      }
+    },
+    "address": {
+      "city": "Dublin",
+      "state": "GA",
+      "zip": "31021",
+      "street": "102 Travel Center Blvd."
+    }
+  },
   {
     "slug": "laurens-county-rec",
     "name": "Laurens County Rec Dept",
@@ -711,6 +750,41 @@
     }
   },
 
+  {
+    "slug": "minute-man-press",
+    "name": "Minuteman Press",
+    "category": "services",
+    "stampAvailable": false,
+    "isPremium": true,
+    "logo": "/images/businesses/minute-man-press/logo.png",
+    "photos": [
+      "/images/businesses/minute-man-press/print.jpg",
+      "/images/businesses/minute-man-press/service.jpg",
+      "/images/businesses/minute-man-press/envelope.jpg"
+    ],
+    "bannerImage": "/images/businesses/minute-man-press/banner.jpg",
+    "description": null,
+    "paragraphs": [
+      "Minuteman Press Macon is your local one-stop shop for high-quality printing, design, promotional and mailing solutions. Whether you're a small business, nonprofit, or large corporation, we bring your brand to life with professional precision and personal service. From eye-catching business cards and banners to branded apparel, signage, and direct mail campaigns, we can handle it all—on time and on budget. Our state-of-the-art equipment ensures crisp, vibrant results, while our experienced team helps guide each project from concept to completion.",
+      "Locally owned and deeply rooted in the Middle Georgia community, we pride ourselves on building lasting relationships with our clients and supporting their growth. At Minuteman Press Macon, your success is our mission—no job is too big or too small. Stop by, call, or visit us online to see how we can help your brand stand out and make a lasting impression. We Design, Print, and Promote You!"
+    ],
+    "contacts": {
+      "email": "mmpmacon@gmail.com",
+      "phone": "4784746263",
+      "contactName": "Richie Moore",
+      "website": null,
+      "social": {
+        "facebook": null,
+        "instagram": null
+      }
+    },
+    "address": {
+      "city": "Macon",
+      "state": "GA",
+      "zip": "31210",
+      "street": "4341 Interstate Dr"
+    }
+  },
   {
     "slug": "skn-bar",
     "name": "Skn Bar Aesthetics & Wellness",

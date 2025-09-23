@@ -15,8 +15,8 @@
           aria-label="Passport stamp available – learn about the Passport Award"
           class="relative group block focus:outline-none focus-visible:ring-2 ring-offset-2 ring-yellow-500 rounded-full"
         >
-          <UIcon
-            name="i-mdi-check-decagram"
+            <UIcon
+              name="i-mdi-decagram"
             class="text-yellow-500 dark:text-yellow-400 drop-shadow-lg h-10 w-10 transition-transform group-hover:scale-110"
           />
           <span class="sr-only">Passport stamp available – learn about the Passport Award</span>

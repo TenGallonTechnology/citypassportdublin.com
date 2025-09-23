@@ -16,7 +16,7 @@
 
     <div class="flex items-center gap-2 text-sm text-muted-foreground">
       <UIcon
-        name="i-mdi-check-decagram"
+  name="i-mdi-decagram"
         class="text-yellow-500 dark:text-yellow-400 h-5 w-5"
       />
       <span> = Please ask us to stamp your passport</span>
@@ -68,7 +68,7 @@
                 text="Please ask us to stamp your passport"
               >
                 <UIcon
-                  name="i-mdi-check-decagram"
+                  name="i-mdi-decagram"
                   class="text-yellow-500 dark:text-yellow-400 h-5 w-5"
                 />
               </UTooltip>
