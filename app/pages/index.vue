@@ -27,17 +27,15 @@ useHead({
     <p class="sr-only">Explore categories of Dublin Georgia local businesses including wellness, places to stay, shopping, services, unique experiences, and dining to plan your visit.</p>
     <UPageHero
       reverse
-      class="items-center "
+      class="items-center md:py-none"
     >
       <img
         src="/images/vertical_logo.png"
         alt="City Passport Dublin logo"
-        class="h-36 md:h-48 w-auto mx-auto rounded-xl"
+        class="h-36 md:h-72 w-auto mx-auto rounded-xl"
       >
-    </UPageHero>
-
-    <section class="max-w-4xl mx-auto text-center px-1 text-black backdrop-blur-xs">
-      <p class="text-lg font-medium mb-6">
+      <section class="max-w-4xl mx-auto text-center px-3 py-8 rounded text-black backdrop-blur-xs bg-paper/55 shadow-lg">
+      <p class="text-xl font-medium">
         City Passport Dublin welcomes you to
 central Georgia's favorite hometown
 with this curated business and
@@ -50,6 +48,9 @@ connect, and fall in love with the heart
 of Dublin, one experience at a time.
       </p>
     </section>
+    </UPageHero>
+
+    
 
     <section class="max-w-5xl mx-auto py-8">
       <h2 class="text-2xl font-semibold mb-6 text-center text-black">

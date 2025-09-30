@@ -132,13 +132,17 @@ useHead({
     <USeparator />
 
   <UFooter class="bg-paper/95 backdrop-blur-sm">
-      <template #left>
+      <template #right>
         <p class="text-sm text-muted">
           Copyright © {{ new Date().getFullYear() }}
         </p>
       </template>
 
-      <template #right>
+
+        <UButton to="mailto:Info@citypassportdublin.com" label="Info@citypassportdublin.com" variant="ghost"  icon="i-mdi-email" />
+
+
+      <template #left>
         <UButton
           to="https://tengallon.tech"
           target="_blank"
