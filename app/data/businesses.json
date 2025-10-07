@@ -1841,7 +1841,7 @@
     "slug": "colleens-china",
     "name": "Colleen's China",
     "category": "shop",
-    "stampAvailable": false,
+    "stampAvailable": true,
     "isPremium": false,
     "logo": "/images/businesses/colleens-china/logo.png",
     "photos": [
