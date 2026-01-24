@@ -178,7 +178,7 @@ useHead({
         icon="i-mdi-email" />
 
       <template #left>
-        <UButton to="https://tengallon.tech" target="_blank" :ui="{
+        <UButton to="https://tengallontechnology.com" target="_blank" :ui="{
           leadingAvatarSize: 'lg',
         }" :avatar="{
           src: 'https://raw.githubusercontent.com/TenGallonTechnology/images/refs/heads/main/tenGallonSolid.png',
