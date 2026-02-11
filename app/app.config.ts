@@ -2,7 +2,7 @@ export default defineAppConfig({
   ui: {
     colors: {
       primary: 'blue',
-      secondary: "emerald",
+      secondary: 'emerald',
 
       eat: 'eat',
       experience: 'experience',

@@ -28,18 +28,18 @@ Add a new business:
 1. Append object to `app/data/businesses.json` (ensure unique `slug`).
 2. Use existing field naming; keep unused complex objects (`address`, `hours`, `contacts.social`) as `null` or objects with null members as precedent shows—do not remove keys arbitrarily (guards expect them).
 3. If new `category`: update `useCategoryIcon.ts` and verify prerender includes new category (will auto-generate if category appears in data).
-4. Run `pnpm dev` to verify route generation & navigation.
+4. Run `npm run dev` to verify route generation & navigation.
 
 Add a new category-specific presentation tweak:
 - Update icon mapping in `useCategoryIcon.ts`.
 - Optionally adjust color mapping in `business/[slug].vue` local `colors` record.
 
 ## Build & Quality Workflows
-- Install: `pnpm install` (postinstall runs `nuxt prepare`).
-- Dev: `pnpm dev` (port 3000).
-- Type check: `pnpm typecheck` (vue-tsc).
-- Lint: `pnpm lint` (ESLint via `@nuxt/eslint`). Respect stylistic overrides in `nuxt.config.ts` (e.g., `commaDangle: never`).
-- Static generate: `pnpm generate` or `pnpm build` (SSR build) + optional `pnpm preview`.
+- Install: `npm install` (postinstall runs `nuxt prepare`).
+- Dev: `npm run dev` (port 3000).
+- Type check: `npm run typecheck`.
+- Lint: `npm run lint` (ESLint via `@nuxt/eslint`). Respect stylistic overrides in `nuxt.config.ts` (e.g., `commaDangle: never`).
+- Static generate: `npm run generate` or `npm run build` (SSR build) + optional `npm run preview`.
 
 ## Performance & Prerender Notes
 - Do not fetch remote data at runtime; architecture assumes static build-time dataset.

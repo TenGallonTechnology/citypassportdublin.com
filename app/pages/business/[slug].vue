@@ -9,14 +9,17 @@
       v-if="business?.stampAvailable"
       class="fixed z-40 top-20 right-4 md:top-24 md:right-8"
     >
-      <UTooltip text="Passport stamp available – view Passport Award details" :delay-duration="200">
+      <UTooltip
+        text="Passport stamp available – view Passport Award details"
+        :delay-duration="200"
+      >
         <NuxtLink
           to="/passport-award"
           aria-label="Passport stamp available – learn about the Passport Award"
           class="relative group block focus:outline-none focus-visible:ring-2 ring-offset-2 ring-yellow-500 rounded-full"
         >
-            <UIcon
-              name="i-mdi-decagram"
+          <UIcon
+            name="i-mdi-decagram"
             class="text-yellow-500 dark:text-yellow-400 drop-shadow-lg h-10 w-10 transition-transform group-hover:scale-110"
           />
           <span class="sr-only">Passport stamp available – learn about the Passport Award</span>
@@ -24,16 +27,24 @@
       </UTooltip>
     </div>
     <!-- Custom thicker separator: two colored bars with centered icon -->
-    <div class="flex items-center w-full mt-4 mb-2 select-none" aria-hidden="true">
+    <div
+      class="flex items-center w-full mt-4 mb-2 select-none"
+      aria-hidden="true"
+    >
       <div :class="['w-full h-2 rounded-xs ', barBgClass]" />
       <div class="mx-4 flex items-center justify-center text-foreground">
-        <UIcon :name="categoryIcon" class="h-5 w-5" />
+        <UIcon
+          :name="categoryIcon"
+          class="h-5 w-5"
+        />
       </div>
       <div :class="['w-full h-2 rounded-xs ', barBgClass]" />
     </div>
 
     <!-- Primary page heading (visually hidden for layout preservation, present for SEO & accessibility) -->
-    <h1 class="sr-only">{{ business.name }}</h1>
+    <h1 class="sr-only">
+      {{ business.name }}
+    </h1>
 
     <!-- Hidden (screen-reader only) breadcrumb navigation for semantic context -->
     <nav
@@ -47,7 +58,9 @@
             {{ business?.category ? business.category.charAt(0).toUpperCase() + business.category.slice(1) : '' }}
           </NuxtLink>
         </li>
-        <li aria-current="page">{{ business?.name }}</li>
+        <li aria-current="page">
+          {{ business?.name }}
+        </li>
       </ol>
     </nav>
 
@@ -194,116 +207,116 @@
           :style="headingStyle"
         >Connect With Us</span>
       </USeparator>
-     <div v-if="business.contacts">
-       <div class="flex flex-wrap gap-3 mt-3 justify-center items-center mx-auto w-full max-w-2xl text-center">
-            <UButton
-              v-if="business.contacts.phone"
-              variant="outline"
-              icon="i-mdi-phone"
-              size="sm"
-              :color="categoryColor"
-              :href="`tel:${business.contacts.phone}`"
-            >
-              Phone
-            </UButton>
-            <UButton
-              v-if="business.contacts.email"
-              variant="outline"
-              icon="i-mdi-email"
-              size="sm"
-              :color="categoryColor"
-              :href="`mailto:${business.contacts.email}`"
-              class="link"
-            >
-              Email
-            </UButton>
-            <UButton
-              v-if="business.contacts.website"
-              :href="
-                business.contacts.website.startsWith('http')
-                  ? business.contacts.website
-                  : `https://${business.contacts.website}`
-              "
-              target="_blank"
-              rel="noopener"
-              class="link"
-              variant="outline"
-              icon="i-mdi-web"
-              size="sm"
-              :color="categoryColor"
-            >
-              Website
-            </UButton>
-            <UButton
-              v-if="business.contacts.social?.facebook"
-              :href="
-                business.contacts.social.facebook.startsWith('http')
-                  ? business.contacts.social.facebook
-                  : `https://${business.contacts.social.facebook}`
-              "
-              target="_blank"
-              rel="noopener"
-              variant="outline"
-              size="sm"
-              :color="categoryColor"
-              icon="i-mdi-facebook"
-            >
-              Facebook
-            </UButton>
-            <UButton
-              v-if="business.contacts.social?.instagram"
-              :href="
-                business.contacts.social.instagram.startsWith('http')
-                  ? business.contacts.social.instagram
-                  : business.contacts.social.instagram.startsWith('@')
-                    ? `https://instagram.com/${business.contacts.social.instagram.substring(
-                      1
-                    )}`
-                    : `https://instagram.com/${business.contacts.social.instagram}`
-              "
-              target="_blank"
-              rel="noopener"
-              variant="outline"
-              size="sm"
-              :color="categoryColor"
-              icon="i-mdi-instagram"
-            >
-              Instagram
-            </UButton>
-          </div>
+      <div v-if="business.contacts">
+        <div class="flex flex-wrap gap-3 mt-3 justify-center items-center mx-auto w-full max-w-2xl text-center">
+          <UButton
+            v-if="business.contacts.phone"
+            variant="outline"
+            icon="i-mdi-phone"
+            size="sm"
+            :color="categoryColor"
+            :href="`tel:${business.contacts.phone}`"
+          >
+            Phone
+          </UButton>
+          <UButton
+            v-if="business.contacts.email"
+            variant="outline"
+            icon="i-mdi-email"
+            size="sm"
+            :color="categoryColor"
+            :href="`mailto:${business.contacts.email}`"
+            class="link"
+          >
+            Email
+          </UButton>
+          <UButton
+            v-if="business.contacts.website"
+            :href="
+              business.contacts.website.startsWith('http')
+                ? business.contacts.website
+                : `https://${business.contacts.website}`
+            "
+            target="_blank"
+            rel="noopener"
+            class="link"
+            variant="outline"
+            icon="i-mdi-web"
+            size="sm"
+            :color="categoryColor"
+          >
+            Website
+          </UButton>
+          <UButton
+            v-if="business.contacts.social?.facebook"
+            :href="
+              business.contacts.social.facebook.startsWith('http')
+                ? business.contacts.social.facebook
+                : `https://${business.contacts.social.facebook}`
+            "
+            target="_blank"
+            rel="noopener"
+            variant="outline"
+            size="sm"
+            :color="categoryColor"
+            icon="i-mdi-facebook"
+          >
+            Facebook
+          </UButton>
+          <UButton
+            v-if="business.contacts.social?.instagram"
+            :href="
+              business.contacts.social.instagram.startsWith('http')
+                ? business.contacts.social.instagram
+                : business.contacts.social.instagram.startsWith('@')
+                  ? `https://instagram.com/${business.contacts.social.instagram.substring(
+                    1
+                  )}`
+                  : `https://instagram.com/${business.contacts.social.instagram}`
+            "
+            target="_blank"
+            rel="noopener"
+            variant="outline"
+            size="sm"
+            :color="categoryColor"
+            icon="i-mdi-instagram"
+          >
+            Instagram
+          </UButton>
         </div>
-        <div v-if="business.address" class="mt-4">
-          <UIcon name="i-mdi-map-marker-star" />
-          <strong>Address:</strong>
-          <div>
-            <a
-              v-if="mapsUrl"
-              :href="mapsUrl"
-              target="_blank"
-              rel="noopener"
-              class=" inline-block group text-primary"
-              :aria-label="`Open Google Maps for ${business.name} address`"
-            >
-              <p class="group-hover:underline">{{ business.address.street }}</p>
-              <p class="group-hover:underline">
-                {{ business.address.city }}, {{ business.address.state }}
-                {{ business.address.zip }}
-              </p>
-            </a>
-            <template v-else>
-              <p>{{ business.address.street }}</p>
-              <p>
-                {{ business.address.city }}, {{ business.address.state }}
-                {{ business.address.zip }}
-              </p>
-            </template>
-          </div>
+      </div>
+      <div
+        v-if="business.address"
+        class="mt-4"
+      >
+        <UIcon name="i-mdi-map-marker-star" />
+        <strong>Address:</strong>
+        <div>
+          <a
+            v-if="mapsUrl"
+            :href="mapsUrl"
+            target="_blank"
+            rel="noopener"
+            class=" inline-block group text-primary"
+            :aria-label="`Open Google Maps for ${business.name} address`"
+          >
+            <p class="group-hover:underline">{{ business.address.street }}</p>
+            <p class="group-hover:underline">
+              {{ business.address.city }}, {{ business.address.state }}
+              {{ business.address.zip }}
+            </p>
+          </a>
+          <template v-else>
+            <p>{{ business.address.street }}</p>
+            <p>
+              {{ business.address.city }}, {{ business.address.state }}
+              {{ business.address.zip }}
+            </p>
+          </template>
         </div>
+      </div>
 
-       
-
-
-  <div class="fixed bottom-4 left-0 right-0 pointer-events-none z-50">
+      <div class="fixed bottom-4 left-0 right-0 pointer-events-none z-50">
         <div class="container max-w-xl mx-auto px-4">
           <div
             class="bg-cat-experience text-white rounded-lg shadow-2xl flex items-center p-2 pointer-events-auto"

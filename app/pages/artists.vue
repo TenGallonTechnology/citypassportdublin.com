@@ -26,7 +26,9 @@ useSeoMeta({
 <template>
   <div class="max-w-5xl mx-auto py-10 px-3">
     <header class="text-center mb-10">
-      <h1 class="text-3xl font-bold mb-4 text-black">Featured Artists</h1>
+      <h1 class="text-3xl font-bold mb-4 text-black">
+        Featured Artists
+      </h1>
       <p class="text-lg text-gray-700 max-w-3xl mx-auto">
         Meet the talented artists who bring creativity and inspiration to Dublin, Georgia. Each artist has a unique story and contributes to the vibrant cultural landscape of our community.
       </p>
@@ -50,7 +52,9 @@ useSeoMeta({
             <div class="absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-black/25 to-transparent sm:hidden pointer-events-none" />
           </div>
           <div class="p-5 flex flex-col">
-            <h2 class="text-2xl font-semibold mb-3">{{ artist.name }}</h2>
+            <h2 class="text-2xl font-semibold mb-3">
+              {{ artist.name }}
+            </h2>
             <p class="text-sm leading-relaxed whitespace-pre-line">
               {{ artist.bio }}
             </p>
@@ -72,7 +76,9 @@ useSeoMeta({
                   size="xs"
                   variant="outline"
                   color="neutral"
-                >Facebook</UButton>
+                >
+                  Facebook
+                </UButton>
                 <UButton
                   v-if="artist.contacts.instagram"
                   :href="artist.contacts.instagram.startsWith('http') ? artist.contacts.instagram : artist.contacts.instagram.startsWith('@') ? `https://instagram.com/${artist.contacts.instagram.substring(1)}` : `https://instagram.com/${artist.contacts.instagram}`"
@@ -82,7 +88,9 @@ useSeoMeta({
                   size="xs"
                   variant="outline"
                   color="neutral"
-                >Instagram</UButton>
+                >
+                  Instagram
+                </UButton>
                 <UButton
                   v-if="artist.contacts.phone"
                   :href="`tel:${artist.contacts.phone}`"
@@ -90,7 +98,9 @@ useSeoMeta({
                   size="xs"
                   variant="outline"
                   color="neutral"
-                >Call</UButton>
+                >
+                  Call
+                </UButton>
                 <UButton
                   v-if="artist.contacts.email"
                   :href="`mailto:${artist.contacts.email}`"
@@ -98,7 +108,9 @@ useSeoMeta({
                   size="xs"
                   variant="outline"
                   color="neutral"
-                >Email</UButton>
+                >
+                  Email
+                </UButton>
               </div>
             </div>
           </div>

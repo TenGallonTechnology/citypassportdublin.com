@@ -96,12 +96,33 @@
     "williamsons",
     "Yadira"
   ],
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  // Keep formatting deterministic: ESLint owns JS/TS/Vue.
+  // Avoid running multiple formatters (e.g. Prettier + ESLint) on save.
   "editor.formatOnSave": true,
-  "[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  // Let VS Code handle JSON formatting.
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   }
 }

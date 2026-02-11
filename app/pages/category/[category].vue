@@ -7,16 +7,24 @@
         :style="{ backgroundImage: `url(${heroImage})` }"
       />
       <div class="absolute inset-0 flex items-center justify-center">
-        <div class="backdrop-blur-sm px-6 py-3 rounded-lg flex items-center gap-3 text-white" :class="`bg-${category}/60`" >
-          <UIcon :name="categoryIcon" class="h-9 w-9" />
-          <h1 class="text-3xl font-bold capitalize tracking-wide">{{ categoryLabel }}</h1>
+        <div
+          class="backdrop-blur-sm px-6 py-3 rounded-lg flex items-center gap-3 text-white"
+          :class="`bg-${category}/60`"
+        >
+          <UIcon
+            :name="categoryIcon"
+            class="h-9 w-9"
+          />
+          <h1 class="text-3xl font-bold capitalize tracking-wide">
+            {{ categoryLabel }}
+          </h1>
         </div>
       </div>
     </div>
 
     <div class="flex items-center gap-2 text-sm text-muted-foreground">
       <UIcon
-  name="i-mdi-decagram"
+        name="i-mdi-decagram"
         class="text-yellow-500 dark:text-yellow-400 h-5 w-5"
       />
       <span> = Please ask us to stamp your passport</span>
@@ -63,8 +71,8 @@
             <h2 class="text-lg font-semibold flex items-center gap-2">
               {{ business.name }}
               <UTooltip
-              :delay-duration="200"
                 v-if="business.stampAvailable"
+                :delay-duration="200"
                 text="Please ask us to stamp your passport"
               >
                 <UIcon
@@ -116,7 +124,7 @@ if (!validCategories.includes(category as Business['category'])) {
 category = category as Business['category']
 
 const filtered = (businesses as unknown as Array<Business>).filter(
-  (b) => b.category === category
+  b => b.category === category
 )
 const categoryIcon = useCategoryIcon(category)
 const categoryColor = useCategoryColor(category as Business['category'])
@@ -124,7 +132,7 @@ const categoryLabel = useCategoryLabel(category)
 
 // Lightweight description copy (can be expanded later or moved to data file if needed)
 const categoryDescriptions: Record<string, string> = {
-  eat: 'Local eats, sips, and sweet spots to taste your way through Dublin.' ,
+  eat: 'Local eats, sips, and sweet spots to taste your way through Dublin.',
   shop: 'Browse boutiques, gifts, and local staples—supporting hometown merchants.',
   stay: 'Rest easy with trusted stays—hotels, inns, and local hospitality.',
   experience: 'Explore venues, culture, events, and places that make Dublin memorable.',

@@ -27,14 +27,18 @@
           variant="soft"
           class="inline-flex items-center gap-2"
         >
-          <UIcon name="i-mdi-home" class="h-4 w-4" />
+          <UIcon
+            name="i-mdi-home"
+            class="h-4 w-4"
+          />
           Go Home
         </UButton>
-
-     
       </div>
 
-      <div v-if="error.statusCode === 404" class="mt-8">
+      <div
+        v-if="error.statusCode === 404"
+        class="mt-8"
+      >
         <p class="text-sm text-muted-foreground mb-4">
           Looking for a specific business? Try browsing by category:
         </p>
