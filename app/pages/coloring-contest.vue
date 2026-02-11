@@ -28,9 +28,6 @@ useHead({
         />
         <span>Coloring Contest</span>
       </h1>
-      <p class="mt-3 text-sm text-muted-foreground">
-        Use this page for the QR code landing link and coloring sheet download.
-      </p>
     </header>
 
     <UCard variant="soft">
@@ -79,7 +76,9 @@ useHead({
           <div class="pt-2">
             <div class="flex flex-col gap-2">
               <UButton
-                to="/coloring-sheet.pdf"
+                href="/coloring-sheet.pdf"
+                external
+                target="_blank"
                 download
                 color="services"
                 variant="solid"
