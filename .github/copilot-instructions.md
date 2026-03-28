@@ -1,6 +1,5 @@
 # AI Agent Working Guide
-
-Concise, project-specific instructions for AI assistants contributing to this repository. Focus on these established patterns—do not introduce new stacks or speculative architecture.
+Focus on these established patterns—do not introduce new stacks or speculative architecture.
 
 ## Project Snapshot
 - Framework: Nuxt 4 (SSR + prerendered static output) with Nuxt UI Pro, @nuxt/image, @nuxt/scripts, @vercel/analytics.

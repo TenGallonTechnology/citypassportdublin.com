@@ -35,20 +35,6 @@ useHead({
           alt="City Passport Dublin logo"
           class="h-36 md:h-72 w-auto mx-auto rounded-xl"
         >
-
-        <ULink
-          to="/coloring-contest"
-          class="block w-full"
-          aria-label="Open coloring contest instructions and download"
-        >
-          <div class="max-w-md mx-auto rounded text-black backdrop-blur-xs bg-paper/55 shadow-lg overflow-hidden p-2 transition duration-200 hover:shadow-xl hover:scale-[1.01]">
-            <img
-              src="/coloring-contest.png"
-              alt="Coloring contest shamrock"
-              class="w-full block"
-            >
-          </div>
-        </ULink>
       </div>
       <section class="max-w-4xl mx-auto text-center px-3 py-8 rounded text-black backdrop-blur-xs bg-paper/55 shadow-lg">
         <p class="text-xl font-medium">
