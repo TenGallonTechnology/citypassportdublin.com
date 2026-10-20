@@ -52,14 +52,18 @@ useHead({
       </section>
     </UPageHero>
 
-    <section class="max-w-5xl mx-auto px-3 py-6 text-center">
+    <section class="max-w-4xl mx-auto text-center px-3 py-8 rounded text-black backdrop-blur-xs bg-paper/55 shadow-lg">
+      <p class="text-xl font-medium">
+        For a chance to win our Dublin Dates Raffle Package, including more than $100 in local restaurant and shopping gift cards, please fill out this survey! Best of luck from the Emerald City!
+      </p>
       <UButton
         to="https://docs.google.com/forms/d/e/1FAIpQLSdWGpgd-zO8UmzqAfF-w4XyIAJprl7AdxmHDrXg1yyjMeLyQA/viewform?pli=1"
         target="_blank"
         rel="noopener noreferrer"
         size="lg"
+        class="mt-4"
       >
-        Take our survey
+        Fill out the survey
       </UButton>
     </section>
 
