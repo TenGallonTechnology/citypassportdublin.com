@@ -52,6 +52,17 @@ useHead({
       </section>
     </UPageHero>
 
+    <section class="max-w-5xl mx-auto px-3 py-6 text-center">
+      <UButton
+        to="https://docs.google.com/forms/d/e/1FAIpQLSdWGpgd-zO8UmzqAfF-w4XyIAJprl7AdxmHDrXg1yyjMeLyQA/viewform?pli=1"
+        target="_blank"
+        rel="noopener noreferrer"
+        size="lg"
+      >
+        Take our survey
+      </UButton>
+    </section>
+
     <section class="max-w-5xl mx-auto py-8">
       <h2 class="text-2xl font-semibold mb-6 text-center text-black">
         Browse by Category
